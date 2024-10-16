@@ -1,5 +1,8 @@
 {
     "workbench.preferredHighContrastLightColorTheme": "Default High Contrast",
     "workbench.preferredLightColorTheme": "Default High Contrast",
-    "markdown-preview-github-styles.lightTheme": "dark_high_contrast"
+    "markdown-preview-github-styles.lightTheme": "dark_high_contrast",
+    "cSpell.words": [
+        "Coursera"
+    ]
 }
