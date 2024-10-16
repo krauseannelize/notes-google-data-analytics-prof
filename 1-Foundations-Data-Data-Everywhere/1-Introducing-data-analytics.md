@@ -118,12 +118,12 @@ config:
 
 flowchart TB
 %% Nodes
-A([Complaint: Poor grocery deliveries])
-B([Products arriving damaged])
-C([Products not packaged properly])
-D([Packers not adequately trained])
-E([Packers not completed training])
-root([**HR didn't provide training to new hires**])
+A([Complaint: Poor deliveries])
+B([Products damaged])
+C([Not properly packed])
+D([Packers lack training])
+E([Didn't complete training])
+root([**HR didn't provide training**])
 
 %% Flow
 A --Why?--> B
