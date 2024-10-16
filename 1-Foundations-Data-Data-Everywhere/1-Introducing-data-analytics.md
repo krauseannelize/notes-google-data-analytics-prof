@@ -31,7 +31,7 @@ Data analyst must have the technical skills that allow them to complete the data
 ```mermaid
 ---
 config:
-  theme: default
+  theme: dark
   look: classic
 ---
 
@@ -44,16 +44,16 @@ step4>"`**Analyze**`"]:::green
 step5>"`**Share**`"]:::blue
 step6>"`**Act**`"]:::purple
 
-%% Edges
+%% Flow
 step1 --> step2 --> step3 --> step4 --> step5 --> step6
 
 %% Styling
-classDef pink fill:#F8BBD0,stroke:#C2185B,stroke-width:2px;
-classDef orange fill:#FFE0B2,stroke:#FB8C00,stroke-width:2px;
-classDef yellow fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
-classDef green fill:#B2DFDB,stroke:#00897B,stroke-width:2px;
-classDef blue fill:#BBDEFB,stroke:#1976D2,stroke-width:2px;
-classDef purple fill:#E1BEE7,stroke:#8E24AA,stroke-width:2px;
+classDef pink stroke:#C2185B,stroke-width:2px;
+classDef orange stroke:#FB8C00,stroke-width:2px;
+classDef yellow stroke:#FBC02D,stroke-width:2px;
+classDef green stroke:#00897B,stroke-width:2px;
+classDef blue stroke:#1976D2,stroke-width:2px;
+classDef purple stroke:#8E24AA,stroke-width:2px;
 ```
 
 By using **structured thinking**, we can break the data analysis process into smaller, more manageable parts by following this process:
@@ -104,3 +104,39 @@ Analytical thinking involves identifying and defining a problem and then solving
 | **Problem-orientation** | Used to identify, describe, and solve problems |
 | **Correlation** | Recognizing relationships between data sets while understanding that correlation does not imply causation |
 | **Big-Picture and Detail-Oriented Thinking** | Balancing the ability to see the overall view and the intricate details to innovate and execute plans |
+
+## Root Cause
+
+A **root cause** is the reason why a problem occurs. If we can identify and get rid of a root cause, we can prevent that problem from happening again. A question data analysts ask a lot is: *What is the root cause of a problem?*.  The process called **the Five Whys** can help us reveal to the root cause and to gain useful insights by simply asking "why" five times. An example of the Five Whys in action:
+
+```mermaid
+---
+config:
+    theme: dark
+    look: classic
+---
+
+flowchart TB
+%% Nodes
+A([Complaint: Poor grocery deliveries])
+B([Products arriving damaged])
+C([Products not packaged properly])
+D([Packers not adequately trained])
+E([Packers not completed training])
+root([**HR didn't provide training to new hires**])
+
+%% Flow
+A --Why?--> B
+B --Why?--> C
+C --Why?--> D
+D --Why?--> E
+E ==Why?==> root
+
+%% Styling
+style A stroke:#C2185B, stroke-width:2px;
+style B stroke:#FB8C00,stroke-width:2px;
+style C stroke:#FBC02D,stroke-width:2px;
+style D stroke:#00897B,stroke-width:2px;
+style E stroke:#1976D2,stroke-width:2px;
+style root stroke:#8E24AA,stroke-width:2px;
+```
