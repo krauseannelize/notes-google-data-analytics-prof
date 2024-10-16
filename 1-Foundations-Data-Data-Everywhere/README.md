@@ -40,8 +40,31 @@ Data analyst must have the technical skills that allow them to complete the data
 ### Data Analysis Process
 
 ```mermaid
+---
+config:
+  theme: default
+  look: classic
+---
+
 flowchart LR
-    A(Ask) --> B(Prepare) --> C(Process) --> D(Analyze) --> E(Share) --> F(Act)
+%% Nodes
+step1>"`**Ask**`"]:::pink
+step2>"`**Prepare**`"]:::orange
+step3>"`**Process**`"]:::yellow
+step4>"`**Analyze**`"]:::green
+step5>"`**Share**`"]:::blue
+step6>"`**Act**`"]:::purple
+
+%% Edges
+step1 --> step2 --> step3 --> step4 --> step5 --> step6
+
+%% Styling
+classDef pink fill:#F8BBD0,stroke:#C2185B,stroke-width:2px;
+classDef orange fill:#FFE0B2,stroke:#FB8C00,stroke-width:2px;
+classDef yellow fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px;
+classDef green fill:#B2DFDB,stroke:#00897B,stroke-width:2px;
+classDef blue fill:#BBDEFB,stroke:#1976D2,stroke-width:2px;
+classDef purple fill:#E1BEE7,stroke:#8E24AA,stroke-width:2px;
 ```
 
 By using **structured thinking**, we can break the data analysis process into smaller, more manageable parts by following this process:
