@@ -12,3 +12,7 @@ This repository contains my notes and exercises for the 8 courses that make up t
 6. [Share Data Through the Art of Visualization](/6-Share-Data-Through-the-Art-of-Visualization/README.md)
 7. [Data Analysis with R Programming](/7-Data-Analysis-with-R-Programming/README.md)
 8. [Data Analytics Capstone Project: Complete a Case Study](/8-Google-Data-Analytics-Capstone/README.md)
+
+## Certificate Roadmap
+
+![Certificate Roadmap](images/gdap-roadmap.png "Certificate Roadmap")
