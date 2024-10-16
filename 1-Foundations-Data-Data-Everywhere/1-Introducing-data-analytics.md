@@ -80,3 +80,27 @@ Aside from this data analysis process taught in during the course of the Google 
 2. [SAS iterative process](https://www.sas.com/content/dam/SAS/documents/marketing-whitepapers-ebooks/sas-whitepapers/en/manage-analytical-life-cycle-continuous-innovation-106179.pdf)
 3. [Project-based data analytics process](https://pingax.com/Data%20Analyst/understanding-data-analytics-project-life-cycle/)
 4. [Big data analytics process](https://www.informit.com/articles/article.aspx?p=2473128&seqNum=11&ranMID=24808)
+
+## Analytical skills
+
+Analytical skills are qualities and characteristics associated with solving problems using facts. Five essential aspects to analytical skills are:
+
+| Aspect | Meaning |
+| --- | --- |
+| **Curiosity** | Seek out new challenges and experiences, which leads to knowledge |
+| **Understanding context** | How you group things into categories |
+| **Technical mindset** | Breaking processes down into smaller steps and working with them in an orderly, logical way |
+| **Data Design** | How you organize information |
+| **Data Strategy** | Managing the processes and tools used in data analysis |
+
+## Analytical thinking
+
+Analytical thinking involves identifying and defining a problem and then solving it by using data in an organized, step-by-step manner.
+
+| Aspect | Meaning |
+| --- | --- |
+| **Visualization** | The graphical representation of information |
+| **Strategy** | Key to staying focused and on track, determining what needs to be achieved the data and how to get there to improve the quality and usefulness of the data we collect |
+| **Problem-orientation** | Used to identify, describe, and solve problems |
+| **Correlation** | Recognizing relationships between data sets while understanding that correlation does not imply causation |
+| **Big-Picture and Detail-Oriented Thinking** | Balancing the ability to see the overall view and the intricate details to innovate and execute plans |
