@@ -179,7 +179,7 @@ style root stroke:#8E24AA,stroke-width:2px;
 - analyzing the gap between the current and desired state to understand the difference, and
 - develop a plan to bridge the gap and determine which steps to take.
 
-### What did we not consider this before?
+### What did we not consider before?
 
 This is a great way to think about what information or procedure might be missing from a process, so you can identify ways to make better decisions and strategies moving forward.
 
