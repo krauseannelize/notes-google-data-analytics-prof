@@ -4,13 +4,17 @@
 
 1. [Overview](#overview)
 2. [Spreadsheet basics](#spreadsheet-basics)
-3. [Spreadsheet Hands-On Activity](#spreadsheet-hands-on-activity)
+3. [Spreadsheet hands-on activity](#spreadsheet-hands-on-activity)
 4. [Get started with SQL](#get-started-with-sql)
 5. [Example SQL query](#example-sql-query)
 6. [Formatting SQL queries](#formatting-sql-queries)
     - [Capitalization, identation and semicolons](#capitalization-identation-and-semicolons)
     - [Commenting](#commenting)
     - [Aliases](#aliases)
+7. [Data visualization](#data-visualization)
+    - [Steps to create meaningful data visualizations](#steps-to-create-meaningful-data-visualizations)
+    - [Data visualization toolkit](#data-visualization-toolkit)
+8. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -30,11 +34,11 @@ This section gives a broad introduction of spreadsheets from entering data, addi
 
 ---
 
-## Spreadsheet Hands-On Activity
+## Spreadsheet hands-on activity
 
 In this activity, we were guided through the steps to use a spreadsheet to make a simple chart to illustrate how a simple graphical representation of information can be used to support data-driven business decisions. To highlight my analytical skills and visual communication abilities, I added aesthetic elements to the graph, making the exercise more visually appealing and insightful.
 
-My analysis of the activity **"Generate a chart from a spreadsheet"** can be viewed [here](/1-Foundations-Data-Data-Everywhere/Exercises/1-analysis-monthly-sales.md).
+My analysis of the activity **"Generate a chart from a spreadsheet"** can be viewed [here](/1-Foundations-Data-Data-Everywhere/Activities/mod3-analysis-monthly-sales.md).
 
 ---
 
@@ -50,6 +54,11 @@ A **query** is a request for data or information from a database. When you query
 | AND | Logical operator to connect conditions and all conditions separated by the AND must be true |
 | OR | Logical operator to connect conditions and any of the conditions separated by the OR must be true |
 | NOT | Logical operator used to display records if the condition(s) are not true |
+
+The following resources can be consulted to learn more:
+
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+- [SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 
 ---
 
@@ -123,3 +132,36 @@ FROM
     a_very_long_table_name_from_a_database AS table_name
     -- table_name can now be used in the rest of the query
 ```
+
+---
+
+## Data visualization
+
+Data visualization is the graphical representation of information that make your data easy to understand and interesting to look at. Because of its importance, most data analytics tools have a built-in visualization component while others specialize in visualization as their primary value-add.
+
+### Steps to create meaningful data visualizations
+
+1. Explore the data for patterns
+2. Plan your visuals
+3. Create your visuals
+    - Line charts: Track a metric over time
+    - Maps: Connect a metric to locations
+    - Donut charts: Show segments
+    - Bar chart: Compare metrics
+
+### Data visualization toolkit
+
+There are many different tools you can use for data visualization. At the end of the day, your needs and the complexity of the data will be the determining factor.
+
+- **Spreadsheets** (like Microsoft Excel or Google Sheets) are great for smaller datasets and offer simple visualizations like bar graphs and pie charts, but also some advanced options like maps.
+- **Visualization Software** (like Tableau) is a popular choice for creating interactive and visually appealing dashboards that are user-friendly and works well with large datasets.
+- **Programming Languages** (like R with RStudio) offers powerful customization and control over your visualizations suitable for large datasets and complex projects.
+
+---
+
+## Module 3 Glossary
+
+| Term | Definition |
+| --- | --- |
+| **Attribute** | A characteristic or quality of data used to label a column in a table |
+| **Observation** | The attributes that describe a piece of data contained in a row of a table |
