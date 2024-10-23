@@ -94,11 +94,13 @@ The results from this query could be:
 Although not strictly required, using **capitalization** and **identation** when writing your query, will improve it's readability and make it easier to understand. You can write the entire query in lowercase without any identation and it will execute, but it will be hard to review or troubleshoot.
 
 ```sql
-/* The query below is written entirely in lowercase without any identation and it will execute, but it is hard to review and troubleshoot. */
+/* The query below is written entirely in lowercase without any identation and it will execute,
+   but it is hard to review and troubleshoot. */
 
 select column_name1, column_name2, column_name3 FROM table_name WHERE condition = "criteria"
 
-/* The same query can be reformatted as indicated below using capitalization and identation, which significantly improves the readability of the query. */
+/* The same query can be reformatted as indicated below using capitalization and identation,
+   which significantly improves the readability of the query. */
 
 SELECT
     column_name1,
