@@ -1,4 +1,4 @@
-# Foundations: Data, Data, Everywhere 
+# Foundations: Data, Data, Everywhere
 
 This is the first course in the Google Data Analytics Certificate hosted by [Coursera](https://www.coursera.org/learn/foundations-data). It consists of 4 modules:
 
