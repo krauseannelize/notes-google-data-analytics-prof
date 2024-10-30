@@ -13,7 +13,12 @@
 5. [Design compelling dashboards](#design-compelling-dashboards)
     - [Benefits of dashboards](#benefits-of-dashboards)
     - [Create a dashboard](#create-a-dashboard)
-6. [Module 2 Glossary](#module-2-glossary)
+6. [Mathematical thinking](#mathematical-thinking)
+7. [Big and small data](#big-and-small-data)
+    - [Challenges of big data](#challenges-of-big-data)
+    - [Benefits of big data](#benefits-of-big-data)
+    - [The four Vs](#the-four-vs)
+8. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -108,7 +113,7 @@ There are many tools to visualize and share data analysis with stakeholders. Two
 
 ### Benefits of dashboards
 
-| Benefits | For data analysts | For stakeholders |
+|   | DATA ANALYSTS | STAKEHOLDERS |
 | --- | --- | --- |
 | **Centralization** | Share a single source of data with all stakeholders | Work with a comprehensive view of data, initiatives, objectives, projects, processes, and more |
 | **Visualization** | Show and update live, incoming data in real time | Spot changing trends and patterns more quickly |
@@ -124,6 +129,50 @@ The process to follow to create a dashboard:
 3. Create mockups if desired
 4. Select the visualizations
 5. Create filters as needed
+
+---
+
+## Mathematical thinking
+
+Using a mathematical approach to problem-solving means looking at a problem and logically breaking it down step-by-step, so you can see the relationship of patterns in your data, and use that to analyze your problem. It can help you choose the best tools for analysis by looking at different aspects of a problem and determining the best logical approach, for example dataset size will determine whether you use a spreadsheet or SQL.
+
+The bed occupancy rate in a hospital can illustrate how data analysts use mathematical thinking to address real-world issues. By analyzing key variables like the number of open beds and beds used over time, data analysts can identify patterns and provide solutions, such as optimizing bed allocation.
+
+---
+
+## Big and small data
+
+| Small data | Big data |
+| --- | --- |
+| Describes a dataset made up of specific metrics over a short, well-defined time period | Describes large, less-specific datasets that cover a long time period |
+| Usually organized and analyzed in spreadsheets | Usually kept in a database and queried |
+| Likely to be used by small and midsize businesses | Likely to be used by large organizations |
+| Simple to collect, store, manage, sort, and visually represent | Takes a lot of effort to collect, store, manage, sort, and visually represent |
+| Usually already a manageable size for analysis | Usually needs to be broken into smaller pieces in order to be organized and analyzed effectively for decision-making |
+
+### Challenges of big data
+
+- Data overload and too much unimportant or irrelevant information
+- Important data can be hard to find leading to inefficient decision-making time frames
+- Data isn’t always easily accessible
+- Current tools struggle to provide measurable data leading to unfair algorithmic bias
+- Gaps in many big data business solutions
+
+### Benefits of big data
+
+- Identify more efficient ways of doing business, saving time and money
+- Spot trends of buying patterns to create new products and solutions
+- Better understanding of current market conditions to stay ahead of competition
+- Track online presence to improve and protect brands
+
+### The four Vs
+
+These are all important considerations related to processing huge, complex datasets:
+
+- ***Volume:*** The amount of data
+- ***Variety:*** The different kinds of data
+- ***Velocity:*** How fast the data can be processed
+- ***Veracity:*** The quality and reliability of the data
 
 ---
 
