@@ -5,6 +5,7 @@
 1. [Introduction](#introduction)
 2. [Spreadsheet hands-on activities](#spreadsheet-hands-on-activities)
     - [Basic spreadsheet tasks](#basic-spreadsheet-tasks)
+    - [Formulas for success](#formulas-for-success)
 3. [Module 3 Glossary](#module-3-glossary)
 
 ---
@@ -23,7 +24,7 @@ They can automate calculations, saving time and providing clear insights into ho
 
 ### Basic spreadsheet tasks
 
-We received a sample dataset of the *Population of Latin and Caribbean countries from 2010 to 2019* that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1HalKDAXk92cWjxfjAnLOAUwwPlRtzn5w2K_mJme0OAA/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-data.xlsx). In this activity, we were tasked with performing basic spreadsheet activities:
+We received a sample dataset of the *Population of Latin and Caribbean countries from 2010 to 2019* that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1HalKDAXk92cWjxfjAnLOAUwwPlRtzn5w2K_mJme0OAA/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-data.xlsx). We were tasked with performing these basic spreadsheet activities:
 
 - open a new spreadsheet
 - create a new folder
@@ -33,6 +34,22 @@ We received a sample dataset of the *Population of Latin and Caribbean countries
 - add a border
 
 As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Covert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-activity.xlsx).
+
+### Formulas for success
+
+We received a sample dataset of *Monthly Sales* that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/125ahFIEOhVEmwSK0GYQeIqYuVcvYZgWNECzAtjb9_fo/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-formulas-success-data.xlsx). This activity covers the basics of using spreadsheet formulas for calculations including correcting errors and I performed the following actions in Google Sheets:
+
+- used the **"Convert to table"** feature to apply automatic formatting
+- applied consistent formatting to all numbers
+- added additional columns for "Average Sales" and "June to July changes"
+- calculated the "Total Sales" using the formula `=SUM(B3:E3)` instead of `=B3+C3+D3+E3`
+- calculated the "Average Sales" using the formula `=AVERAGE(B2:E2)` instead of `=(B2+C2+D2+E2)/4`
+- calculated the "June to July changes" using the formula `=(E2-D2)/D2`
+- corrected the formula error by inserting the value 75866 for June 2019
+- as the percentage change for June to July 2017 did not provide the expected result of 247.5%, I changed the June 2017 sales from 4002 to 47002
+- applied percentage formatting to "June to July changes"
+
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1yuHGrBhFNLR-Kaw6qXvGpzt26TDNj1HgQ-lXAawGrYw/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-formulas-success-activity.xlsx).
 
 ---
 
