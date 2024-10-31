@@ -5,7 +5,7 @@
 1. [Introduction](#introduction)
 2. [Spreadsheet hands-on activities](#spreadsheet-hands-on-activities)
     - [Basic spreadsheet tasks](#basic-spreadsheet-tasks)
-[Module 3 Glossary](#module-3-glossary)
+3. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -23,7 +23,7 @@ They can automate calculations, saving time and providing clear insights into ho
 
 ### Basic spreadsheet tasks
 
-We received a sample dataset of the *"Population of Latin and Caribbean countries from 2010 to 2019"* that can be viewed in Google Sheets or Excel. In this activity, we were tasked with performing basic spreadsheet activities:
+We received a sample dataset of the *Population of Latin and Caribbean countries from 2010 to 2019* that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1HalKDAXk92cWjxfjAnLOAUwwPlRtzn5w2K_mJme0OAA/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-data.xlsx). In this activity, we were tasked with performing basic spreadsheet activities:
 
 - open a new spreadsheet
 - create a new folder
@@ -32,7 +32,7 @@ We received a sample dataset of the *"Population of Latin and Caribbean countrie
 - add or delete columns
 - add a border
 
-As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Covert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in Google Sheets or Excel.
+As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Covert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-activity.xlsx).
 
 ---
 
