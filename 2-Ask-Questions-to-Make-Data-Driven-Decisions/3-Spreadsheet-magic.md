@@ -6,7 +6,8 @@
 2. [Activity: Basic spreadsheet tasks](#activity-basic-spreadsheet-tasks)
 3. [Activity: Formulas for success](#activity-formulas-for-success)
 4. [Activity: Essential metrics](#activity-essential-metrics)
-5. [Module 3 Glossary](#module-3-glossary)
+5. [Activity: Resolve spreadsheet errors](#activity-resolve-spreadsheet-errors)
+6. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -15,8 +16,13 @@
 Spreadsheets are essential tools for data analysts, used to organize, analyze, and visualize data, forming the basis for data-driven decisions.
 They can automate calculations, saving time and providing clear insights into how results are derived. Resources for more information:
 
-- [Google Sheet Shortcuts](https://support.google.com/docs/answer/181110)
-- [Microsoft Excel Shortcuts](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
+- [Start Guide: Google Sheets](https://support.google.com/a/users/answer/9300311?hl=en&ref_topic=9296423)
+- [Start Guide: Microsoft Excel](https://support.microsoft.com/en-us/office/office-quick-starts-25f909da-3e76-443d-94f4-6cdf7dedc51e#ID0EAADAAA=At_work_or_school)
+- [Shortcuts: Google Sheets](https://support.google.com/docs/answer/181110)
+- [Shortcuts: Microsoft Excel](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
+- [Errors and fixes: Google Sheets](https://www.benlcollins.com/spreadsheets/formula-parse-error/)
+- [Errors and fixes: Microsoft Sheets](https://support.microsoft.com/en-us/office/Formulas-and-functions-294d9486-b332-48ed-b489-abe7d0f9eda9#ID0EAABAAA=Errors&ID0EBBD=Errors)
+- [Differences between Google Sheets and Microsoft Excel](https://support.google.com/a/users/answer/9331278?hl=en)
 
 ---
 
@@ -69,6 +75,31 @@ We received a sample dataset of *Bakery Sales March 2020* that can be viewed in 
 - added totals to the "Total Sold" and "Total Revenue" columns with the SUM function
 
 The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1qeQh2eOofs_kwiCFEKYxUIoF68P9gClfsC0aCDJXEhc/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-bakery-sales-202003-activity.xlsx).
+
+---
+
+## Activity: Resolve spreadsheet errors
+
+This activity covers the how to identify and fix common errors in spreadsheets. A sample dataset *Resolve Spreadsheet Errors" was provided, which can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/15E1TJoGJP3A2Phrr1MgTIf9fJnvN-CCKWJqbSWpC49k/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-spreadsheet-errors-data.xlsx). This spreadsheet has 4 sheets:
+
+- **Description:** A list of common errors and their meaning
+- **Examples:** Sample data with errors
+- **Fix the Examples Here:** Sample data for your to resolve the errors
+- **Solution:** Sample data with the errors resolved and guiding notes on all affected cells
+
+To resolve the errors, the following actions were taken:
+
+| Cell | Error | Fix |
+| --- | --- | --- |
+| G3 | VALUE | Replace 'text' in B3 with 50 |
+| G4 | ERROR | Insert missing comma |
+| G5 | DIV | Replace 0 in B5 with 10 to not divide by zero |
+| G6 | NAME | Correct function name SUMM to SUM |
+| G7 | N/A | "Apples" doesn't exist, but "Apple" does |
+| G8 | NUM | Cannot calculate square root on negative values |
+| G9 | REF | Reference cell was deleted - updated to B2+B3 |
+
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1A4jvEj3bjJ7ZNeAGBFudgVY0t5xQrOszf0E1QyN17RE/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-spreadsheet-errors-activity.xlsx).
 
 ---
 
