@@ -3,6 +3,8 @@
 ## Table of contents
 
 1. [Introduction](#introduction)
+2. [Spreadsheet hands-on activities](#spreadsheet-hands-on-activities)
+    - [Basic spreadsheet tasks](#basic-spreadsheet-tasks)
 [Module 3 Glossary](#module-3-glossary)
 
 ---
@@ -14,6 +16,23 @@ They can automate calculations, saving time and providing clear insights into ho
 
 - [Google Sheet Shortcuts](https://support.google.com/docs/answer/181110)
 - [Microsoft Excel Shortcuts](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
+
+---
+
+## Spreadsheet hands-on activities
+
+### Basic spreadsheet tasks
+
+We received a sample dataset of the *"Population of Latin and Caribbean countries from 2010 to 2019"* that can be viewed in Google Sheets or Excel. In this activity, we were tasked with performing basic spreadsheet activities:
+
+- open a new spreadsheet
+- create a new folder
+- change cell size
+- make attributes stand out
+- add or delete columns
+- add a border
+
+As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Covert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in Google Sheets or Excel.
 
 ---
 
