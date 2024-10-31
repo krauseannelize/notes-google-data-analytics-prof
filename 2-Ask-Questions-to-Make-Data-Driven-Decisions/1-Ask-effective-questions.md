@@ -148,3 +148,5 @@ Take everything learnt from the data analysis and make recommendations. Question
 | **Unfair question** | A question that makes assumptions or is difficult to answer honestly |
 
 ---
+
+Continue to next module: [Make data-driven decisions](/2-Ask-Questions-to-Make-Data-Driven-Decisions/2-Make-data-driven-decisions.md)

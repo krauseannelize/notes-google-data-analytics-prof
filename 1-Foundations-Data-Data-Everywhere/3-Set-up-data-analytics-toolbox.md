@@ -8,7 +8,7 @@
 4. [Get started with SQL](#get-started-with-sql)
 5. [Example SQL query](#example-sql-query)
 6. [Formatting SQL queries](#formatting-sql-queries)
-    - [Capitalization, identation and semicolons](#capitalization-identation-and-semicolons)
+    - [Capitalization, indentation and semicolons](#capitalization-indentation-and-semicolons)
     - [Commenting](#commenting)
     - [Aliases](#aliases)
 7. [Data visualization](#data-visualization)
@@ -81,7 +81,7 @@ The results from this query could be:
 
 | first_name | last_name | country|
 | --- | --- | --- |
-| Jan | Müller | Germany |
+| Jan | Kruger | Germany |
 | Jan | Becker | Germany |
 | Jan | Fischer | Germany |
 
@@ -89,17 +89,17 @@ The results from this query could be:
 
 ## Formatting SQL queries
 
-### Capitalization, identation and semicolons
+### Capitalization, indentation and semicolons
 
-Although not strictly required, using **capitalization** and **identation** when writing your query, will improve it's readability and make it easier to understand. You can write the entire query in lowercase without any identation and it will execute, but it will be hard to review or troubleshoot.
+Although not strictly required, using **capitalization** and **indentation** when writing your query, will improve it's readability and make it easier to understand. You can write the entire query in lowercase without any indentation and it will execute, but it will be hard to review or troubleshoot.
 
 ```sql
-/* The query below is written entirely in lowercase without any identation and it will execute,
+/* The query below is written entirely in lowercase without any indentation and it will execute,
    but it is hard to review and troubleshoot. */
 
 select column_name1, column_name2, column_name3 FROM table_name WHERE condition = "criteria"
 
-/* The same query can be reformatted as indicated below using capitalization and identation,
+/* The same query can be reformatted as indicated below using capitalization and indentation,
    which significantly improves the readability of the query. */
 
 SELECT
@@ -117,10 +117,10 @@ Semicolons are statement terminators used at the end of a query to indicate the 
 
 ### Commenting
 
-Adding comments to a SQL query can provide valuable context and additional information about data, tables or queries. This is expecially important if you are working on a large person and the code will be shared with others. This will make reviewing your query and understanding its purpose much easier and faster to debug and maintain. SQL uses 2 types of comments:
+Adding comments to a SQL query can provide valuable context and additional information about data, tables or queries. This is especially important if you are working on a large person and the code will be shared with others. This will make reviewing your query and understanding its purpose much easier and faster to debug and maintain. SQL uses 2 types of comments:
 
-- **Single-line comments** that begin with a __*double dash (--)*__ and everything after it on the same line is treated as a comment.
-- **Multi-line comments** that begin with a __*slash-asterisk (/\*)*__ and end with an __*asterisk-slash (\*/)*__. Everything between these symbols is considered a comment, regardless of line breaks.
+- **Single-line comments** that begin with a **_double dash (--)_** and everything after it on the same line is treated as a comment.
+- **Multi-line comments** that begin with a **_slash-asterisk (/\*)_** and end with an **_asterisk-slash (\*/)_**. Everything between these symbols is considered a comment, regardless of line breaks.
 
 ### Aliases
 
@@ -167,3 +167,7 @@ There are many different tools you can use for data visualization. At the end of
 | --- | --- |
 | **Attribute** | A characteristic or quality of data used to label a column in a table |
 | **Observation** | The attributes that describe a piece of data contained in a row of a table |
+
+---
+
+Continue to next module: [Become a fair and impactful data professional](/1-Foundations-Data-Data-Everywhere/4-Become-a-fair-and-impactful-data-professional.md)

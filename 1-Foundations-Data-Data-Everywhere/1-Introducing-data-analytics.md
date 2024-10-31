@@ -218,3 +218,5 @@ Data-driven decision-making involves utilizing facts and evidence to guide busin
 | **Technical mindset** | The ability to break things down into smaller steps or pieces and work with them in an orderly and logical way |
 
 ---
+
+Continue to next module: [The wonderful world of data](/1-Foundations-Data-Data-Everywhere/2-Wonderful-world-of-data.md)

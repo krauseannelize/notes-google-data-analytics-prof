@@ -31,7 +31,7 @@ Fairness in data analysis means ensuring that your analysis doesn't create or re
 
 ## Data ethics
 
-We need to not only consider what is the right way of using data, but also whether those uses are going to be beneficial to people. 
+We need to not only consider what is the right way of using data, but also whether those uses are going to be beneficial to people.
 Data ethics is not only about minimizing harm, but actively acting in the best interest of others and promoting well-being. Consider:
 
 - Who is collecting the data?
@@ -70,7 +70,7 @@ When looking for a data analyst job, some job descriptions may sound similar but
 | **Data engineer** | Prepares and integrates data from different sources for analytical use |
 | **Data scientist** | Uses expert skills in technology and social science to find trends through data analysis |
 | **Data specialist** | Organizes or converts data for use in databases or software systems |
-| **Operations analyst** | Analyzes data to assess the performance of business operations and workflows
+| **Operations analyst** | Analyzes data to assess the performance of business operations and workflows |
 
 Companies’ job descriptions seem to combine these roles or look for candidates who may have overlapping skills. The table below illustrates some of the overlap and distinctions between them:
 
@@ -88,3 +88,5 @@ Companies’ job descriptions seem to combine these roles or look for candidates
 | **Self-reporting** | A data collection technique where participants provide information about themselves |
 
 ---
+
+Continue to next course: [Ask Questions to Make Data-Driven Decisions](/2-Ask-Questions-to-Make-Data-Driven-Decisions/README.md)
