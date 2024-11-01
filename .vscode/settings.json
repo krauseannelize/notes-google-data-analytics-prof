@@ -3,6 +3,9 @@
     "workbench.preferredLightColorTheme": "Default High Contrast",
     "markdown-preview-github-styles.lightTheme": "dark_high_contrast",
     "cSpell.words": [
-        "Coursera"
+        "Coursera",
+        "VLOOKUP",
+        "SUMIF",
+        "SUMM"
     ]
 }
