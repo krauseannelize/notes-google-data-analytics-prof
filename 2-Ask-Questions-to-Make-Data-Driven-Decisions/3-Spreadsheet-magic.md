@@ -7,7 +7,9 @@
 3. [Activity: Formulas for success](#activity-formulas-for-success)
 4. [Activity: Essential metrics](#activity-essential-metrics)
 5. [Activity: Resolve spreadsheet errors](#activity-resolve-spreadsheet-errors)
-6. [Module 3 Glossary](#module-3-glossary)
+6. [Activity: Functions 101](#activity-functions-101)
+7. [Activity: Custom data table](#activity-custom-data-table)
+8. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -37,7 +39,7 @@ We received a sample dataset of the *Population of Latin and Caribbean countries
 - add or delete columns
 - add a border
 
-As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Covert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-activity.xlsx).
+As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Convert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-activity.xlsx).
 
 ---
 
@@ -48,8 +50,8 @@ We received a sample dataset of *Monthly Sales* that can be viewed in [Google Sh
 - used the **"Convert to table"** feature to apply automatic formatting
 - applied consistent formatting to all numbers
 - added additional columns for "Average Sales" and "June to July changes"
-- calculated the "Total Sales" using the formula `=SUM(B3:E3)` instead of `=B3+C3+D3+E3`
-- calculated the "Average Sales" using the formula `=AVERAGE(B2:E2)` instead of `=(B2+C2+D2+E2)/4`
+- calculated the "Total Sales" using the function `=SUM(B3:E3)` instead of the formula `=B3+C3+D3+E3`
+- calculated the "Average Sales" using the function `=AVERAGE(B2:E2)` instead of the formula `=(B2+C2+D2+E2)/4`
 - calculated the "June to July changes" using the formula `=(E2-D2)/D2`
 - corrected the formula error by inserting the value 75866 for June 2019
 - as the percentage change for June to July 2017 did not provide the expected result of 247.5%, I changed the June 2017 sales from 4002 to 47002
@@ -103,24 +105,46 @@ The completed activity can be viewed in [Google Sheets](https://docs.google.com/
 
 ---
 
-## Functions 101
+## Activity: Functions 101
 
 This activity focus on using functions to perform calculations in a spreadsheet. A sample dataset *Monthly Sales* was provided, which can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1CaCFv4p0s2K_hQQnDDmVaroverg6OFjAFhAzQF3Elx8/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101-data.xlsx). I performed the following actions in Google Sheets:
 
 - used the **"Convert to table"** feature to apply automatic formatting
 - applied consistent formatting to all numbers
 - added additional columns for "Lowest Monthly Sales" and "Highest Monthly Sales"
-- calculated the "Total Sales" using the formula `=SUM(B2:E2)`
-- calculated the "Average Sales" using the formula `=AVERAGE(B2:E2)`
+- calculated the "Total Sales" using the function `=SUM(B2:E2)`
+- calculated the "Average Sales" using the function `=AVERAGE(B2:E2)`
 - calculated the "June to July changes" using the formula `=(E2-D2)/D2`
-- calculated the "Lowest Monthly Sales" using the formula `=MIN(B2:E2)`
-- calculated the "Highest Monthly Sales" using the formula `=MAX(B2:E2)`
+- calculated the "Lowest Monthly Sales" using the function `=MIN(B2:E2)`
+- calculated the "Highest Monthly Sales" using the function `=MAX(B2:E2)`
 - apply color scale conditional formatting to "Lowest Monthly Sales" to highlight the lowest value
 - apply color scale conditional formatting to "Highest Monthly Sales" to highlight the highest value
 
 The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1_Rqi0Z029yWANEfiv7Bw6GnVEstoJjY3dRGMubVb4lI/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101-activity.xlsx).
 
 ---
+
+## Activity: Custom data table
+
+In this activity, a spreadsheet is used to build a custom data table and analyze the job application data of a recruitment agency with functions to optimize the online application process. The raw data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1LYWzuQIUgfwi19fXt756EnuLYpeZTXs76ywPG6HbAK0/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-recruitment-agency-data.xlsx). I performed the following actions in Google Sheets:
+
+- rename the sheet containing the data "raw-data"
+- used the **"Convert to table"** feature to apply automatic formatting
+- sorted the data by date
+- inserted a new column "Month" and extract the name of the month using the function `=TEXT(B3,"mmmm")`
+- added a new sheet named "summary" to contain the custom data table
+- enter "Month" in A1 and "Applications" in B1 as headers
+- enter "January" in A2 and use autofill to enter the remaining 11 months
+- calculate the number of applications received in each month using the function `=COUNTIF('raw-data'!$G$2:$G, A2)`
+- calculate the total number of applications received using the function `=SUM(B2:B13)` in B14
+- calculate the lowest number of applications received per month using the function `=MIN(B2:B13)` in B16
+- calculate the highest number of applications received per month using the function `=MAX(B2:B13)` in B17
+- calculate the average number of applications receiver per month using the function `=AVERAGE(B2:B13)` in B18
+- applied formatting to all numbers to be rounded to 2 decimals
+- apply color scale conditional formatting to "Applications" to highlight the months with the lowest (red) and highest (green) numbers of applications with a heat map
+- apply additional formatting with borders, cell colors, and emphasized bold text, to highlight important data and capture the audience's attention
+
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1uZfHQZqDhgQCk3I6cxulgwnRyPszvs9_o9N1HJUk7pU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-recruitment-agency-activity.xlsx).
 
 ## Module 3 Glossary
 
