@@ -9,7 +9,11 @@
 5. [Activity: Resolve spreadsheet errors](#activity-resolve-spreadsheet-errors)
 6. [Activity: Functions 101](#activity-functions-101)
 7. [Activity: Custom data table](#activity-custom-data-table)
-8. [Module 3 Glossary](#module-3-glossary)
+8. [Defining the problem](#defining-the-problem)
+    - [Structured thinking](#structured-thinking)
+    - [Scope of work](#scope-of-work)
+    - [The importance of context](#the-importance-of-context)
+9. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -145,6 +149,84 @@ In this activity, a spreadsheet is used to build a custom data table and analyze
 - apply additional formatting with borders, cell colors, and emphasized bold text, to highlight important data and capture the audience's attention
 
 The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1uZfHQZqDhgQCk3I6cxulgwnRyPszvs9_o9N1HJUk7pU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-recruitment-agency-activity.xlsx).
+
+---
+
+## Defining the problem
+
+The ***problem domain*** is the specific area you're analyzing, encompassing everything that affects or is affected by the problem. Understanding the problem domain involves identifying all its parts and relationships to grasp the complete story behind the data. Just like solving a jigsaw puzzle without knowing the final image is difficult, data analysis requires a clear understanding of the problem to be solved. Data analysts often start projects without a complete picture, making it crucial to define the problem domain and use ***structured thinking*** to find the best solution.
+
+### Structured thinking
+
+Structured thinking is the process of:
+
+- recognizing the current problem or situation,
+- organizing available information,
+- revealing gaps and opportunities, and
+- identifying the options.
+
+It's having a clear list of:
+
+- what you are expected to deliver,
+- a timeline for major tasks and activities, and
+- checkpoints so the team knows you're making progress.
+
+Practice structured thinking and avoid mistakes is by using a ***scope of work***.
+
+### Scope of work
+
+A scope of work (SOW) is an agreed-upon outline of the work. It is project-based and sets the expectations and boundaries. It can includes things like:
+
+- data preparation
+- data validation
+- analysis of quantitative and qualitative datasets
+- initial results
+- visuals to get the point across
+
+A scope of work may be included in a statement of work to help define project outcomes, but it is not be confused. A statement of work is a document that clearly identifies the products and services a vendor or contractor will provide to an organization. It includes objectives, guidelines, deliverables, schedule, and costs.
+
+A template to use when creating a scope of work can be accessed [here](/2-Ask-Questions-to-Make-Data-Driven-Decisions/template-scope-of-work.pdf). Some examples of scope of work activities:
+
+#### Deliverable
+
+- Estimated budget for the event
+- Goals for the employee training event
+- List of employees to invite
+
+#### Timeline
+
+- Hold the training event July 1
+- Send event reminder email June 25
+- Invite all attendees by June 1
+
+#### Milestones
+
+- Confirm list of employees who will attend
+- Confirm budget
+- Confirm staff trainers
+
+#### Report
+
+- Performance improvement one month after training
+- Employee feedback after the training
+- Final list of employees who attended
+
+### The importance of context
+
+Context can turn raw data into meaningful information. It is very important for data analysts to contextualize their data. This means giving the data perspective by defining it. To do this, you need to identify:
+
+| Question | Context |
+| --- | --- |
+| **Who** | The person or organization that created, collected, and/or funded the data collection |
+| **What** | The things in the world that data could have an impact on |
+| **Where** | The origin of the data |
+| **When** | The time when the data was created or collected |
+| **Why** | The motivation behind the creation or collection |
+| **How** | The method used to create or collect it |
+
+Effective questions follow the SMART methodology and effective questions can lead to key insights you can use to solve all kinds of problems. In order to craft an SOW, the requirements of the project must be clarified and the expectations set. This can only be done by asking effective questions. It is important to analyze datasets to obtain insights that can solve business problems and turn it into actionable insights.
+
+---
 
 ## Module 3 Glossary
 
