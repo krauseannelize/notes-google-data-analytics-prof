@@ -7,6 +7,9 @@
         "VLOOKUP",
         "SUMIF",
         "SUMM",
-        "COUNTIF"
+        "COUNTIF",
+        "SPARKLINE",
+        "charttype",
+        "gridlines"
     ]
 }
