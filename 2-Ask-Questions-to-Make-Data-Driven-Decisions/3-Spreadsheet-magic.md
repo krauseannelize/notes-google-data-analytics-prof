@@ -130,25 +130,9 @@ The completed activity can be viewed in [Google Sheets](https://docs.google.com/
 
 ## Activity: Custom data table
 
-In this activity, a spreadsheet is used to build a custom data table and analyze the job application data of a recruitment agency with functions to optimize the online application process. The raw data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1LYWzuQIUgfwi19fXt756EnuLYpeZTXs76ywPG6HbAK0/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-recruitment-agency-data.xlsx). I performed the following actions in Google Sheets:
+In this activity, we are guided through the steps to use a spreadsheet to build a custom data table and analyze the job application data of a recruitment agency with functions to optimize the online application process. To highlight my analytical skills and visual communication abilities, I added aesthetic elements to the custom table, making the exercise more visually appealing and insightful.
 
-- rename the sheet containing the data "raw-data"
-- used the **"Convert to table"** feature to apply automatic formatting
-- sorted the data by date
-- inserted a new column "Month" and extract the name of the month using the function `=TEXT(B3,"mmmm")`
-- added a new sheet named "summary" to contain the custom data table
-- enter "Month" in A1 and "Applications" in B1 as headers
-- enter "January" in A2 and use autofill to enter the remaining 11 months
-- calculate the number of applications received in each month using the function `=COUNTIF('raw-data'!$G$2:$G, A2)`
-- calculate the total number of applications received using the function `=SUM(B2:B13)` in B14
-- calculate the lowest number of applications received per month using the function `=MIN(B2:B13)` in B16
-- calculate the highest number of applications received per month using the function `=MAX(B2:B13)` in B17
-- calculate the average number of applications receiver per month using the function `=AVERAGE(B2:B13)` in B18
-- applied formatting to all numbers to be rounded to 2 decimals
-- apply color scale conditional formatting to "Applications" to highlight the months with the lowest (red) and highest (green) numbers of applications with a heat map
-- apply additional formatting with borders, cell colors, and emphasized bold text, to highlight important data and capture the audience's attention
-
-The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1uZfHQZqDhgQCk3I6cxulgwnRyPszvs9_o9N1HJUk7pU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-recruitment-agency-activity.xlsx).
+My analysis of the activity **"Create a custom data table"** can be viewed [here](/activities/spreadsheets/c02m03-recruitment-agency-analysis.md).
 
 ---
 
