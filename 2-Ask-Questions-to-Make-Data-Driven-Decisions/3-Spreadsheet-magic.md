@@ -7,7 +7,13 @@
 3. [Activity: Formulas for success](#activity-formulas-for-success)
 4. [Activity: Essential metrics](#activity-essential-metrics)
 5. [Activity: Resolve spreadsheet errors](#activity-resolve-spreadsheet-errors)
-6. [Module 3 Glossary](#module-3-glossary)
+6. [Activity: Functions 101](#activity-functions-101)
+7. [Activity: Custom data table](#activity-custom-data-table)
+8. [Defining the problem](#defining-the-problem)
+    - [Structured thinking](#structured-thinking)
+    - [Scope of work](#scope-of-work)
+    - [The importance of context](#the-importance-of-context)
+9. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -37,7 +43,7 @@ We received a sample dataset of the *Population of Latin and Caribbean countries
 - add or delete columns
 - add a border
 
-As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Covert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-activity.xlsx).
+As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Convert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-activity.xlsx).
 
 ---
 
@@ -48,8 +54,8 @@ We received a sample dataset of *Monthly Sales* that can be viewed in [Google Sh
 - used the **"Convert to table"** feature to apply automatic formatting
 - applied consistent formatting to all numbers
 - added additional columns for "Average Sales" and "June to July changes"
-- calculated the "Total Sales" using the formula `=SUM(B3:E3)` instead of `=B3+C3+D3+E3`
-- calculated the "Average Sales" using the formula `=AVERAGE(B2:E2)` instead of `=(B2+C2+D2+E2)/4`
+- calculated the "Total Sales" using the function `=SUM(B3:E3)` instead of the formula `=B3+C3+D3+E3`
+- calculated the "Average Sales" using the function `=AVERAGE(B2:E2)` instead of the formula `=(B2+C2+D2+E2)/4`
 - calculated the "June to July changes" using the formula `=(E2-D2)/D2`
 - corrected the formula error by inserting the value 75866 for June 2019
 - as the percentage change for June to July 2017 did not provide the expected result of 247.5%, I changed the June 2017 sales from 4002 to 47002
@@ -100,6 +106,125 @@ To resolve the errors, the following actions were taken:
 | G9 | REF | Reference cell was deleted - updated to B2+B3 |
 
 The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1A4jvEj3bjJ7ZNeAGBFudgVY0t5xQrOszf0E1QyN17RE/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-spreadsheet-errors-activity.xlsx).
+
+---
+
+## Activity: Functions 101
+
+This activity focus on using functions to perform calculations in a spreadsheet. A sample dataset *Monthly Sales* was provided, which can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1CaCFv4p0s2K_hQQnDDmVaroverg6OFjAFhAzQF3Elx8/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101-data.xlsx). I performed the following actions in Google Sheets:
+
+- used the **"Convert to table"** feature to apply automatic formatting
+- applied consistent formatting to all numbers
+- added additional columns for "Lowest Monthly Sales" and "Highest Monthly Sales"
+- calculated the "Total Sales" using the function `=SUM(B2:E2)`
+- calculated the "Average Sales" using the function `=AVERAGE(B2:E2)`
+- calculated the "June to July changes" using the formula `=(E2-D2)/D2`
+- calculated the "Lowest Monthly Sales" using the function `=MIN(B2:E2)`
+- calculated the "Highest Monthly Sales" using the function `=MAX(B2:E2)`
+- apply color scale conditional formatting to "Lowest Monthly Sales" to highlight the lowest value
+- apply color scale conditional formatting to "Highest Monthly Sales" to highlight the highest value
+
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1_Rqi0Z029yWANEfiv7Bw6GnVEstoJjY3dRGMubVb4lI/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101-activity.xlsx).
+
+---
+
+## Activity: Custom data table
+
+In this activity, a spreadsheet is used to build a custom data table and analyze the job application data of a recruitment agency with functions to optimize the online application process. The raw data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1LYWzuQIUgfwi19fXt756EnuLYpeZTXs76ywPG6HbAK0/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-recruitment-agency-data.xlsx). I performed the following actions in Google Sheets:
+
+- rename the sheet containing the data "raw-data"
+- used the **"Convert to table"** feature to apply automatic formatting
+- sorted the data by date
+- inserted a new column "Month" and extract the name of the month using the function `=TEXT(B3,"mmmm")`
+- added a new sheet named "summary" to contain the custom data table
+- enter "Month" in A1 and "Applications" in B1 as headers
+- enter "January" in A2 and use autofill to enter the remaining 11 months
+- calculate the number of applications received in each month using the function `=COUNTIF('raw-data'!$G$2:$G, A2)`
+- calculate the total number of applications received using the function `=SUM(B2:B13)` in B14
+- calculate the lowest number of applications received per month using the function `=MIN(B2:B13)` in B16
+- calculate the highest number of applications received per month using the function `=MAX(B2:B13)` in B17
+- calculate the average number of applications receiver per month using the function `=AVERAGE(B2:B13)` in B18
+- applied formatting to all numbers to be rounded to 2 decimals
+- apply color scale conditional formatting to "Applications" to highlight the months with the lowest (red) and highest (green) numbers of applications with a heat map
+- apply additional formatting with borders, cell colors, and emphasized bold text, to highlight important data and capture the audience's attention
+
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1uZfHQZqDhgQCk3I6cxulgwnRyPszvs9_o9N1HJUk7pU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-recruitment-agency-activity.xlsx).
+
+---
+
+## Defining the problem
+
+The ***problem domain*** is the specific area you're analyzing, encompassing everything that affects or is affected by the problem. Understanding the problem domain involves identifying all its parts and relationships to grasp the complete story behind the data. Just like solving a jigsaw puzzle without knowing the final image is difficult, data analysis requires a clear understanding of the problem to be solved. Data analysts often start projects without a complete picture, making it crucial to define the problem domain and use ***structured thinking*** to find the best solution.
+
+### Structured thinking
+
+Structured thinking is the process of:
+
+- recognizing the current problem or situation,
+- organizing available information,
+- revealing gaps and opportunities, and
+- identifying the options.
+
+It's having a clear list of:
+
+- what you are expected to deliver,
+- a timeline for major tasks and activities, and
+- checkpoints so the team knows you're making progress.
+
+Practice structured thinking and avoid mistakes is by using a ***scope of work***.
+
+### Scope of work
+
+A scope of work (SOW) is an agreed-upon outline of the work. It is project-based and sets the expectations and boundaries. It can includes things like:
+
+- data preparation
+- data validation
+- analysis of quantitative and qualitative datasets
+- initial results
+- visuals to get the point across
+
+A scope of work may be included in a statement of work to help define project outcomes, but it is not be confused. A statement of work is a document that clearly identifies the products and services a vendor or contractor will provide to an organization. It includes objectives, guidelines, deliverables, schedule, and costs.
+
+A template to use when creating a scope of work can be accessed [here](/2-Ask-Questions-to-Make-Data-Driven-Decisions/template-scope-of-work.pdf). Some examples of scope of work activities:
+
+#### Deliverable
+
+- Estimated budget for the event
+- Goals for the employee training event
+- List of employees to invite
+
+#### Timeline
+
+- Hold the training event July 1
+- Send event reminder email June 25
+- Invite all attendees by June 1
+
+#### Milestones
+
+- Confirm list of employees who will attend
+- Confirm budget
+- Confirm staff trainers
+
+#### Report
+
+- Performance improvement one month after training
+- Employee feedback after the training
+- Final list of employees who attended
+
+### The importance of context
+
+Context can turn raw data into meaningful information. It is very important for data analysts to contextualize their data. This means giving the data perspective by defining it. To do this, you need to identify:
+
+| Question | Context |
+| --- | --- |
+| **Who** | The person or organization that created, collected, and/or funded the data collection |
+| **What** | The things in the world that data could have an impact on |
+| **Where** | The origin of the data |
+| **When** | The time when the data was created or collected |
+| **Why** | The motivation behind the creation or collection |
+| **How** | The method used to create or collect it |
+
+Effective questions follow the SMART methodology and effective questions can lead to key insights you can use to solve all kinds of problems. In order to craft an SOW, the requirements of the project must be clarified and the expectations set. This can only be done by asking effective questions. It is important to analyze datasets to obtain insights that can solve business problems and turn it into actionable insights.
 
 ---
 
