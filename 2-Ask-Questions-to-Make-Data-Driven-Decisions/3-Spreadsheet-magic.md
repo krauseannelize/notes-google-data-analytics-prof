@@ -169,7 +169,7 @@ A scope of work (SOW) is an agreed-upon outline of the work. It is project-based
 
 A scope of work may be included in a statement of work to help define project outcomes, but it is not be confused. A statement of work is a document that clearly identifies the products and services a vendor or contractor will provide to an organization. It includes objectives, guidelines, deliverables, schedule, and costs.
 
-A template to use when creating a scope of work can be accessed [here](/2-Ask-Questions-to-Make-Data-Driven-Decisions/template-scope-of-work.pdf). Some examples of scope of work activities:
+A template to use when creating a scope of work can be accessed [here](/documents/template-scope-of-work.pdf). Some examples of scope of work activities:
 
 #### Deliverable
 
