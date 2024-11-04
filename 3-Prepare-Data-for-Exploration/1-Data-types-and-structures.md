@@ -10,10 +10,14 @@
     - [Qualitative & Quantitative](#qualitative--quantitative)
     - [Nominal & Ordinal](#nominal--ordinal)
     - [Structured & Unstructured](#structured--unstructured)
+    - [Long & Wide](#long--wide)
 3. [Data modeling](#data-modeling)
     - [Types of data modeling](#types-of-data-modeling)
     - [Levels of data modeling](#levels-of-data-modeling)
     - [Data modeling techniques](#data-modeling-techniques)
+4. [Data types](#data-types)
+5. [Data transformation](#data-transformation)
+6. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -130,6 +134,30 @@ The characteristics of structured and unstructured data:
 
 ![Structured and Unstructured Data](/images/data-structured-unstructured.png 'Structured and Unstructured data')
 
+### Long & Wide
+
+:arrow_forward: ***Wide data*** is preferred when:
+
+- Creating tables and charts with a few variables about each subject
+- Comparing straightforward line graphs
+
+Here is an example of stock prices in wide format:
+
+![Wide Data](/images/data-wide.png 'Wide Data')
+
+An example dataset with data in wide format can be examined in [Google Sheets](https://docs.google.com/spreadsheets/d/1Ur1TiJn3KWtNgcnckxYXGt2ZPeOvduqCbP15eQrvhgQ/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m01-population-lac-data-wide.xlsx).
+
+:arrow_forward: ***Long data*** is preferred when:
+
+- Storing a lot of variables about each subject, e.g. 60 years worth of interest rates for each bank
+- Performing advanced statistical analysis or graphing
+
+Here is an example of stock prices in long format:
+
+![Long Data](/images/data-long.png 'Long Data')
+
+The same dataset used above, can be examined in long format in [Google Sheets](https://docs.google.com/spreadsheets/d/1Q7KbJrY7VQhOC4eiOOXcljPEpl7HVXaQu5sSOEiPv_4/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m01-population-lac-data-long.xlsx).
+
 ---
 
 ## Data modeling
@@ -161,6 +189,40 @@ There are a lot of approaches. Common methods are:
 ---
 
 ## Data types
+
+A data type in a spreadsheet can be one of 3 things:
+
+- a number,
+- a text or string, or
+- a Boolean.
+
+Boolean data types have only two possible values: true or false. We can use Boolean operators to create single or multiple conditions in a Boolean statement. This creates a logical statements that filter results and can be used to a wide range of data analysis tasks. The Venn diagrams below illustrate how Boolean operators can be used to filter results.
+
+![Boolean Logic](/images/boolean-logic.png 'Boolean Logic')
+
+---
+
+## Data transformation
+
+Data transformation usually involves:
+
+- Adding, copying, or replicating data
+- Deleting fields or records
+- Standardizing the names of variables
+- Renaming, moving, or combining columns in a database
+- Joining one set of data with another
+- Saving a file in a different format
+
+Why transform data?
+
+| Goal | Why? |
+| --- | --- |
+| **Organization** | Better organized data is easier to use |
+| **Compatibility** | Different applications or systems can then use the same data |
+| **Migration** | Data with matching formats can be moved from one system to another |
+| **Merging** | Data with the same organization can be merged together |
+| **Enhancement** | Data can be displayed with more detailed fields |
+| **Comparison** | Apples-to-apples comparisons of the data can then be made |
 
 ---
 
