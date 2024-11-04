@@ -13,6 +13,7 @@
 5. [Design compelling dashboards](#design-compelling-dashboards)
     - [Benefits of dashboards](#benefits-of-dashboards)
     - [Create a dashboard](#create-a-dashboard)
+    - [Types of dashboards](#types-of-dashboards)
 6. [Mathematical thinking](#mathematical-thinking)
 7. [Big and small data](#big-and-small-data)
     - [Challenges of big data](#challenges-of-big-data)
@@ -130,6 +131,27 @@ The process to follow to create a dashboard:
 4. Select the visualizations
 5. Create filters as needed
 
+Check out this [dashboard requirements gathering worksheet](/documents/dashboard-requirements-worksheet.pdf) to explore a wide range of good questions you can use to identify relevant stakeholders and their data needs.
+
+### Types of dashboards
+
+#### Strategic dashboards
+
+These dashboards focuses on long term goals and strategies at the highest level of metrics. They typically contain information that is useful for enterprise-wide decision-making, such as the example below that focuses on key performance indicators (KPIs) over a year:
+
+![Strategic Dashboard](/images/dashboard-strategic.png 'Strategic Dashboard')
+
+#### Operational dashboards
+
+Arguably the most common type of dashboard, these dashboards focus on short-term performance tracking and intermediate goals. They can provide performance insight almost in real-time allowing businesses to track and maintain their immediate operational processes such as the customer service example below:
+
+![Operational Dashboard](/images/dashboard-operational.png 'Operational Dashboard')
+
+#### Analytical dashboards
+
+These dashboards contain the details involved in the usage, analysis, and predictions made by data scientists. They are usually created and maintained by data science teams for their own usage as they can be very difficult to understand. The example below focuses on metrics for a company’s financial performance:
+
+![Analytical Dashboard](/images/dashboard-analytical.png 'Analytical Dashboard')
 ---
 
 ## Mathematical thinking
