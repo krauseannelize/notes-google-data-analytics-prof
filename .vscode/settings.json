@@ -10,6 +10,11 @@
         "COUNTIF",
         "SPARKLINE",
         "charttype",
-        "gridlines"
+        "gridlines",
+        "anonymization",
+        "ROCCC",
+        "Kaggle",
+        "TCIA",
+        "NOAA"
     ]
 }
