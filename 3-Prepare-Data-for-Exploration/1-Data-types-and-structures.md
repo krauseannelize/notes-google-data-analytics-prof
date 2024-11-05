@@ -55,7 +55,7 @@ Use the flowchart below if data collection relies heavily on how much time you h
 - Customer survey results
 - Employee questionnaires
 
-:arrow_forward: ***Secondary*** is gathered by other people or from other research. Examples:
+:arrow_forward: ***Secondary*** data is gathered by other people or from other research. Examples:
 
 - Data bought from a companies customer profiles
 - Demographic data collected by a university
