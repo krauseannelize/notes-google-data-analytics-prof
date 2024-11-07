@@ -12,7 +12,8 @@
     - [Metadata of external databases](#metadata-of-external-databases)
     - [Manage data with metadata](#manage-data-with-metadata)
 4. [Activity: Import data](#activity-import-data)
-5. [Module 3 Glossary](#module-3-glossary)
+5. [Activity: Dynamic imports](#activity-dynamic-imports)
+6. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -95,6 +96,21 @@ In this activity, we were guided through the step of importing data into a sprea
 We were provided with a .csv file that can be access here: [Entertainment expenses](/activities/spreadsheets/c03m03-import-data-entertainment-expenses.csv). The second dataset could be downloaded by navigating to the [Global Health Observatory workforce statistics database](https://www.who.int/data/gho/data/themes/topics/health-workforce) and this downloaded .csv file can be access here: [Medical doctors](/activities/spreadsheets/c03m03-import-data-medical-doctors.csv).
 
 I imported both datasets into one spreadsheet in two separate sheets called "entertainment-expenses" and "medical-doctors". The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1tEP0zSugQhcVzTAB_GoMyCbEIMiDZiu3lqDXrFdmm9Y/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m03-import-data-activity.xlsx).
+
+---
+
+## Activity: Dynamic imports
+
+This section contains information on methods how to import data dynamically into Google Sheets. Automated data imports do not need to be updated continually. In Google Sheets, I took the following steps to import data dynamically:
+
+- opened a new spreadsheet and renamed the first sheet "import-range"
+- used the function `=IMPORTRANGE("https://docs.google.com/spreadsheets/d/1tEP0zSugQhcVzTAB_GoMyCbEIMiDZiu3lqDXrFdmm9Y/edit?usp=sharing", "medical-doctors!A1:AH12776")` to import the medical doctors dataset from the [previous activity](#activity-import-data) into the "import-range" sheet
+- created a sheet called "import-html"
+- used the function `=IMPORTHTML("https://www.worldometers.info/world-population/population-by-country/", "table", 1)` to import publicly available information [Countries in the world by population (2024)](https://www.worldometers.info/world-population/population-by-country/) into the "import-html" sheet
+- created a sheet called "import-data"
+- use the function `=IMPORTDATA("https://drive.google.com/uc?id=1zO8ekHWx9U7mrbx_0Hoxxu6od7uxJqWw&export=download")` to import the publicly available "customers-100.csv" file from [Datablist](https://www.datablist.com/learn/csv/download-sample-csv-files)
+
+The completed activity with the automated data imports can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1H8MVgdceqhyE-Q8MOGwNt0CtrOeY2C-yO3AgPOzGb28/edit?usp=sharing).
 
 ---
 
