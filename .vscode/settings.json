@@ -16,6 +16,10 @@
         "Kaggle",
         "TCIA",
         "NOAA",
-        "Geolocation"
+        "Geolocation",
+        "IMPORTRANGE",
+        "IMPORTHTML",
+        "IMPORTDATA",
+        "Datablist"
     ]
 }
