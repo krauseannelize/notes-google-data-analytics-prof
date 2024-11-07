@@ -3,9 +3,16 @@
 ## Table of contents
 
 1. [Work with databases](#work-with-databases)
-2. [Metadata](#metadata)
-3. [Activity: Inspect a dataset](#activity-inspect-a-dataset)
-4. [Module 3 Glossary](#module-3-glossary)
+2. [Activity: Inspect a dataset](#activity-inspect-a-dataset)
+3. [Metadata](#metadata)
+    - [Types of metadata](#types-of-metadata)
+    - [Elements of metadata](#elements-of-metadata)
+    - [Benefits of metadata](#benefits-of-metadata)
+    - [Metadata repositories](#metadata-repositories)
+    - [Metadata of external databases](#metadata-of-external-databases)
+    - [Manage data with metadata](#manage-data-with-metadata)
+4. [Activity: Import data](#activity-import-data)
+5. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -35,7 +42,59 @@ In this activity, we are guided through the process of inspecting a dataset to d
 
 ## Metadata
 
-***Metadata*** is data about data. In database management, metadata provides information about other data and helps data analysts interpret the contents of the data within a database.
+***Metadata*** is data about data. In database management, metadata provides information about other data and helps data analysts interpret the contents of the data within a database. Examples include details embedded in digital photos (like date, time, location) or email headers (sender, recipient, subject).
+
+### Types of metadata
+
+| Type | This type of metadata: | Example |
+| --- | --- | --- |
+| **Descriptive** | Describes a piece of data for identification | The ISBN, author and title of a book |
+| **Structural** | Indicates how data is organized, if it’s part of a collection and keeps track of the relationship between two things | How pages of a book form chapters or the digital book manuscript was actually the original version of a now printed book |
+| **Administrative** | Indicates the technical source of a digital asset | File type, date, and time a photo was taken |
+
+### Elements of metadata
+
+| Element | Type of information |
+| --- | --- |
+| **File or document type** | What type of file or document are you examining? |
+| **Date, time, and creator** | When was it created? Who created it? When was it last modified? |
+| **Title and description** | What is the name of the item you are examining? What type of content does it contain? |
+| **Geolocation** | If you’re examining a photo, where was it taken? |
+| **Tags and categories** | What is the general overview of the item that you have? Is it indexed or described in a specific way? |
+| **Who last modified it and when** | Were any changes made to the file? If yes, when were the most recent modifications made? |
+| **Who can access or update it** | If you’re examining a dataset, is it public? Are special permissions needed to customize or modify it? |
+
+### Benefits of metadata
+
+- **Reliability:** Provides context on how and when data was collected, and how it's structured, making data more interpretable and usable.
+- **Consistency:** Ensure data consistency and uniformity, which allows data analysts to compare data, discover relationships, organize, classify and access data, therefore improving efficiency and accuracy of analyses.
+
+### Metadata repositories
+
+Used to store metadata, these repositories describe the state and location of the metadata, the structure of the tables inside it, and who has accessed the repository. Data analysts use metadata repositories to ensure that they use the right data appropriately.
+
+### Metadata of external databases
+
+Data analysts use second-party and third-party data, which necessitates understanding the metadata to ensure consistency and reliability. It's crucial to confirm data reliability and obtain necessary permissions before using data from external sources.
+
+### Manage data with metadata
+
+Metadata is crucial for data analysts to maintain a single source of truth, ensuring data is accurate, precise, relevant, and timely. Metadata is stored centrally, providing standardized information about all data, including location and interconnections between systems.
+
+Data governance ensures the formal management of a company's data assets, addressing security, privacy, integrity, usability, and data flows. Metadata specialists organize and maintain data quality, create standards, and make data accessible, playing a vital role in various organizations.
+
+---
+
+## Activity: Import data
+
+In this activity, we were guided through the step of importing data into a spreadsheet by using:
+
+- a comma separated values (.csv) file
+- downloading a dataset
+
+We were provided with a .csv file that can be access here: [Entertainment expenses](/activities/spreadsheets/c03m03-import-data-entertainment-expenses.csv). The second dataset could be downloaded by navigating to the [Global Health Observatory workforce statistics database](https://www.who.int/data/gho/data/themes/topics/health-workforce) and this downloaded .csv file can be access here: [Medical doctors](/activities/spreadsheets/c03m03-import-data-medical-doctors.csv).
+
+I imported both datasets into one spreadsheet in two separate sheets called "entertainment-expenses" and "medical-doctors". The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1tEP0zSugQhcVzTAB_GoMyCbEIMiDZiu3lqDXrFdmm9Y/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m03-import-data-activity.xlsx).
 
 ---
 
