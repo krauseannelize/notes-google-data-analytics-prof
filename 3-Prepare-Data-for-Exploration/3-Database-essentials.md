@@ -13,7 +13,8 @@
     - [Manage data with metadata](#manage-data-with-metadata)
 4. [Activity: Import data](#activity-import-data)
 5. [Activity: Dynamic imports](#activity-dynamic-imports)
-6. [Module 3 Glossary](#module-3-glossary)
+6. [Activity: Clean data with sorting and filtering](#activity-clean-data-with-sorting-and-filtering)
+7. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -111,6 +112,12 @@ This section contains information on methods how to import data dynamically into
 - use the function `=IMPORTDATA("https://drive.google.com/uc?id=1zO8ekHWx9U7mrbx_0Hoxxu6od7uxJqWw&export=download")` to import the publicly available "customers-100.csv" file from [Datablist](https://www.datablist.com/learn/csv/download-sample-csv-files)
 
 The completed activity with the automated data imports can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1H8MVgdceqhyE-Q8MOGwNt0CtrOeY2C-yO3AgPOzGb28/edit?usp=sharing).
+
+---
+
+## Activity: Clean data with sorting and filtering
+
+In this activity, we used sorting and filtering to clean up a dirty dataset. Cleaning data is of critical importance because an analysis based on dirty data can lead to wrong conclusions and bad decisions. The cleaner your data, the better your results. My analysis of the activity **Clean data with sorting and filtering** can be viewed [here](/activities/spreadsheets/c03m03-student-performance-analysis.md).
 
 ---
 
