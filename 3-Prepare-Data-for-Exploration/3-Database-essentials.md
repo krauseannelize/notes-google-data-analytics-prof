@@ -14,7 +14,9 @@
 4. [Activity: Import data](#activity-import-data)
 5. [Activity: Dynamic imports](#activity-dynamic-imports)
 6. [Activity: Clean data with sorting and filtering](#activity-clean-data-with-sorting-and-filtering)
-7. [Module 3 Glossary](#module-3-glossary)
+7. [Get started with SQL](#get-started-with-sql)
+8. [Activity: BigQuery in action](#activity-bigquery-in-action)
+9. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -118,6 +120,20 @@ The completed activity with the automated data imports can be viewed in [Google 
 ## Activity: Clean data with sorting and filtering
 
 In this activity, we used sorting and filtering to clean up a dirty dataset. Cleaning data is of critical importance because an analysis based on dirty data can lead to wrong conclusions and bad decisions. The cleaner your data, the better your results. My analysis of the activity **Clean data with sorting and filtering** can be viewed [here](/activities/spreadsheets/c03m03-student-performance-analysis.md).
+
+---
+
+## Get started with SQL
+
+- [BigQuery](https://cloud.google.com/bigquery/docs/sandbox#limits)
+- [MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
+- [Microsoft SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/tutorial-getting-started-with-the-database-engine?view=sql-server-ver15)
+- [PostgreSQL](https://www.postgresql.org/docs/10/tutorial-start.html)
+- [SQLite](https://www.sqlite.org/quickstart.html)
+
+---
+
+## Activity: BigQuery in action
 
 ---
 
