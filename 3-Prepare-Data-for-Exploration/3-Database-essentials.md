@@ -17,7 +17,8 @@
 7. [Get started with SQL](#get-started-with-sql)
 8. [Activity: BigQuery in action](#activity-bigquery-in-action)
 9. [Activity: Intro to BigQuery](#activity-intro-to-bigquery)
-10. [Module 3 Glossary](#module-3-glossary)
+10. [SQL best practices](#sql-best-practices)
+11. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -143,6 +144,21 @@ This activity is an introduction to Google Cloud's BigQuery and how to use it. W
 ## Activity: Intro to BigQuery
 
 In this activity, we are familiarized with writing queries in the BigQuery interface and to use SQL queries to answer questions. My summary of the activity can be viewed [here](/activities/sql/c03m03-intro-to-bigquery.ipynb).
+
+---
+
+## SQL best practices
+
+SQL generally ignores capitalization and formatting, but to improve the readability, consistency, and professionalism of your queries there are certain best practices to adhere to when writing queries:
+
+- clause starters in ALL CAPS
+- table names in CamelCase
+- column names in snake_case
+- single quotes around strings are generally preferred for consistency so you can use double quotes when a string contains an apostrophe
+- use comments for clarity (`--` one-liners; `/*` multiple lines `*/`)
+- keep the length of each line under 100 characters and use indentation for readability
+
+See the [SQL Best Practices](/documents/sql-best-practices.pdf) guide for more detailed information.
 
 ---
 
