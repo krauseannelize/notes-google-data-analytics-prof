@@ -151,10 +151,10 @@ In this activity, we are familiarized with writing queries in the BigQuery inter
 
 SQL generally ignores capitalization and formatting, but to improve the readability, consistency, and professionalism of your queries there are certain best practices to adhere to when writing queries:
 
-- clause starters in ALL CAPS
-- table names in CamelCase
-- column names in snake_case
-- single quotes around strings are generally preferred for consistency so you can use double quotes when a string contains an apostrophe
+- clause starters in `ALL CAPS`
+- table names in `CamelCase`
+- column names in `snake_case`
+- 'single' quotes around strings are generally preferred for consistency so you can use "double" quotes when a string contains an apostrophe
 - use comments for clarity (`--` one-liners; `/*` multiple lines `*/`)
 - keep the length of each line under 100 characters and use indentation for readability
 
