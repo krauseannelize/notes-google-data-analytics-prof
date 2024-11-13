@@ -18,7 +18,8 @@
 8. [Activity: BigQuery in action](#activity-bigquery-in-action)
 9. [Activity: Intro to BigQuery](#activity-intro-to-bigquery)
 10. [SQL best practices](#sql-best-practices)
-11. [Module 3 Glossary](#module-3-glossary)
+11. [Activity: Create a custom table in BigQuery](#activity-create-a-custom-table-in-bigquery)
+12. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -159,6 +160,10 @@ SQL generally ignores capitalization and formatting, but to improve the readabil
 - keep the length of each line under 100 characters and use indentation for readability
 
 See the [SQL Best Practices](/documents/sql-best-practices.pdf) guide for more detailed information.
+
+---
+
+## Activity: Create a custom table in BigQuery
 
 ---
 
