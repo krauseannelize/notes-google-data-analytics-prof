@@ -19,7 +19,8 @@
 9. [Activity: Intro to BigQuery](#activity-intro-to-bigquery)
 10. [SQL best practices](#sql-best-practices)
 11. [Activity: Create a custom table in BigQuery](#activity-create-a-custom-table-in-bigquery)
-12. [Module 3 Glossary](#module-3-glossary)
+12. [Activity: More practice with SQL](#activity-more-practice-with-sql)
+13. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -138,13 +139,13 @@ In this activity, we used sorting and filtering to clean up a dirty dataset. Cle
 
 ## Activity: BigQuery in action
 
-This activity is an introduction to Google Cloud's BigQuery and how to use it. We are guided through the process of accessing a large public database and writing a SQL query to filter a small subset of the data. My summary of the activity can be viewed [here](/activities/sql/c03m03-bigquery-in-action.ipynb).
+This activity is an introduction to Google Cloud's BigQuery and how to use it. We are guided through the process of accessing a large public database and writing a SQL query to filter a small subset of the data. My summary of the activity can be viewed [here](/activities/sql/c03m03-bigquery-in-action/c03m03-bigquery-in-action.ipynb).
 
 ---
 
 ## Activity: Intro to BigQuery
 
-In this activity, we are familiarized with writing queries in the BigQuery interface and to use SQL queries to answer questions. My summary of the activity can be viewed [here](/activities/sql/c03m03-intro-to-bigquery.ipynb).
+In this activity, we are familiarized with writing queries in the BigQuery interface and to use SQL queries to answer questions. My summary of the activity can be viewed [here](/activities/sql/c03m03-intro-to-bigquery/c03m03-intro-to-bigquery.ipynb).
 
 ---
 
@@ -164,6 +165,14 @@ See the [SQL Best Practices](/documents/sql-best-practices.pdf) guide for more d
 ---
 
 ## Activity: Create a custom table in BigQuery
+
+The aim of this activity is to enable you to import your own data sources into BigQuery by creating a custom table and dataset that we’ll load into a new table and query. My summary of the activity can be viewed [here](/activities/sql/c03m03-create-custom-table/c03m03-create-custom-table.ipynb).
+
+---
+
+## Activity: More practice with SQL
+
+We use a large public dataset that contains information about the trees in New York City in 2005 to practice using SQL to answer questions. My summary of the activity can be viewed [here](/activities/sql/c03m03-more-practice-with-sql/c03m03-more-practice-with-sql.ipynb).
 
 ---
 
