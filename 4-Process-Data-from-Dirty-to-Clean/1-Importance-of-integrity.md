@@ -2,7 +2,62 @@
 
 ## Table of contents
 
-1. [Module 1 Glossary](#module-1-glossary)
+1. [Why is data integrity important?](#why-is-data-integrity-important)
+2. [Data constraint terms](#data-constraint-terms)
+3. [Well-aligned objectives and data](#well-aligned-objectives-and-data)
+4. [Module 1 Glossary](#module-1-glossary)
+
+---
+
+## Why is data integrity important?
+
+Data integrity is the accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle. Maintaining data integrity is crucial for reliable data analysis, as compromised data can lead to inaccurate and misleading results. Potential risks that can compromise data integrity:
+
+| Risk | Details |
+| --- | --- |
+| **Data replication** | Process of storing data in multiple locations creating a chance that data will be out of sync, which can cause inconsistencies |
+| **Data transfer** | Process of copying data from one storage device to another and if transfer is interrupted, it could result in an incomplete data set |
+| **Data manipulation** | Process involves changing the data to make it more organized and easier to read, and an error during the process can compromise the efficiency |
+
+Data can also be compromised through:
+
+- human error
+- viruses
+- malware
+- hacking, and
+- system failures
+
+---
+
+## Data constraint terms
+
+There are many types of data constraints or criteria that determine validity.
+
+| Data constraint | Definition | Examples |
+| --- | --- | --- |
+| **Data type** | Values must be of a certain type: date, number, percentage, Boolean, etc. | If the data type is a date, a single number like 30 would fail the constraint and be invalid |
+| **Data range** | Values must fall between predefined maximum and minimum values | If the data range is 10-20, a value of 30 would fail the constraint and be invalid |
+| **Mandatory** | Values can’t be left blank or empty | If age is mandatory, that value must be filled in |
+| **Unique** | Values can’t have a duplicate | Two people can’t have the same mobile phone number within the same service area |
+| **Regular expression (regex) patterns** | Values must match a prescribed pattern | A phone number must match ###-###-#### (no other characters allowed) |
+| **Cross-field validation** | Certain conditions for multiple fields must be satisfied | Values are percentages and values from multiple fields must add up to 100% |
+| **Primary-key** | (Databases only) value must be unique per column | A database table can’t have two rows with the same primary key value. A primary key is an identifier in a database that references a column in which each value is unique. More information about primary and foreign keys is provided later in the program |
+| **Set-membership** | (Databases only) values for a column must come from a set of discrete values | Value for a column must be set to Yes, No, or Not Applicable |
+| **Foreign-key** | (Databases only) values for a column must be unique values coming from a column in another table | In a U.S. taxpayer database, the State column must be a valid state or territory with the set of acceptable values defined in a separate States table |
+| **Accuracy** | The degree to which the data conforms to the actual entity being measured or described | If values for zip codes are validated by street location, the accuracy of the data goes up |
+| **Completeness** | The degree to which the data contains all desired components or measures | If data for personal profiles required hair and eye color, and both are collected, the data is complete |
+| **Consistency** | The degree to which the data is repeatable from different points of entry or collection | If a customer has the same address in the sales and repair databases, the data is consistent |
+
+---
+
+## Well-aligned objectives and data
+
+Good alignment with business objectives means that the data is relevant and can help you solve a business problem or determine a course of action to achieve a given business objective. If the data:
+
+- is well-aligned but needs to be cleaned, clean the data before you perform your analysis
+- only partially aligns with an objective, think about how you could modify the objective, or use data constraints to make sure that the subset of data better aligns with the business objective
+
+![Clean data lead to accurate conclusions](/images/clean-data-objectives.png 'Clean data lead to accurate conclusions')
 
 ---
 
