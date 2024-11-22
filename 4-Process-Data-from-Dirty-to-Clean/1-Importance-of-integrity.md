@@ -5,7 +5,16 @@
 1. [Why is data integrity important?](#why-is-data-integrity-important)
 2. [Data constraint terms](#data-constraint-terms)
 3. [Well-aligned objectives and data](#well-aligned-objectives-and-data)
-4. [Module 1 Glossary](#module-1-glossary)
+4. [Insufficient Data](#insufficient-data)
+   - [Types of insufficient data](#types-of-insufficient-data)
+   - [Ways to address insufficient data](#ways-to-address-insufficient-data)
+   - [When you find an issue with your data](#when-you-find-an-issue-with-your-data)
+5. [Sample size](#sample-size)
+   - [Sample size terms](#sample-size)
+   - [Things to remember when determining the size of your sample](#things-to-remember-when-determining-the-size-of-your-sample)
+6. [Test your data](#test-your-data)
+   - [When data isn't readily available](#when-data-isnt-readily-available)
+7. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -58,6 +67,95 @@ Good alignment with business objectives means that the data is relevant and can 
 - only partially aligns with an objective, think about how you could modify the objective, or use data constraints to make sure that the subset of data better aligns with the business objective
 
 ![Clean data lead to accurate conclusions](/images/clean-data-objectives.png 'Clean data lead to accurate conclusions')
+
+---
+
+## Insufficient data
+
+### Types of insufficient data
+
+- Data from only one source
+- Data that keeps updating
+- Outdated data
+- Geographically-limited data
+
+### Ways to address insufficient data
+
+- Identify trends with the available data
+- Wait for more data if time allows
+- Talk with stakeholders and adjust your objective
+- Look for a new data set
+
+### When you find an issue with your data
+
+![Data Errors Decision Tree](/images/data-errors-decision-tree.png 'Data Errors Decision Tree')
+
+#### Data issue 1: no data
+
+| Possible Solutions | Examples of solutions in real life |
+| --- | --- |
+| Gather the data on a small scale to perform a preliminary analysis and then request additional time to complete the analysis after you have collected more data. | If you are surveying employees about what they think about a new performance and bonus plan, use a sample for a preliminary analysis. Then, ask for another 3 weeks to collect the data from all employees. |
+| If there isn’t time to collect data, perform the analysis using proxy data from other datasets. This is the most common workaround. | If you are analyzing peak travel times for commuters but don’t have the data for a particular city, use the data from another city with a similar size and demographic. |
+
+#### Data issue 2: too little data
+
+| Possible Solutions | Examples of solutions in real life |
+| --- | --- |
+| Do the analysis using proxy data along with actual data. | If you are analyzing trends for owners of golden retrievers, make your dataset larger by including the data from owners of labradors. |
+| Adjust your analysis to align with the data you already have. | If you are missing data for 18- to 24-year-olds, do the analysis but note the following limitation in your report: this conclusion applies to adults 25 years and older only. |
+
+#### Data issue 3: wrong data, including data with errors
+
+| Possible Solutions | Examples of solutions in real life |
+| --- | --- |
+| If you have the wrong data because requirements were misunderstood, communicate the requirements again | If you need the data for female voters and received the data for male voters, restate your needs |
+| Identify errors in the data and, if possible, correct them at the source by looking for a pattern in the errors | If your data is in a spreadsheet and there is a conditional statement or boolean causing calculations to be wrong, change the conditional statement instead of just fixing the calculated values |
+| If you can’t correct data errors yourself, you can ignore the wrong data and go ahead with the analysis if your sample size is still large enough and ignoring the data won’t cause systematic bias | If your dataset was translated from a different language and some of the translations don’t make sense, ignore the data with bad translation and go ahead with the analysis of the other data |
+
+---
+
+## Sample size
+
+Studying an entire population might be impractical due to time and resource constraints. Sample size offers a practical solution by analyzing a smaller, representative group within the population to draw conclusions about the whole. This approach is more efficient and cost-effective.
+
+### Sample size terms
+
+| Terminology | Definitions |
+| --- | --- |
+| **Population** | The entire group that you are interested in for your study. For example, if you are surveying people in your company, the population would be all the employees in your company. |
+| **Sample** | A subset of your population. Just like a food sample, it is called a sample because it is only a taste. So if your company is too large to survey every individual, you can survey a representative sample of your population |
+| **Sampling bias** | A sample isn't representative of the population as a whole. This means some members of the population are being over-represented or under-represented. |
+| **Margin of error** | The maximum that the sample results are expected to differ from those of the actual population. The smaller the margin of error, the closer the results of the sample are to what the result would have been if you had surveyed the entire population. |
+| **Confidence level** | How confident you are in the survey results. For example, a 95% confidence level means that if you were to run the same survey 100 times, you would get similar results 95 of those 100 times. Confidence level is targeted before you start your study because it will affect how big your margin of error is at the end of your study. |
+| **Confidence interval** | The range of possible values that the population’s result would be at the confidence level of the study. This range is the sample result +/- the margin of error. |
+| **Statistical significance** | The determination of whether your result could be due to random chance or not. The greater the significance, the less due to chance. Usually a statistical power of at least 0.8 or 80% is necessary to consider results statistically significant. |
+| **Estimated response rate** | If you are running a survey of individuals, this is the percentage of people you expect will complete your survey out of those who received the survey. |
+
+### Things to remember when determining the size of your sample
+
+- Don’t use a sample size less than 30 - statistically proven (Central Limit Theorem (CLT)) that 30 is the smallest sample size where an average result starts to represent the average result of a population
+- The confidence level most commonly used is 95%, but 90% can work in some cases
+- Increase the sample size to meet specific needs of your project - use a larger sample size for a higher confidence level, to decrease the margin of error, or for greater statistical significance
+- Sample sizes vary by business problem
+- Weigh the cost against the benefits of more accurate results with a larger sample size
+
+---
+
+## Test your data
+
+***Statistical power*** is the probability of getting meaningful results from a test. It can be calculated and reported for a completed experiment to comment on the confidence one might have in the conclusions drawn from the results of the study. It can also be used as a tool to estimate the number of observations or sample size required in order to detect an effect in an experiment.
+
+***Hypothesis testing*** is a way to see if a survey or experiment has meaningful results.
+
+### When data isn't readily available
+
+Sometimes the data to support a business objective isn’t readily available, but proxy data can be used instead. You can also make use of open or public datasets.
+
+| Business scenario | How proxy data can be used |
+| --- | --- |
+| A new car model was just launched a few days ago and the auto dealership can’t wait until the end of the month for sales data to come in. They want sales projections now | The analyst proxies the number of clicks to the car specifications on the dealership’s website as an estimate of potential sales at the dealership |
+| A brand new plant-based meat product was only recently stocked in grocery stores and the supplier needs to estimate the demand over the next four years | The analyst proxies the sales data for a turkey substitute made out of tofu that has been on the market for several years |
+| The Chamber of Commerce wants to know how a tourism campaign is going to impact travel to their city, but the results from the campaign aren’t publicly available yet | The analyst proxies the historical data for airline bookings to the city one to three months after a similar campaign was run six months earlier |
 
 ---
 
