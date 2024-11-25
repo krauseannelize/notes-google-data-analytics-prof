@@ -12,9 +12,9 @@
 5. [Sample size](#sample-size)
    - [Sample size terms](#sample-size)
    - [Things to remember when determining the size of your sample](#things-to-remember-when-determining-the-size-of-your-sample)
-6. [Test your data](#test-your-data)
+   - [Test your data using statistical power](#test-your-data-using-statistical-power)
    - [When data isn't readily available](#when-data-isnt-readily-available)
-7. [Module 1 Glossary](#module-1-glossary)
+6. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -116,9 +116,7 @@ Good alignment with business objectives means that the data is relevant and can 
 
 ## Sample size
 
-Studying an entire population might be impractical due to time and resource constraints. Sample size offers a practical solution by analyzing a smaller, representative group within the population to draw conclusions about the whole. This approach is more efficient and cost-effective.
-
-### Sample size terms
+Studying an entire population might be impractical due to time and resource constraints. ***Sample size*** offers a practical solution by analyzing a smaller, representative group within the population to draw conclusions about the whole. This approach is more efficient and cost-effective. Terms and definitions used:
 
 | Terminology | Definitions |
 | --- | --- |
@@ -139,23 +137,64 @@ Studying an entire population might be impractical due to time and resource cons
 - Sample sizes vary by business problem
 - Weigh the cost against the benefits of more accurate results with a larger sample size
 
----
+### Test your data using statistical power
 
-## Test your data
+:point_right: ***Statistical power*** is the probability of getting meaningful results from a test.
 
-***Statistical power*** is the probability of getting meaningful results from a test. It can be calculated and reported for a completed experiment to comment on the confidence one might have in the conclusions drawn from the results of the study. It can also be used as a tool to estimate the number of observations or sample size required in order to detect an effect in an experiment.
+:point_right: ***Hypothesis testing*** is a way to see if a survey or experiment has meaningful results.
 
-***Hypothesis testing*** is a way to see if a survey or experiment has meaningful results.
+The larger the sample size, the greater the chance you'll have statistically significant results with your test. If a test is statistically significant, it means the results of the test are real and not an error caused by random chance. Usually, you need a statistical power of at least 0.8 or 80% to consider your results statistically significant.
 
 ### When data isn't readily available
 
-Sometimes the data to support a business objective isn’t readily available, but proxy data can be used instead. You can also make use of open or public datasets.
+Sometimes the data to support a business objective isn’t readily available, but ***proxy data*** can be used instead. You can also make use of open or public datasets.
 
 | Business scenario | How proxy data can be used |
 | --- | --- |
 | A new car model was just launched a few days ago and the auto dealership can’t wait until the end of the month for sales data to come in. They want sales projections now | The analyst proxies the number of clicks to the car specifications on the dealership’s website as an estimate of potential sales at the dealership |
 | A brand new plant-based meat product was only recently stocked in grocery stores and the supplier needs to estimate the demand over the next four years | The analyst proxies the sales data for a turkey substitute made out of tofu that has been on the market for several years |
 | The Chamber of Commerce wants to know how a tourism campaign is going to impact travel to their city, but the results from the campaign aren’t publicly available yet | The analyst proxies the historical data for airline bookings to the city one to three months after a similar campaign was run six months earlier |
+
+---
+
+### Calculating sample size
+
+To calculate sample size, you need:
+
+- population size
+- confidence level
+- margin of error
+
+The statistical method to calculate sample size is not a part of this course. For our purposes, an online sample size calculator can be used such as:
+
+- [Sample size calculator by surveymonkey.com](https://www.surveymonkey.com/mp/sample-size-calculator/)
+- [Sample size calculator by raosoft.com](http://www.raosoft.com/samplesize.html)
+
+An example of a sample size calculation using an online calculator:
+
+![Example Sample Size Calculator](/images/sample-size-calculator.png 'Example Sample Size Calculator')
+
+### Consider the margin of Error
+
+***Margin of error*** represents the maximum expected difference between sample results and the actual population data. It helps determine the accuracy of survey or test results by defining a range within which the true population average likely falls. A lower margin of error indicates that your sample's results are closer to what you would likely find by surveying the entire population. It can help you:
+
+- understand how reliable the data from your hypothesis testing is
+- determine how much you can generalize your findings from a sample to the entire population
+
+> What does it mean?
+>
+>Once a drug study is complete and the results are in, the study finds the drug is 70% effective. By applying a *6% margin of error*, the actual effectiveness within the entire population is estimated to be between 64% and 76% (70% plus or minus 6%).
+
+To calculate margin of error, you need:
+
+- population size
+- confidence level
+- sample size
+
+Again, this statistical method is not covered in this course and online calculators such as these can be used.
+
+- [Margin of error calculator by Good Calculators (free online calculators)](https://goodcalculators.com/margin-of-error-calculator/)
+- [Margin of error calculator by CheckMarket](https://www.checkmarket.com/sample-size-calculator/#sample-size-margin-of-error-calculator)
 
 ---
 
