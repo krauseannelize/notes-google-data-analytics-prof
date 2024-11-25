@@ -65,6 +65,8 @@
         "spyproject",
         "ropeproject",
         "mkdocs",
-        "ionide"
+        "ionide",
+        "surveymonkey",
+        "raosoft"
     ]
 }
