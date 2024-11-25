@@ -2,7 +2,54 @@
 
 ## Table of contents
 
-1. [Module 2 Glossary](#module-2-glossary)
+1. [Clean data](#clean-data)
+2. [Dirty data](#dirty-data)
+   - [Types of dirty data](#types-of-dirty-data)
+3. [Module 2 Glossary](#module-2-glossary)
+
+---
+
+## Clean data
+
+***Clean data*** is accurate, complete, and relevant, ensuring reliable and trustworthy data analysis results. It enables analysts to uncover valuable patterns, make connections, and derive actionable insights. Working with clean data streamlines data projects and leads to more accurate insights.
+
+---
+
+## Dirty data
+
+***Dirty data*** is plagued by inconsistencies, errors, and irrelevant information, which undermines the reliability of data analysis. Inaccurate data can cost businesses trillions of dollars annually, with human error being the leading cause.
+
+### Types of dirty data
+
+#### Duplicate data
+
+| Description | Possible causes | Potential harm to businesses |
+| --- | --- | --- |
+| Any data record that shows up more than once | Manual data entry, batch data imports, or data migration | Skewed metrics or analyses, inflated or inaccurate counts or predictions, or confusion during data retrieval |
+
+#### Outdated data
+
+| Description | Possible causes | Potential harm to businesses |
+| --- | --- | --- |
+| Any data that is old which should be replaced with newer and more accurate information | People changing roles or companies, or software and systems becoming obsolete | Inaccurate insights, decision-making, and analytics |
+
+#### Incomplete data
+
+| Description | Possible causes | Potential harm to businesses |
+| --- | --- | --- |
+| Any data that is missing important fields | Improper data collection or incorrect data entry | Decreased productivity, inaccurate insights, or inability to complete essential services |
+
+#### Incorrect/inaccurate data
+
+| Description | Possible causes | Potential harm to businesses |
+| --- | --- | --- |
+| Any data that is complete but inaccurate | Human error inserted during data input, fake information, or mock data | Inaccurate insights or decision-making based on bad information resulting in revenue loss |
+
+#### Inconsistent data
+
+| Description | Possible causes | Potential harm to businesses |
+| --- | --- | --- |
+| Any data that uses different formats to represent the same thing | Data stored incorrectly or errors inserted during data transfer | Contradictory data points leading to confusion or inability to classify or segment customers |
 
 ---
 
