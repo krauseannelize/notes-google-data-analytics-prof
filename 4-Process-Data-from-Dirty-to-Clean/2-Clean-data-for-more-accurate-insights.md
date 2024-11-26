@@ -15,7 +15,9 @@
    - [Common mistakes to avoid](#common-mistakes-to-avoid)
    - [Common tasks](#common-tasks)
 5. [Activity: Cleaning data with spreadsheets](#activity-cleaning-data-with-spreadsheets)
-6. [Module 2 Glossary](#module-2-glossary)
+6. [Data-cleaning features in spreadsheets](#data-cleaning-features-in-spreadsheets)
+7. [Workflow automation](#workflow-automation)
+8. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -107,7 +109,9 @@
 
 ## Activity: Cleaning data with spreadsheets
 
-In this activity, we are guided through some steps to do data cleaning with spreadsheets, whereafter the data is transposed. We were supplied with dirty data that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1lMYD9PHV-06u6ylP-dlX5UrBt4vofaBUg6RURx6TTvU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-data.xlsx).
+In this activity, we are guided through some steps to do data cleaning with spreadsheets, whereafter the data is transposed. We were supplied with a spreadsheet containing dirty data that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1lMYD9PHV-06u6ylP-dlX5UrBt4vofaBUg6RURx6TTvU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-data.xlsx). Below is a preview of the raw data before cleaning:
+
+![Dirty Data Preview](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-data.png 'Dirty Data Preview')
 
 In Google Sheets, I took a slightly different approach to the one suggested and followed these steps to clean the data:
 
@@ -118,7 +122,7 @@ In Google Sheets, I took a slightly different approach to the one suggested and 
 - Unit Cost in G10 is blank, but this can be calculated by dividing the Total by Units or `=H10/F10`. Insert the value 4.99 in G10
 - Units in F16 is blank, but this can be calculated by dividing the Total by Unit Cost or `=H10/G10`. Insert the value 35 in F16
 - Total in H19 is blank, but this can be calculated by multiplying the Units by Unit Cost or `=F19*G19`. Insert the value 251.72 in H19
-- Select the entire sheet and select "Trim whitespace" from the Data tab, Data cleanup section
+- Select the entire sheet and select "Trim whitespace" from the Data tab, Data cleanup option
 - Apply date formatting to column B to verify all cells contain valid dates
 - Insert a new column F and used the function `=PROPER(C2)` to change all values in column C to Proper Case
 - Insert a new column G and used the function `=PROPER(D2)` to change all values in column D to Proper Case
@@ -131,7 +135,34 @@ In Google Sheets, I took a slightly different approach to the one suggested and 
 - Rename the sheet and table to "Long"
 - Copy the table and use paste special to transpose the data to wide format in a new sheet and table named "Wide"
 
-The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BYT0t9ptZtgtZ9AAoVsSAKBLZRr3vuBvQPuzx2gKUEA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.xlsx).
+The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BYT0t9ptZtgtZ9AAoVsSAKBLZRr3vuBvQPuzx2gKUEA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.xlsx). Below is a preview od the clean data:
+
+![Clean Data Preview](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.png 'Clean Data Preview')
+
+---
+
+## Data-cleaning features in spreadsheets
+
+Handy spreadsheet features to use for data cleaning:
+
+1. ***Conditional formatting*** to highlight blank cells, data that is outside a range, etc
+2. ***Remove duplicates*** using the Data cleanup option on the Data tab
+3. Date formatting to make all the data consistent
+4. ***Split text to columns*** option on the Data tab to separate data into columns
+5. ***Split text to columns*** option on the Data tab to fix numbers stored as text
+6. `COUNTIF` function to find outliers in your data range
+7. `LEN` function to determine the length of information in your spreadsheet that must be of a certain length
+8. `LEFT`, `MID` and `RIGHT` functions to return segments of a string
+9. `CONCATENATE` function to combine strings
+10. `TRIM` function to remove leading, trailing, and repeated spaces in data
+
+---
+
+## Workflow automation
+
+***Workflow automation*** involves automating repetitive tasks to save time and reduce errors. For data analysts, this could mean automating data cleaning, visualization, or even parts of the modeling process, which in turn frees up time for more critical aspects of the job, such as data exploration and analysis. By automating repetitive processes, data analysts can achieve higher accuracy and consistency in their work.
+
+While automation is incredibly valuable, tasks requiring human judgment, such as communication and presenting findings, cannot be automated. Data exploration may be enhanced by automation tools, but the core insights and interpretations still rely on human analysts.
 
 ---
 
