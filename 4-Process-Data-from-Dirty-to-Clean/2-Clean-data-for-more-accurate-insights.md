@@ -155,6 +155,11 @@ Handy spreadsheet features to use for data cleaning:
 8. `LEFT`, `MID` and `RIGHT` functions to return segments of a string
 9. `CONCATENATE` function to combine strings
 10. `TRIM` function to remove leading, trailing, and repeated spaces in data
+11. ***Pivot tables*** to sort, reorganize, group, count, total, or average data, giving you a clear view of your dataset for identifying patterns or issues
+12. `VLOOKUP` function to search for a specific value in a column and return corresponding information from another column, is helpful for consolidating data from multiple sources
+13. ***Plotting*** data through graphs or charts helps visualize the information and identify outliers or skewed data points that need attention or correction
+14. `CONCATENATE` function to join together two or more text strings to clean data after two datasets have been combined
+15. ***Importing .csv files*** into spreadsheets enables efficient data cleaning through visual inspection, built-in functions, and formatting tools
 
 ---
 
