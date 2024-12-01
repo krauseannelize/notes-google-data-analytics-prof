@@ -18,7 +18,8 @@
 6. [Data-cleaning features in spreadsheets](#data-cleaning-features-in-spreadsheets)
 7. [Workflow automation](#workflow-automation)
 8. [Activity: Clean data with spreadsheet functions](#activity-clean-data-with-spreadsheet-functions)
-9. [Module 2 Glossary](#module-2-glossary)
+9. [Your cleaning checklist](#your-cleaning-checklist)
+10. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -206,6 +207,18 @@ It should be noted that other than the steps above:
 
 - the option Data, then Data cleanup and the Remove duplicates option can also be used to identify and automatically remove duplicate rows, and
 - the option Data, then the Split Text to Columns option selecting a dash(-) as custom separator can also be used to automatically split column F into 2 columns
+
+---
+
+## Your cleaning checklist
+
+Before diving into cleaning, create a checklist of tasks to help you quickly identify potential data issues. Some examples of common data cleaning tasks to include in your checklist:
+
+- **Determine the size of the dataset:** Large datasets may have more data quality issues and take longer to process. This may impact your choice of data cleaning techniques and how much time to allocate to the project.
+- **Determine the number of categories or labels:** By understanding the number and nature of categories and labels in a dataset, you can better understand the diversity of the dataset. This understanding also helps inform data merging and migration strategies.
+- **Identify missing data:** Recognizing missing data helps you understand data quality so you can take appropriate steps to remediate the problem. Data integrity is important for accurate and unbiased analysis.
+- **Identify unformatted data:** Identifying improperly or inconsistently formatted data helps analysts ensure data uniformity. This is essential for accurate analysis and visualization.
+- **Explore the different data types:** Understanding the types of data in your dataset (for instance, numerical, categorical, text) helps you select appropriate cleaning methods and apply relevant data analysis techniques.
 
 ---
 
