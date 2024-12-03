@@ -4,7 +4,9 @@
 
 1. [When to employ SQL](#when-to-employ-sql)
 2. [Processing time with SQL](#processing-time-with-sql)
-3. [Module 3 Glossary](#module-3-glossary)
+3. [Basic SQL queries](#basic-sql-queries)
+4. [Activity: Clean data using SQL](#activity-clean-data-using-sql)
+5. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -63,6 +65,12 @@ However, even in SQL, it takes longer for queries to complete when they’re run
 | **LENGTH()/LEN()** | Return the length of a string of text by counting the number of characters it contains |
 | **SUBSTR()** | Return a limited number of characters to create substrings from longer strings of text |
 | **TRIM()** | Remove leading, trailing, and repeated spaces in data |
+
+---
+
+## Activity: Clean data using SQL
+
+In this activity, we import data from an external source into BigQuery and use SQL queries to clean the data. My summary of the activity can be viewed [here](/activities/sql/c04m03-clean-data-using-sql/c04m03-clean-data-using-sql.ipynb).
 
 ---
 
