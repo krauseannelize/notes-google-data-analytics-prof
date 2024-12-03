@@ -50,6 +50,22 @@ However, even in SQL, it takes longer for queries to complete when they’re run
 
 ---
 
+## Basic SQL queries
+
+| Query | Definition |
+| --- | --- |
+| **SELECT FROM** | Pull data from any table in a database |
+| **SELECT DISTINCT** | Remove duplicates and only return unique values |
+| **INSERT INTO** | Add new data into a database |
+| **UPDATE** | Change existing data in a database |
+| **CREATE TABLE IF NOT EXISTS** | Create new tables within a database to store extracted data for future use |
+| **DROP TABLE IF EXISTS** | Remove unused or old tables, ensuring the database remains organized and efficient |
+| **LENGTH()/LEN()** | Return the length of a string of text by counting the number of characters it contains |
+| **SUBSTR()** | Return a limited number of characters to create substrings from longer strings of text |
+| **TRIM()** | Remove leading, trailing, and repeated spaces in data |
+
+---
+
 ## Module 3 Glossary
 
 | Term | Definition |
