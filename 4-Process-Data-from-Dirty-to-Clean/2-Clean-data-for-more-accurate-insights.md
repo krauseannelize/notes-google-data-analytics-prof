@@ -17,7 +17,9 @@
 5. [Activity: Cleaning data with spreadsheets](#activity-cleaning-data-with-spreadsheets)
 6. [Data-cleaning features in spreadsheets](#data-cleaning-features-in-spreadsheets)
 7. [Workflow automation](#workflow-automation)
-8. [Module 2 Glossary](#module-2-glossary)
+8. [Activity: Clean data with spreadsheet functions](#activity-clean-data-with-spreadsheet-functions)
+9. [Your cleaning checklist](#your-cleaning-checklist)
+10. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -135,7 +137,7 @@ In Google Sheets, I took a slightly different approach to the one suggested and 
 - Rename the sheet and table to "Long"
 - Copy the table and use paste special to transpose the data to wide format in a new sheet and table named "Wide"
 
-The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BYT0t9ptZtgtZ9AAoVsSAKBLZRr3vuBvQPuzx2gKUEA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.xlsx). Below is a preview od the clean data:
+The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BYT0t9ptZtgtZ9AAoVsSAKBLZRr3vuBvQPuzx2gKUEA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.xlsx). Below is a preview of the clean data:
 
 ![Clean Data Preview](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.png 'Clean Data Preview')
 
@@ -155,6 +157,11 @@ Handy spreadsheet features to use for data cleaning:
 8. `LEFT`, `MID` and `RIGHT` functions to return segments of a string
 9. `CONCATENATE` function to combine strings
 10. `TRIM` function to remove leading, trailing, and repeated spaces in data
+11. ***Pivot tables*** to sort, reorganize, group, count, total, or average data, giving you a clear view of your dataset for identifying patterns or issues
+12. `VLOOKUP` function to search for a specific value in a column and return corresponding information from another column, is helpful for consolidating data from multiple sources
+13. ***Plotting*** data through graphs or charts helps visualize the information and identify outliers or skewed data points that need attention or correction
+14. `CONCATENATE` function to join together two or more text strings to clean data after two datasets have been combined
+15. ***Importing .csv files*** into spreadsheets enables efficient data cleaning through visual inspection, built-in functions, and formatting tools
 
 ---
 
@@ -163,6 +170,55 @@ Handy spreadsheet features to use for data cleaning:
 ***Workflow automation*** involves automating repetitive tasks to save time and reduce errors. For data analysts, this could mean automating data cleaning, visualization, or even parts of the modeling process, which in turn frees up time for more critical aspects of the job, such as data exploration and analysis. By automating repetitive processes, data analysts can achieve higher accuracy and consistency in their work.
 
 While automation is incredibly valuable, tasks requiring human judgment, such as communication and presenting findings, cannot be automated. Data exploration may be enhanced by automation tools, but the core insights and interpretations still rely on human analysts.
+
+---
+
+## Activity: Clean data with spreadsheet functions
+
+As a data analyst working for a marketing agency based in San Francisco, I am asked to review external data related to ratings and locations of boba tea shops in San Francisco. Before this can be done, however, I need to identify the dirty elements in the dataset and clean them up. We were supplied with a .csv file containing dirty data that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BoSS0KCRhBdlBn5WBWYXKCpuLJfjj-FsKZIlseZY2wA/edit?usp=sharing) or the [.csv File](/activities/spreadsheets/c04m02-boba-teashop-data.csv). Below is a preview of the raw data before cleaning:
+
+![Dirty Data Preview](/activities/spreadsheets/c04m02-boba-teashop-data.png 'Dirty Data Preview')
+
+In Google Sheets, I take the following steps to clean the data:
+
+- Selected the entire sheet and cleared all formatting
+- Select the range A1:H51 and used the "Convert to table" feature to apply automatic formatting
+- Apply conditional formatting using the custom formula `=COUNTIF($A$2:$A$1000, $A2) > 1` to highlight duplicates in column A
+- Apply conditional formatting using the custom formula `=COUNTIF($B$2:$B$1000, $B2) > 1` to highlight duplicates in column B
+- Filter column A and B by the color assigned to duplicates using conditional formatting
+- Identify rows with duplicate data as rows 8, 9, 20, 21, 25 and 26
+- Delete row 8 as the rating 6.7 is out of range, whilst row 9 has a valid rating of 4
+- Delete rows 21 and 26
+- As ratings should fall between 0 and 5, I filter column C to show all values outside this range
+- Proceed to delete rows now numbered 25, 67, 90, 135, 162, 220, 245, and 273
+- Add new column G "lat" and new column H "long"
+- Enter the `=SPLIT(F2,"-")` function in column G to split column F into columns G and H
+- Copy columns G and H and paste special, paste values only to paste the data without the function
+- Delete column F
+- Change all longitude values to negative using the formula `=G2*-1`
+- Copy the now negative values in column G and use paste special, paste values only to paste the data without the formula in column G with the longitude values
+- Delete column H
+
+The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1R4dFXvuqbeo2qiGtaBnPo_XkYu3RGnFXHXaWCcW4XDI/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-boba-teashop-activity.xlsx). Below is a preview of the clean data:
+
+![Clean Data Preview](/activities/spreadsheets/c04m02-boba-teashop-activity.png 'Clean Data Preview')
+
+It should be noted that other than the steps above:
+
+- the option Data, then Data cleanup and the Remove duplicates option can also be used to identify and automatically remove duplicate rows, and
+- the option Data, then the Split Text to Columns option selecting a dash(-) as custom separator can also be used to automatically split column F into 2 columns
+
+---
+
+## Your cleaning checklist
+
+Before diving into cleaning, create a checklist of tasks to help you quickly identify potential data issues. Some examples of common data cleaning tasks to include in your checklist:
+
+- **Determine the size of the dataset:** Large datasets may have more data quality issues and take longer to process. This may impact your choice of data cleaning techniques and how much time to allocate to the project.
+- **Determine the number of categories or labels:** By understanding the number and nature of categories and labels in a dataset, you can better understand the diversity of the dataset. This understanding also helps inform data merging and migration strategies.
+- **Identify missing data:** Recognizing missing data helps you understand data quality so you can take appropriate steps to remediate the problem. Data integrity is important for accurate and unbiased analysis.
+- **Identify unformatted data:** Identifying improperly or inconsistently formatted data helps analysts ensure data uniformity. This is essential for accurate analysis and visualization.
+- **Explore the different data types:** Understanding the types of data in your dataset (for instance, numerical, categorical, text) helps you select appropriate cleaning methods and apply relevant data analysis techniques.
 
 ---
 
