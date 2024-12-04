@@ -57,14 +57,22 @@ However, even in SQL, it takes longer for queries to complete when they’re run
 | Query | Definition |
 | --- | --- |
 | **SELECT FROM** | Pull data from any table in a database |
+| **SELECT FROM WHERE** | Pull data from a specific place in a table, typically a table column |
 | **SELECT DISTINCT** | Remove duplicates and only return unique values |
+| **SELECT COUNT** | Returns the number of rows, which may include duplicate values |
+| **SELECT COUNT(DISTINCT)** | Returns the number of rows with unique values |
 | **INSERT INTO** | Add new data into a database |
 | **UPDATE** | Change existing data in a database |
+| **DELETE** | Remove data from a database |
 | **CREATE TABLE IF NOT EXISTS** | Create new tables within a database to store extracted data for future use |
 | **DROP TABLE IF EXISTS** | Remove unused or old tables, ensuring the database remains organized and efficient |
+| **CAST()** | Convert data from one datatype to another |
+| **COALESCE()** | Return non-null values in a list |
+| **CONCAT()** | Add strings together to create new text strings that can be used as unique keys |
 | **LENGTH()/LEN()** | Return the length of a string of text by counting the number of characters it contains |
 | **SUBSTR()** | Return a limited number of characters to create substrings from longer strings of text |
 | **TRIM()** | Remove leading, trailing, and repeated spaces in data |
+| **CASE** | Goes through one or more conditions and returns a value as soon as a condition is met |
 
 ---
 
