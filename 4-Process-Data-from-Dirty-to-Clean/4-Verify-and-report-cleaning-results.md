@@ -6,7 +6,12 @@
 2. [The big picture](#the-big-picture)
 3. [Verification of data cleaning](#verification-of-data-cleaning)
 4. [Data-cleaning verification checklist](#data-cleaning-verification-checklist)
-5. [Module 4 Glossary](#module-4-glossary)
+5. [Document the cleaning process](#document-the-cleaning-process)
+6. [Changelogs](#changelogs)
+   - [What a changelog records](#what-a-changelog-records)
+   - [Best practices for changelogs](#best-practices-for-changelogs)
+   - [Categories of changes](#categories-of-changes)
+7. [Module 4 Glossary](#module-4-glossary)
 
 ---
 
@@ -84,6 +89,70 @@ Identify the most common problems and correct them:
 | **Misleading variable labels (columns)** | Did you name your columns meaningfully? |
 | **Truncated data** | Did you check for truncated or missing data that needs correction? |
 | **Business Logic** | Did you check that the data makes sense given your knowledge of the business? |
+
+---
+
+## Document the cleaning process
+
+***Documentation*** is the process of tracking changes, additions, deletions and errors involved in your data cleaning effort. Benefits of documentation:
+
+- Recover data-cleaning errors
+- Inform other users of changes
+- Determine quality of data
+- Promotes transparency and accountability
+- Clear and concise documentation builds credibility and trust in your findings
+
+Most software applications have an automated version control, a kind of history tracking, built in like Google Sheets, Microsoft Excel and BigQuery. A changelog can build on your automated version history by giving you an even more detailed record of your work.
+
+---
+
+## Changelogs
+
+A ***changelog*** is a document used to record the notable changes made to a project over its lifetime across all of its tasks. It is typically curated so that the changes it records are listed chronologically across all versions of the project.
+
+Below is a sample of a changelog written in Markdown, as it is common to keep changelogs as a README file in a code repository:
+
+![Sample changelog](/images/sample-changelog.png 'Sample changelog')
+
+### What a changelog records
+
+- Data, file, formula, query, or any other component that changed
+- Description of what changed
+- Date of the change
+- Person who made the change
+- Person who approved the change
+- Version number
+- Reason for the change
+
+### Best practices for changelogs
+
+These guiding principles help to make a changelog accessible to others:
+
+- Changelogs are for humans, not machines, so write legibly.
+- Every version should have its own entry.
+- Each change should have its own line.
+- Group the same types of changes. For example, Fixed should be grouped separately from Added.
+- Versions should be ordered chronologically starting with the latest.
+- The release date of each version should be noted.
+
+### Categories of changes
+
+Changes should be grouped together and usually fall into one of the following categories:
+
+| Category | Type of change |
+| --- | --- |
+| **Added** | new features introduced |
+| **Changed** | changes in existing functionality |
+| **Deprecated** | features about to be removed |
+| **Removed** | features that have been removed |
+| **Fixed** | bug fixes |
+| **Security** | lowering vulnerabilities |
+
+---
+
+## Advanced data cleaning functions
+
+![Advanced data cleaning functions](/images/spreadsheets-advanced-functions.png 'Advanced data cleaning functions')
 
 ---
 
