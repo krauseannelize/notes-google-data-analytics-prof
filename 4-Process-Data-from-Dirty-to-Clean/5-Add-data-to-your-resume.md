@@ -6,6 +6,9 @@
 2. [Build a resume](#build-a-resume)
 3. [PAR statements](#par-statements)
 4. [Add job-ready skills to your resume](#add-job-ready-skills-to-your-resume)
+5. [Technical skills](#technical-skills)
+6. [Professional skills](#professional-skills)
+7. [Translate past work experience](#translate-past-work-experience)
 
 ---
 
@@ -62,12 +65,45 @@ Adding PAR statements to your job descriptions or skill section can help with th
 
 ## Add job-ready skills to your resume
 
-Include data analytics skills acquired through the course and independently, such as experience with spreadsheets, SQL, Tableau, and R.
-Specify your proficiency in each area, listing top functions, packages, or formulas you're comfortable using.
-Standing Out From the Crowd
+Data analysts are expected to have strong technical skills and abilities, so effectively highlighting those skills is a crucial part of crafting your resume. Highlight some of the skills you’ve picked up in these courses, such as:
 
-After completing the certificate, consider adding a case study to your resume to demonstrate your practical skills to recruiters and hiring managers.
-Continuously update your resume with new skills and experiences to keep it current and relevant for future job applications.
+- Strong analytical skills
+- Pattern recognition
+- Relational databases and SQL
+- Strong data visualization skills
+- Proficiency with spreadsheets, SQL, R, and Tableau
+
+---
+
+## Technical skills
+
+1. Structured Query Language (SQL)
+2. Spreadsheets (Excel, Google Sheets)
+3. Data visualization tools (Tableau, Microstrategy, Data Studio, Looker, Datarama, Microsoft Power BI)
+4. R or Python programming
+
+---
+
+## Professional skills
+
+1. **Presentation:** presenting your findings in a clear and simple way is just as important as gathering and analyzing data.
+2. **Collaboration:** your ability to share ideas, insights, and criticisms will be crucial as you will be working with lots of teams and stakeholders.
+3. **Communication:** Data analysts must communicate effectively to obtain the data that they need, and clearly communicate with teams and business leaders in a language that they understand.
+4. **Research:** You will need to conduct research to stay in-line with industry trends.
+5. **Problem-solving:** You will have to adapt and think outside the box to find alternative solutions to problems.
+6. **Adaptability:** You have to be adaptable and flexible as you will be working across multiple teams with different levels of needs and knowledge.  
+7. **Attention to detail:** A single line of incorrect code can throw everything off, and when it comes to understanding and reporting findings, it helps if you focus on the details that matter to your audience.
+8. **Teamwork:** Working for the benefit of the team and the entire company.
+
+---
+
+## Translate past work experience
+
+***Transferable skills*** are skills and qualities that can transfer from one job or industry to another. Think about all the positions you've held, and how they might be used as a data analyst. Most [professional skills](#professional-skills) are highly transferable.
+
+Analyze your previous work experience and find opportunities to insert a professional skill. Highlight how your professional skills contributed to your success in previous roles and how they would be valuable in a data analyst position. For example, if you worked in a restaurant, you could emphasize your communication and adaptability skills that you utilized to effectively function during peak hours.
+
+Call attention to your problem-solving, presentation, research, and communication skills in previous projects or relevant coursework Add a mix of professional and technical skills in the skills or summary section of your resume.
 
 ---
 
