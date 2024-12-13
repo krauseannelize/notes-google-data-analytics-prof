@@ -33,28 +33,28 @@ After some basic cleaning and organizing, the raw data now looked like shown bel
 To answer the questions posed by the recruitment agency, I first created a custom table in Google Sheets following these steps:
 
 - added a new sheet named "summary" to contain the custom data table
-- added a heading "2023 Job Applications in range A1:C1 using merge cells
-- enter "Month" in A2, "Applications" in B2 and "Visualization" in C2 as sub-headers
-- enter "January" in A3 and use autofill to enter the remaining 11 months
-- calculate the number of applications received in each month using the function `=COUNTIF('raw-data'!$G$2:$G, A3)`
-- enter "Total" in A15
-- calculate the total number of applications received using the function `=SUM(B3:B14)` in B15
-- to create an inline visualization of the number of applications using a bar chart, I used the function `=SPARKLINE($B3, {"charttype", "bar"; "max", $F$4; "min", 0; "color1", IF($B3=$F$4, "#3f8f29", IF($B3=$F$6, "#de1a24", "#0080ff"))})` - this creates a bar chart based on the number of application in a blue color, highlighting the month with the most applications in green and the month with the lowest applications in red
+- added a heading "2023 Job Applications in range B2:D2 using merge cells
+- enter "Month" in B3, "Applications" in C3 and "Visualization" in D3 as sub-headers
+- enter "January" in B4 and use autofill to enter the remaining 11 months
+- calculate the number of applications received in each month using the function `=COUNTIF('raw-data'!$G$2:$G, B4)`
+- enter "Total" in B16
+- calculate the total number of applications received using the function `=SUM(C4:C15)` in C16
+- to create an inline visualization of the number of applications using a bar chart, I used the function `=SPARKLINE($C4, {"charttype", "bar"; "max", $G$5; "min", 0; "color1", IF($C4=$G$5, "#3f8f29", IF($C4=$G$7, "#de1a24", "#0080ff"))})` - this creates a bar chart based on the number of application in a blue color, highlighting the month with the most applications in green and the month with the lowest applications in red
 - formatted the custom table with borders, cell colors and adding emphasis using bold text and larger font sizes, and rounding numbers to 2 decimals
 
 Then I created a second custom table in the same sheet to summarize the key questions:
 
-- enter "Key Insights" as heading in the range E1:F2 using merge cells
-- enter "Most applications received in" in cell E3
-- extract the month with the highest applications number using the function `=INDEX($A$3:$B$14, MATCH(MAX($B$3:$B$14), $B$3:$B$14, 0), 1)` in cell F3
-- enter "Highest number of applications" in cell E4
-- calculate the highest number of applications received per month using the function `=MAX($B$3:$B$14)` in cell F4
-- enter "Least applications received in" in cell E5
-- extract the month with the lowest applications number using the function `=INDEX($A$3:$B$14, MATCH(MIN($B$3:$B$14), $B$3:$B$14, 0), 1)` in cell F5
-- enter "Lowest number of applications" in cell E6
-- calculate the lowest number of applications received per month using the function `=MIN($B$3:$B$14)` in cell F6
-- enter "Average number of applications per month" in cell E7
-- calculate the average number of applications received per month using the function `=AVERAGE($B$3:$B$14)` in cell F7
+- enter "Key Insights" as heading in the range F2:G3 using merge cells
+- enter "Most applications received in" in cell F4
+- extract the month with the highest applications number using the function `=INDEX($B$4:$C$15, MATCH(MAX($C$4:$C$15), $C$4:$C$15, 0), 1)` in cell G4
+- enter "Highest number of applications" in cell F5
+- calculate the highest number of applications received per month using the function `=MAX($C$4:$C$15)` in cell G5
+- enter "Least applications received in" in cell F6
+- extract the month with the lowest applications number using the function `=INDEX($B$4:$C$15, MATCH(MIN($C$4:$C$15), $C$4:$C$15, 0), 1)` in cell G6
+- enter "Lowest number of applications" in cell F7
+- calculate the lowest number of applications received per month using the function `=MIN($C$4:$C$15)` in cell G7
+- enter "Average number of applications per month" in cell F8
+- calculate the average number of applications received per month using the function `=AVERAGE($C$4:$C$15)` in cell G8
 - formatted the custom table with borders, cell colors and adding emphasis using bold text and larger font sizes, and rounding numbers to 2 decimals
 - removed gridlines from the view to create a dashboard-like effect
 
