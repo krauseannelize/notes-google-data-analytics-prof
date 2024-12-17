@@ -6,7 +6,8 @@
 2. [Organize data for analysis](#organize-data-for-analysis)
 3. [Activity: Filter data with SQL](#activity-filter-data-with-sql)
 4. [Activity: Use the SORT function in spreadsheets](#activity-use-the-sort-function-in-spreadsheets)
-5. [Module 1 Glossary](#module-1-glossary)
+5. [Sort and filter in spreadsheets](#sort-and-filter-in-spreadsheets)
+6. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -46,6 +47,17 @@ In Google Sheets, I enter the formula `=SORT(A2:D6, 2, TRUE)` in cell G1, which 
 - sort ascending: TRUE (FALSE would sort descending)
 
 The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1cDrBynS2p9GU2EdAuQ9KghY_WqHrfzfRvKRDR_hje9M/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m01-sort-function-activity.xlsx).
+
+---
+
+## Sort and filter in spreadsheets
+
+Both Google Sheets and Microsoft Excel allow you to sort data alphabetically or numerically, helping you identify trends and patterns Filtering lets you narrow down your data to focus on specific information that meets your criteria. You can do this with functions or by using menus and buttons.
+
+| Task | Google Sheets function | Excel function |
+| --- | --- | --- |
+| Sorting | SORT | SORT and SORTBY |
+| Filtering | FILTER | FILTER |
 
 ---
 
