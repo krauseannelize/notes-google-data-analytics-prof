@@ -4,7 +4,7 @@
 
 1. [Data analysis](#data-analysis)
 2. [Organize data for analysis](#organize-data-for-analysis)
-3. [Activity: Filter data with SQL](#activity-filter-data-with-sql)
+3. [Activity: Filter and sort data with SQL](#activity-filter-and-sort-data-with-sql)
 4. [Activity: Use the SORT function in spreadsheets](#activity-use-the-sort-function-in-spreadsheets)
 5. [Sort and filter in spreadsheets](#sort-and-filter-in-spreadsheets)
 6. [Module 1 Glossary](#module-1-glossary)
@@ -30,9 +30,9 @@ Keeping your data organized, whether you're using a spreadsheet or a database, s
 
 ---
 
-## Activity: Filter data with SQL
+## Activity: Filter and sort data with SQL
 
-In this activity, we are create a custom BigQuery dataset and use SQL queries to filter data. My summary of the activity can be viewed [here](/activities/sql/c05m01-filter-data-with-sql/c05m01-filter-data-with-sql.ipynb).
+In this activity, we are create a custom BigQuery dataset and use SQL queries to filter and sort data. My summary of the activity can be viewed [here](/activities/sql/c05m01-filter-data-with-sql/c05m01-filter-data-with-sql.ipynb).
 
 ---
 
