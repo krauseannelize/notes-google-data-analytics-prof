@@ -8,7 +8,8 @@
 4. [Activity: Use the SORT function in spreadsheets](#activity-use-the-sort-function-in-spreadsheets)
 5. [Sort and filter in spreadsheets](#sort-and-filter-in-spreadsheets)
 6. [Activity: SQL sorting queries](#activity-sql-sorting-queries)
-7. [Module 1 Glossary](#module-1-glossary)
+7. [Activity: Analyze weather data in BigQuery](#activity-analyze-weather-data-in-bigquery)
+8. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -65,6 +66,12 @@ Both Google Sheets and Microsoft Excel allow you to sort data alphabetically or 
 ## Activity: SQL sorting queries
 
 We use a large public dataset that reports statistics for live births occurring within the United States to U.S. residents as recorded by the Centers for Disease Control and Prevention (CDC). My summary of the activity can be viewed [here](/activities/sql/c05m01-sql-sorting-queries/c05m01-sql-sorting-queries.ipynb).
+
+---
+
+## Activity: Analyze weather data in BigQuery
+
+Using a public dataset that contains global summaries of the day (GSOD) from the National Oceanic and Atmospheric Administration (NOAA), we will clean, prepare, and analyze a dataset whereafter the results will be saved as a new table. My summary of the activity can be viewed [here](/activities/sql/c05m01-analyze-weather-data/c05m01-analyze-weather-data.ipynb).
 
 ---
 
