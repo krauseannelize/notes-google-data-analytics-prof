@@ -8,7 +8,9 @@
 2. [Data validation](#data-validation)
 3. [Conditional formatting](#conditional-formatting)
 4. [Transform data with SQL](#transform-data-with-sql)
-5. [Module 2 Glossary](#module-2-glossary)
+5. [Import and combine data: Spreadsheets](#import-and-combine-data-spreadsheets)
+6. [Import and combine data: SQL](#import-and-combine-data-sql)
+7. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -72,6 +74,49 @@ SELECT CAST (MyDate AS DATETIME) FROM MyTable
 ```
 
 To avoid errors in the event of a failed query, use the SAFE_CAST function in BigQuery which will return a value of Null instead of an error when a query fails. The syntax for SAFE_CAST is the same as for CAST. Other SQL distributions often have their own functions or variations for safe casting, such as TRY_CAST in SQL Server and Azure SQL Database.
+
+---
+
+## Import and combine data: Spreadsheets
+
+In Course 3 module 3 entitled [Database Essentials](/3-Prepare-Data-for-Exploration/3-Database-essentials.md), various methods to import data into spreadsheets were covered in:
+
+- Activity: Import data, and
+- Activity: Dynamic imports.
+
+To combine data in spreadsheets, use the CONCATENATE function to combine two or more text strings, adding spaces where needed using quotation marks.
+
+---
+
+## Import and combine data: SQL
+
+SQL does not possess a single dedicated function for directly importing data from external files like CSV. While most Database Management Systems (DBMS) provide built-in tools or wizards for this purpose, specific database systems offer commands for importing data from files:
+
+- LOAD DATA INFILE (MySQL)
+- COPY (PostgreSQL)
+- BULK INSERT (SQL Server)
+
+To manipulate and move data within the same database, the `INSERT INTO ... SELECT` statement is employed. This versatile command allows you to copy data from one table to another, enabling data manipulation and selection based on specified conditions. The basic syntax is:
+
+```sql
+INSERT INTO destination_table_name
+SELECT column_names -- separated by commas, or * for all columns
+FROM source_table_name
+WHERE condition;
+```
+
+In SQL, use the CONCAT function to join strings together to create new text strings. The basic syntax is:
+
+```sql
+SELECT CONCAT(field1, " ", field2)
+FROM table_name;
+
+/* Use AS to assign an ALIAS to your combined fields
+   to help with readability */
+
+SELECT CONCAT(first_name, " ", last_name) AS Customer_Name
+FROM table_name;
+```
 
 ---
 

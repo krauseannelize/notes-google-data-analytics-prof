@@ -86,6 +86,7 @@
         "wdsp",
         "Guardia",
         "prcp",
-        "sdoh"
+        "sdoh",
+        "INFILE"
     ]
 }
