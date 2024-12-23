@@ -87,6 +87,9 @@
         "Guardia",
         "prcp",
         "sdoh",
-        "INFILE"
+        "INFILE",
+        "citibike",
+        "usertype",
+        "tripduration"
     ]
 }

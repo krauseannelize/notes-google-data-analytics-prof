@@ -10,7 +10,8 @@
 4. [Transform data with SQL](#transform-data-with-sql)
 5. [Import and combine data: Spreadsheets](#import-and-combine-data-spreadsheets)
 6. [Import and combine data: SQL](#import-and-combine-data-sql)
-7. [Module 2 Glossary](#module-2-glossary)
+7. [Activity: Merge text strings to gain insights](#activity-merge-text-strings-to-gain-insights)
+8. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -117,6 +118,41 @@ FROM table_name;
 SELECT CONCAT(first_name, " ", last_name) AS Customer_Name
 FROM table_name;
 ```
+
+---
+
+## Activity: Merge text strings to gain insights
+
+Using the public dataset `new_york` and table `citibike_trips`, we will use the SQL function CONCAT function to combine strings from multiple columns to create a new column. The full path of the database and table we will use is `bigquery-public-data.new_york.citibike_trips`. To create the query, I use the following:
+
+- SELECT to display `usertype`, which will be either "customer" or "subscriber",
+- CONCAT to create a new field `route` by combining the names of the start station with the end station,
+- COUNT to calculate the number of trips on each route as `num_trips`,
+- AVG to calculate the average route duration as `duration`,
+- GROUP BY clause to partition the dataset into groups so the aggregate functions (COUNT, AVG) can operate within these groups,
+- ORDER BY to sort the data by the number of trips for each route,
+- LIMIT to restrict the number of rows returned by the query, improving performance and making it easier to explore and analyze large datasets.
+
+The query I execute is as follows:
+
+```sql
+SELECT
+  usertype,
+  CONCAT (start_station_name," to ", end_station_name) AS route, 
+  COUNT (*) as num_trips,
+  ROUND(AVG(cast(tripduration as int64)/60),2) AS duration 
+FROM 
+  `bigquery-public-data.new_york.citibike_trips`
+GROUP BY
+  start_station_name, end_station_name, usertype 
+ORDER BY 
+  num_trips DESC 
+LIMIT 10;
+```
+
+The query returns a summary table displaying the 10 routes with the highest amount of trips, as shown below:
+
+![New York Citibike Route Query Results](/activities/sql/c05m02-ny-citibike-query-results.png 'New York Citibike Route Query Results')
 
 ---
 
