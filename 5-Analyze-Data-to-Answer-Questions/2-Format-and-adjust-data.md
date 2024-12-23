@@ -5,7 +5,10 @@
 1. [Activity: From one type to another](#activity-from-one-type-to-another)
    - [Check and change data type](#check-and-change-data-type)
    - [Convert temperatures from Fahrenheit to Celsius](#convert-temperatures-from-fahrenheit-to-celsius)
-2. [Module 2 Glossary](#module-2-glossary)
+2. [Data validation](#data-validation)
+3. [Conditional formatting](#conditional-formatting)
+4. [Transform data with SQL](#transform-data-with-sql)
+5. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -35,6 +38,40 @@ We will use the CONVERT function to change units of measurement. The supplied we
 - fill the formula down in column G.
 
 The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1_sHMu_OrtmZ-kebC25cCbONU3LG4PVan0xHMnxEtHhQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c05m02-weather-convert-activity.xlsx).
+
+---
+
+## Data validation
+
+Data validation lets you control what can and can't be entered in a worksheet using a drop-down list with predefined options, ensuring data integrity and consistency. By giving users a set of options to choose from, data entry is simplified and errors reduced. Data validation saves time and effort in data cleaning, whilst also protecting the integrity of your data and ensuring consistency across your spreadsheet.
+
+---
+
+## Conditional formatting
+
+Conditional formatting is a spreadsheet tool that changes how cells appear when values meet specific conditions. By combining conditional formatting and data validation, you can enhance the readability and clarity of your spreadsheets. They provide a visual representation of key data points, making it easier to track progress and deadlines. Examples of use cases:
+
+- Visualizing task status from a predefined dropdown list with different colors allows for quick identification of task progress within a project
+- Track upcoming project deadlines by first ensuring only valid dates are entered, and secondly applying conditional formatting to highlight cells containing dates after today's date to indicate upcoming deadlines
+
+---
+
+## Transform data with SQL
+
+CAST is the most common conversion function in SQL and the basic syntax is:
+
+```sql
+CAST(expression AS typename)
+
+-- Example converting a number to a string
+SELECT CAST(MyCount AS STRING) FROM MyTable
+
+-- Example converting a date to a datetime
+SELECT CAST (MyDate AS DATETIME) FROM MyTable
+
+```
+
+To avoid errors in the event of a failed query, use the SAFE_CAST function in BigQuery which will return a value of Null instead of an error when a query fails. The syntax for SAFE_CAST is the same as for CAST. Other SQL distributions often have their own functions or variations for safe casting, such as TRY_CAST in SQL Server and Azure SQL Database.
 
 ---
 
