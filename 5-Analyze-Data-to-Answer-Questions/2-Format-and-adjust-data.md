@@ -28,7 +28,13 @@ We will use the CONVERT function to change units of measurement. The supplied we
 - update the heading in B1 to `Temperature (F)`,
 - add the heading `Temperature (C)` in F1,
 - enter the formula `=CONVERT(B2, "F", "C")` in F2, where start_unit is Fahrenheit (F) and end_unit is Celsius (C),
-- copy the formula for the rest of column F.
+- fill the formula down in column F,
+- update the heading in D1 to `Wind Speed (mph)`,
+- add the heading `Wind Speed (m/s)` in G1,
+- enter the formula `=CONVERT(D2, "mph", "m/s")` in G2, where start_unit is miles per hour (mph) and end_unit is meters per second (m/s),
+- fill the formula down in column G.
+
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1_sHMu_OrtmZ-kebC25cCbONU3LG4PVan0xHMnxEtHhQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c05m02-weather-convert-activity.xlsx).
 
 ---
 
