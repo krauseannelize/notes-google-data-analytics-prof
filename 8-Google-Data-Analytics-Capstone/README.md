@@ -8,7 +8,7 @@ This is the eight course in the Google Data Analytics Certificate hosted by [Cou
 1. [Learn about capstone basics](/8-Google-Data-Analytics-Capstone/1-Learn-about-capstone-basics.md)
 2. [Optional: Build your portfolio](/8-Google-Data-Analytics-Capstone/2-Build-your-portfolio.md)
 3. [Optional: Use your portfolio](/8-Google-Data-Analytics-Capstone/3-Use-your-portfolio.md)
-4. Put your certificate to work
+4. [Put your certificate to work](/8-Google-Data-Analytics-Capstone/4-Put-your-certificate-to-work.md)
 
 ---
 
