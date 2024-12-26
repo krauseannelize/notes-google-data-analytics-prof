@@ -7,6 +7,14 @@
 3. [Explore portfolios](#explore-portfolios)
 4. [What to include in your portfolio?](#what-to-include-in-your-portfolio)
 5. [What to include in a case study?](#what-to-include-in-a-case-study)
+6. [Mapping skills to job requirements](#mapping-skills-to-job-requirements)
+   - [Skill: database queries](#skill-database-queries)
+   - [Skill: data visualization](#skill-data-visualization)
+   - [Skill: dashboards](#skill-dashboards)
+   - [Skill: reports](#skill-reports)
+   - [Skill: spreadsheets](#skill-spreadsheets)
+   - [Skill: programming](#skill-programming)
+7. [Next steps](#next-steps)
 
 ---
 
@@ -81,4 +89,103 @@ Examples of interview case study questions: [4 Case Study Questions for Intervie
 
 ---
 
-Continue to next module:
+## Mapping skills to job requirements
+
+The skills you gain with the Google Data Analytics Certificate align with skills that data analyst jobs require. The table below sets out common skill requirements for the three different career paths in data science:
+
+![Data job descriptions](/images/data-job-descriptions.png 'Data job descriptions')
+
+When you create your resume, present your experience and skills to align as closely as possible with the requirements listed in the job description.
+
+---
+
+### Skill: database queries
+
+| Job description phrase: *Collect data by using a scripting language such as SQL* |
+| --- |
+
+Skills from this program you could include in your resume:
+
+- Perform SQL queries
+- Sort and filter data using SQL queries
+- Convert data types using SQL functions
+
+---
+
+### Skill: data visualization
+
+| Job description phrase: *Visualize data insights and communicate your findings to teams in other organizations* |
+| --- |
+
+Skills from this program you could include in your resume:
+
+- Create data visualizations using Tableau
+- Create visuals in spreadsheets
+- Create presentations from data analysis results
+
+---
+
+### Skill: dashboards
+
+| Job description phrase: *Build and train users of new dashboards* |
+| --- |
+
+Skills from this program you could include in your resume:
+
+- Identify the data needs of users
+- Create dashboards using Tableau
+- Use design thinking to improve dashboards
+
+---
+
+### Skill: reports
+
+| Job description phrase: *Create comprehensive reports* |
+| --- |
+
+Skills from this program you could include in your resume:
+
+- Create data cleaning reports
+- Create and maintain change logs
+- Create reports in R Markdown
+
+---
+
+### Skill: spreadsheets
+
+| Job description phrase: *Explore and analyze datasets with spreadsheets* |
+| --- |
+
+Skills from this program you could include in your resume:
+
+- Clean data in spreadsheets
+- Sort and filter data in spreadsheets
+- Create pivot tables in spreadsheets
+
+---
+
+### Skill: programming
+
+| Job description phrase: Knowledge of some programming languages and an organized and methodical approach to work |
+| --- |
+
+Skills from this program you could include in your resume:
+
+- Install and use the tidyverse package in R
+- Run scripts in RStudio
+- Create data visualizations in RStudio
+
+---
+
+## Next steps
+
+1. Select and develop a case study:
+   - **Track A**: One of two provided business cases
+   - **Track B**: Your own business case
+2. Create your online portfolio and add your case study
+3. Include a link to your online portfolio in your LinkedIn profile
+4. Practice an elevator pitch for your case study and prepare to interview for data analyst jobs
+
+---
+
+Continue to next module: [Build your portfolio](/8-Google-Data-Analytics-Capstone/2-Build-your-portfolio.md)
