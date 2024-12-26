@@ -180,8 +180,9 @@ Skills from this program you could include in your resume:
 ## Next steps
 
 1. Select and develop a case study:
-   - **Track A**: One of two provided business cases
-   - **Track B**: Your own business case
+   - **Case Study 1**: Cyclistic bike-share analysis
+   - **Case Study 2**: Bellabeat product analysis
+   - **Case Study 3**: Choose your own adventure
 2. Create your online portfolio and add your case study
 3. Include a link to your online portfolio in your LinkedIn profile
 4. Practice an elevator pitch for your case study and prepare to interview for data analyst jobs
