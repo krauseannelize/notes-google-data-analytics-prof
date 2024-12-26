@@ -51,7 +51,7 @@ A job interview process has 4 stages:
 - compatibility, and
 - decision-making.
 
-Prepare and practice for interviews with [Google Grow Interview Warmup](https://www.cloudskillsboost.google/interview-warmup).
+Prepare and practice for interviews with [Google Grow Interview Warmup](https://www.cloudskillsboost.google/interview-warmup) or [Big Interview](https://www.biginterview.com/).
 
 ---
 
