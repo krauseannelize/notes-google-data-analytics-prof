@@ -11,7 +11,8 @@
 5. [Import and combine data: Spreadsheets](#import-and-combine-data-spreadsheets)
 6. [Import and combine data: SQL](#import-and-combine-data-sql)
 7. [Activity: Merge text strings to gain insights](#activity-merge-text-strings-to-gain-insights)
-8. [Module 2 Glossary](#module-2-glossary)
+8. [Activity: Combine multiple pieces of data](#activity-combine-multiple-pieces-of-data)
+9. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -153,6 +154,20 @@ LIMIT 10;
 The query returns a summary table displaying the 10 routes with the highest amount of trips, as shown below:
 
 ![New York Citibike Route Query Results](/activities/sql/c05m02-ny-citibike-query-results.png 'New York Citibike Route Query Results')
+
+---
+
+## Activity: Combine multiple pieces of data
+
+In this activity we use the CONCAT and CONCATENATE functions in spreadsheets to combine multiple pieces of data to understand the difference between them. The spreadsheets used for this purpose can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1OyvzEv5nEdaBivJOonGSH-v7mpNhJz5LR3X0H4t09XA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m02-concat-function-data.xlsx). In Google Sheets, I take the following steps:
+
+- In cell F2, I enter the function `=CONCAT(A2,B2)` to combine the `First` and `Last` columns and copy the function down. Note that the two strings have been joined in the order that they have been entered in the function and no space was inserted between them.
+- In cell G2, I enter the function `=CONCATENATE(A2," ",B2)` to combine the `First` and `Last` columns and copy the function down. Note that the two strings have joined with a space inserted as string between them.
+- In cell H2, I enter the function `=CONCATENATE(D2," ",C2," ",E2)` to combine the `Day`, `Month` and `Year` columns with spaces between all strings to further illustrate how multiple strings can be joined with CONCATENATE.
+
+CONCAT can be used to concatenate only two values and is equivalent to the `&` operator. If you would like to join multiple strings, CONCATENATE is the function to use. The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1N2NnTuOXe7uVrMRQiekGZOAAdTw82ObmejUN887ZspQ/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m02-concat-function-activity.xlsx). Below is a preview of the combined data:
+
+![CONCAT and CONCATENATE functions](/activities/spreadsheets/c05m02-concat-function-activity.png 'CONCAT and CONCATENATE functions')
 
 ---
 
