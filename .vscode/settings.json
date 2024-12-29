@@ -92,6 +92,10 @@
         "Mostipak",
         "tidyverse",
         "Cyclistic",
-        "Bellabeat"
+        "Bellabeat",
+        "INFILE",
+        "citibike",
+        "usertype",
+        "tripduration"
     ]
 }
