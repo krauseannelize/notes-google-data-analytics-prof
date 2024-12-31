@@ -13,7 +13,8 @@
 7. [Activity: Merge text strings to gain insights](#activity-merge-text-strings-to-gain-insights)
 8. [Activity: Combine multiple pieces of data](#activity-combine-multiple-pieces-of-data)
 9. [Activity: Strings in spreadsheets](#activity-strings-in-spreadsheets)
-10. [Module 2 Glossary](#module-2-glossary)
+10. [Concatenate strings with SQL](#concatenate-strings-with-sql)
+11. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -77,6 +78,11 @@ SELECT CAST (MyDate AS DATETIME) FROM MyTable
 ```
 
 To avoid errors in the event of a failed query, use the SAFE_CAST function in BigQuery which will return a value of Null instead of an error when a query fails. The syntax for SAFE_CAST is the same as for CAST. Other SQL distributions often have their own functions or variations for safe casting, such as TRY_CAST in SQL Server and Azure SQL Database.
+
+Other SQL conversion functions are:
+
+- COERCION to work with big number
+- UNIX_DATE returns the number of days that have passed since 1 January 1970 and is used to compare and work with dates across multiple timezones
 
 ---
 
@@ -188,6 +194,18 @@ The purpose of this activity is to demonstrates the LEN, LEFT, RIGHT, and FIND f
 The completed activity can be be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1wksATfSOHKscPceqgt3M8TfpgJERrUtNl6IIenenouE/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m02-citi-bike-trip-activity.xlsx). I have highlighted the cells that have been identified with inconsistent formatting and include a preview below:
 
 ![Bike Trip activity](/activities/spreadsheets/c05m02-citi-bike-trip-activity.png 'Bike Trip activity')
+
+---
+
+## Concatenate strings with SQL
+
+ It is useful to join strings together to create new text strings This allows the creation of new variables or features for data analysis, as well as more readable and informative output.
+
+| Function / Operator | Use | Example | Result |
+| --- | --- | --- | --- |
+| **CONCAT** | Concatenate strings to create new text strings | `CONCAT('Google', '.com')` | `Google.com` |
+| **CONCAT_WS** | Concatenate two or more strings together with a separator between each string | `CONCAT_WS(' . ', 'www', 'google', 'com')` | `www.google.com` |
+| **\|\|** | Concatenate two or more strings together with the \|\| operator | `'Google' \|\| '.com'` | `Google.com` |
 
 ---
 
