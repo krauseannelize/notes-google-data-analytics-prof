@@ -96,6 +96,7 @@
         "INFILE",
         "citibike",
         "usertype",
-        "tripduration"
+        "tripduration",
+        "nbformat"
     ]
 }
