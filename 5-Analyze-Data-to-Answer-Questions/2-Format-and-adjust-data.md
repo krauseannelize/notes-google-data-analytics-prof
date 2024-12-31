@@ -12,7 +12,8 @@
 6. [Import and combine data: SQL](#import-and-combine-data-sql)
 7. [Activity: Merge text strings to gain insights](#activity-merge-text-strings-to-gain-insights)
 8. [Activity: Combine multiple pieces of data](#activity-combine-multiple-pieces-of-data)
-9. [Module 2 Glossary](#module-2-glossary)
+9. [Activity: Strings in spreadsheets](#activity-strings-in-spreadsheets)
+10. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -36,8 +37,8 @@ We will use the CONVERT function to change units of measurement. The supplied we
 - add the heading `Temperature (C)` in F1,
 - enter the formula `=CONVERT(B2, "F", "C")` in F2, where start_unit is Fahrenheit (F) and end_unit is Celsius (C),
 - fill the formula down in column F,
-- update the heading in D1 to `Wind Speed (mph)`,
 - add the heading `Wind Speed (m/s)` in G1,
+- update the heading in D1 to `Wind Speed (mph)`,
 - enter the formula `=CONVERT(D2, "mph", "m/s")` in G2, where start_unit is miles per hour (mph) and end_unit is meters per second (m/s),
 - fill the formula down in column G.
 
@@ -168,6 +169,25 @@ In this activity we use the CONCAT and CONCATENATE functions in spreadsheets to 
 CONCAT can be used to concatenate only two values and is equivalent to the `&` operator. If you would like to join multiple strings, CONCATENATE is the function to use. The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1N2NnTuOXe7uVrMRQiekGZOAAdTw82ObmejUN887ZspQ/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m02-concat-function-activity.xlsx). Below is a preview of the combined data:
 
 ![CONCAT and CONCATENATE functions](/activities/spreadsheets/c05m02-concat-function-activity.png 'CONCAT and CONCATENATE functions')
+
+---
+
+## Activity: Strings in spreadsheets
+
+The purpose of this activity is to demonstrates the LEN, LEFT, RIGHT, and FIND functions to isolate specific characters in a string. The spreadsheet used for this purposes can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/16xmK3pTHhYIxy1sTTcgpMicMpabxIlleMi70T9twp7Q/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m02-citi-bike-trip-data.xlsx). In Google Sheets, I proceed with the following:
+
+- used the **"Convert to table"** feature to apply automatic formatting
+- in cell B2, I enter the function `=LEFT(C2)` to calculate the length of the string in column C for start time, which is copied down the entire column
+- all strings in column C are 19 characters except for one line which is 18, which can now be filtered and fixed
+- insert a new column D and in cell D2, I enter the function `=FIND(" ", C2)` to find the position of the space character in the string
+- the position of the space character for every string in column C is 11 Ss the timestamp substring will start at character 12
+- insert a new column E and in cell E2, I enter the function `=RIGHT(C2, 8)` to return the eight rightmost characters in the string
+- filtering the data, I can quickly see that one of the strings start with a space and fix it
+- insert a new column F and in cell F2, I enter the function `=LEFT(C2, 10)` to return the ten leftmost characters in the string that represents the date
+
+The completed activity can be be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1wksATfSOHKscPceqgt3M8TfpgJERrUtNl6IIenenouE/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m02-citi-bike-trip-activity.xlsx). I have highlighted the cells that have been identified with inconsistent formatting and include a preview below:
+
+![Bike Trip activity](/activities/spreadsheets/c05m02-citi-bike-trip-activity.png 'Bike Trip activity')
 
 ---
 
