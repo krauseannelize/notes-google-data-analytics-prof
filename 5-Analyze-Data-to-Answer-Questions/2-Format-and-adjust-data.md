@@ -14,7 +14,9 @@
 8. [Activity: Combine multiple pieces of data](#activity-combine-multiple-pieces-of-data)
 9. [Activity: Strings in spreadsheets](#activity-strings-in-spreadsheets)
 10. [Concatenate strings with SQL](#concatenate-strings-with-sql)
-11. [Module 2 Glossary](#module-2-glossary)
+11. [SQL query recap](#sql-query-recap)
+12. [When you get stuck](#when-you-get-stuck)
+13. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -206,6 +208,32 @@ The completed activity can be be viewed in [Google Sheets](https://docs.google.c
 | **CONCAT** | Concatenate strings to create new text strings | `CONCAT('Google', '.com')` | `Google.com` |
 | **CONCAT_WS** | Concatenate two or more strings together with a separator between each string | `CONCAT_WS(' . ', 'www', 'google', 'com')` | `www.google.com` |
 | **\|\|** | Concatenate two or more strings together with the \|\| operator | `'Google' \|\| '.com'` | `Google.com` |
+
+---
+
+## SQL query recap
+
+| Term | Definition |
+| --- | --- |
+| **ROUND** | Limit records to a certain number of decimal places |
+| **CONVERT** | Change the unit of measurement of a value in data |
+| **JOIN** | Combine rows from two or more tables based on a related column |
+| **LIMIT** | Return a certain number of records |
+| **CONCAT** | Add strings together to create new text strings that can be used as unique keys |
+| **LEN**| Return the length of a string of text by counting the number of characters it contains |
+| **LEFT**| Return a set number of characters from the left side of a text string |
+| **FIND**| Locate specific characters in a string |
+| **RIGHT**| Return a set number of characters from the right side of a text string |
+
+---
+
+## When you get stuck
+
+- Reach out to your peers and mentors for help, as they can offer different perspectives and solutions. They may even have encountered and solved a similar problem before.
+- Online resources are incredibly valuable and a simple search can lead you to forums such as [Stack Overflow](https://stackoverflow.com/) and tutorials with solutions to common problems. There's a combination of best practices that you can use to guide your search for answers online:
+  - Practice thinking and problem-solving skills
+  - Use the right data analytics terms and analysis tools
+  - Use your basic knowledge of analysis tools
 
 ---
 
