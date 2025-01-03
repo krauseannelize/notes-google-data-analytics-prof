@@ -49,19 +49,19 @@ As I am an advanced spreadsheet user, I used a new Google Sheets feature introdu
 
 ## Activity: Formulas for success
 
-We received a sample dataset of *Monthly Sales* that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/125ahFIEOhVEmwSK0GYQeIqYuVcvYZgWNECzAtjb9_fo/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-formulas-success-data.xlsx). This activity covers the basics of using spreadsheet formulas for calculations including correcting errors and I performed the following actions in Google Sheets:
+The sample dataset of *Monthly Sales* can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/125ahFIEOhVEmwSK0GYQeIqYuVcvYZgWNECzAtjb9_fo/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-formulas-success/c02m03-formulas-success-data.xlsx). This activity covers the basics of using spreadsheet formulas for calculations including correcting errors and I performed the following actions in Google Sheets:
 
-- used the **"Convert to table"** feature to apply automatic formatting
+- used the *Convert to table* tool to apply automatic formatting
 - applied consistent formatting to all numbers
-- added additional columns for "Average Sales" and "June to July changes"
-- calculated the "Total Sales" using the function `=SUM(B3:E3)` instead of the formula `=B3+C3+D3+E3`
-- calculated the "Average Sales" using the function `=AVERAGE(B2:E2)` instead of the formula `=(B2+C2+D2+E2)/4`
-- calculated the "June to July changes" using the formula `=(E2-D2)/D2`
-- corrected the formula error by inserting the value 75866 for June 2019
+- added the headings **Average Sales** in cell G1 and **June to July changes** in cell H1
+- calculated total sales using the function `=SUM(B3:E3)` instead of the formula `=B3+C3+D3+E3`
+- calculated average sales using the function `=AVERAGE(B2:E2)` instead of the formula `=(B2+C2+D2+E2)/4`
+- calculated the June to July changes using the formula `=(E2-D2)/D2`
+- corrected the error by inserting the value 75866 for June 2019 in cell D4
 - as the percentage change for June to July 2017 did not provide the expected result of 247.5%, I changed the June 2017 sales from 4002 to 47002
-- applied percentage formatting to "June to July changes"
+- applied percentage formatting to cells H2 to H4
 
-The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1yuHGrBhFNLR-Kaw6qXvGpzt26TDNj1HgQ-lXAawGrYw/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-formulas-success-activity.xlsx).
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1yuHGrBhFNLR-Kaw6qXvGpzt26TDNj1HgQ-lXAawGrYw/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-formulas-success/c02m03-formulas-success-activity.xlsx).
 
 ---
 
