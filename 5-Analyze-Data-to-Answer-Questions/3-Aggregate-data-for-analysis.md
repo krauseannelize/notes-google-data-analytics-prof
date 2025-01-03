@@ -2,7 +2,33 @@
 
 ## Table of contents
 
-1. [Module 3 Glossary](#module-3-glossary)
+1. [What is data aggregation?](#what-is-data-aggregation)
+2. [Data preparation with VLOOKUP](#data-preparation-with-vlookup)
+3. [Module 3 Glossary](#module-3-glossary)
+
+---
+
+## What is data aggregation?
+
+***Data aggregation*** is the process of gathering data from multiple sources in order to combine it into a single summarized collection. It can help data analysts:
+
+- identify trends
+- make comparisons
+- gain insights
+
+that wouldn't be possible if each of the data elements were analyzed on its own.
+
+---
+
+## Data preparation with VLOOKUP
+
+VLOOKUP (Vertical Lookup) is a spreadsheet function that searches for a specific value in a column and returns corresponding information. VLOOKUP can be a very useful data-cleaning tool in that it can help you identify these common data inconsistencies that needs to be cleaned:
+
+- *Different Data Types*: VLOOKUP won't be able to find a match if the data types do not match - you can use the VALUE function to convert text strings representing numbers to numerical values.
+- *Extra Spaces*: Just one extra space can cause VLOOKUP not to recognize a match - you can use the TRIM function to remove leading or trailing spaces.
+- *Duplicates*: VLOOKUP will only identify the first match it finds in the reference table - utilize the "Remove Duplicates" tool to eliminate duplicate entries.
+
+In order for VLOOKUP work correctly, your data needs to be formatted correctly and cleaned. When VLOOKUP is used on clean data, it can be used to combine data from different spreadsheets.
 
 ---
 
