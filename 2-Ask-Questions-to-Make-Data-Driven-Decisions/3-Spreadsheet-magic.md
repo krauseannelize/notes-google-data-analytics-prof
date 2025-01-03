@@ -34,7 +34,7 @@ They can automate calculations, saving time and providing clear insights into ho
 
 ## Activity: Basic spreadsheet tasks
 
-We received a sample dataset of the *Population of Latin and Caribbean countries from 2010 to 2019* that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1HalKDAXk92cWjxfjAnLOAUwwPlRtzn5w2K_mJme0OAA/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-data.xlsx). We were tasked with performing these basic spreadsheet activities:
+To complete the activity, I received a sample dataset of the *Population of Latin and Caribbean countries from 2010 to 2019* that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1HalKDAXk92cWjxfjAnLOAUwwPlRtzn5w2K_mJme0OAA/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-basic-tasks/c02m03-population-lac-countries-data.xlsx). I perform these basic spreadsheet activities:
 
 - open a new spreadsheet
 - create a new folder
@@ -43,7 +43,7 @@ We received a sample dataset of the *Population of Latin and Caribbean countries
 - add or delete columns
 - add a border
 
-As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Convert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-population-lac-countries-activity.xlsx).
+As I am an advanced spreadsheet user, I used a new Google Sheets feature introduced in May 2024 **"Convert to table"** to apply automatic formatting to the table such as emphasized headers, filtering, resizing columns and naming the data range. The formatted spreadsheet can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/13eJDtozw4Y7w59CeRhKBw6z8A95KU25br7WvEQVHoDQ/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c02m03-basic-tasks/c02m03-population-lac-countries-activity.xlsx).
 
 ---
 
