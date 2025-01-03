@@ -54,9 +54,9 @@ The sample dataset of *Monthly Sales* can be viewed in [Google Sheets](https://d
 - used the *Convert to table* tool to apply automatic formatting
 - applied consistent formatting to all numbers
 - added the headings **Average Sales** in cell G1 and **June to July changes** in cell H1
-- calculated total sales using the function `=SUM(B3:E3)` instead of the formula `=B3+C3+D3+E3`
-- calculated average sales using the function `=AVERAGE(B2:E2)` instead of the formula `=(B2+C2+D2+E2)/4`
-- calculated the June to July changes using the formula `=(E2-D2)/D2`
+- in cell F2, enter the function `=SUM(B2:E2)` to calculate the total sales and copy the function down to cell F4
+- in cell G2, enter the function `=AVERAGE(B2:E2)` to calculate the average sales and copy the function down to cell G4
+- in cell H2, enter the formula `=(E2-D2)/D2` to calculate the June to July changes and copy the formula down to cell H4
 - corrected the error by inserting the value 75866 for June 2019 in cell D4
 - as the percentage change for June to July 2017 did not provide the expected result of 247.5%, I changed the June 2017 sales from 4002 to 47002
 - applied percentage formatting to cells H2 to H4
