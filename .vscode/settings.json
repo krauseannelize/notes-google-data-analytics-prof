@@ -97,6 +97,8 @@
         "citibike",
         "usertype",
         "tripduration",
-        "nbformat"
+        "nbformat",
+        "timesheet",
+        "payrate"
     ]
 }
