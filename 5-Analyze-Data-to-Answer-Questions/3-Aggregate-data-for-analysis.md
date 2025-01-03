@@ -4,7 +4,8 @@
 
 1. [What is data aggregation?](#what-is-data-aggregation)
 2. [Data preparation with VLOOKUP](#data-preparation-with-vlookup)
-3. [Module 3 Glossary](#module-3-glossary)
+3. [Activity: Use VLOOKUP to perform a task](#activity-use-vlookup-to-perform-a-task)
+4. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -29,6 +30,12 @@ VLOOKUP (Vertical Lookup) is a spreadsheet function that searches for a specific
 - *Duplicates*: VLOOKUP will only identify the first match it finds in the reference table - utilize the "Remove Duplicates" tool to eliminate duplicate entries.
 
 In order for VLOOKUP work correctly, your data needs to be formatted correctly and cleaned. When VLOOKUP is used on clean data, it can be used to combine data from different spreadsheets.
+
+---
+
+## Activity: Use VLOOKUP to perform a task
+
+The purpose of this activity is to practice cleaning data and using VLOOKUP to consolidate information between two spreadsheet tabs. The analysis is completed by creating a pivot table. My analysis of the activity **Calculate weekly pay for employees** can be viewed [here](/activities/spreadsheets/c05m03-vlookup-practice/c05m03-weekly-pay-analysis.md).
 
 ---
 
