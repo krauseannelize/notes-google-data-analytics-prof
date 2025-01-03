@@ -111,20 +111,20 @@ The completed activity can be viewed in [Google Sheets](https://docs.google.com/
 
 ## Activity: Functions 101
 
-This activity focus on using functions to perform calculations in a spreadsheet. A sample dataset *Monthly Sales* was provided, which can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1CaCFv4p0s2K_hQQnDDmVaroverg6OFjAFhAzQF3Elx8/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101-data.xlsx). I performed the following actions in Google Sheets:
+This activity focus on using functions to perform calculations in a spreadsheet. A sample dataset *Monthly Sales* was provided, which can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1CaCFv4p0s2K_hQQnDDmVaroverg6OFjAFhAzQF3Elx8/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101/c02m03-functions-101-data.xlsx). I performed the following actions in Google Sheets:
 
-- used the **"Convert to table"** feature to apply automatic formatting
+- used the *Convert to table* feature to apply automatic formatting
 - applied consistent formatting to all numbers
-- added additional columns for "Lowest Monthly Sales" and "Highest Monthly Sales"
-- calculated the "Total Sales" using the function `=SUM(B2:E2)`
-- calculated the "Average Sales" using the function `=AVERAGE(B2:E2)`
-- calculated the "June to July changes" using the formula `=(E2-D2)/D2`
-- calculated the "Lowest Monthly Sales" using the function `=MIN(B2:E2)`
-- calculated the "Highest Monthly Sales" using the function `=MAX(B2:E2)`
-- apply color scale conditional formatting to "Lowest Monthly Sales" to highlight the lowest value
-- apply color scale conditional formatting to "Highest Monthly Sales" to highlight the highest value
+- added the headings **Lowest Monthly Sales** in cell I1 and **Highest Monthly Sales** in cell J1
+- in cell F2, enter the function `=SUM(B2:E2)` to calculate total sales and copy the function down to cell F4
+- in cell G2, enter the function `=AVERAGE(B2:E2)` to calculate the average sales and copy the function down to cell G4
+- in cell H2, enter the formula `=(E2-D2)/D2` to calculate the June to July changes and copy the formula down to cell H4
+- in cell I2, enter the function `=MIN(B2:E2)` to calculate the lowest monthly sales and copy the function down to cell I4
+- in cell J2, enter the function `=MAX(B2:E2)` to calculate the highest monthly sales and copy the function down to cell J4
+- apply color scale conditional formatting to cells I2 to I4 to highlight the lowest value
+- apply color scale conditional formatting to cells J2 to J4 to highlight the highest value
 
-The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1_Rqi0Z029yWANEfiv7Bw6GnVEstoJjY3dRGMubVb4lI/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101-activity.xlsx).
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1_Rqi0Z029yWANEfiv7Bw6GnVEstoJjY3dRGMubVb4lI/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-functions-101/c02m03-functions-101-activity.xlsx).
 
 ---
 
