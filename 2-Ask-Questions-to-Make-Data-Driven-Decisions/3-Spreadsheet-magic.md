@@ -86,7 +86,7 @@ The completed activity can be viewed in [Google Sheets](https://docs.google.com/
 
 ## Activity: Resolve spreadsheet errors
 
-This activity covers the how to identify and fix common errors in spreadsheets. A sample dataset *Resolve Spreadsheet Errors" was provided, which can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/15E1TJoGJP3A2Phrr1MgTIf9fJnvN-CCKWJqbSWpC49k/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-spreadsheet-errors-data.xlsx). This spreadsheet has 4 sheets:
+This activity covers how to identify and fix common errors in spreadsheets. A sample dataset *Resolve Spreadsheet Errors" was provided, which can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/15E1TJoGJP3A2Phrr1MgTIf9fJnvN-CCKWJqbSWpC49k/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-resolve-errors/c02m03-spreadsheet-errors-data.xlsx). This spreadsheet has 4 sheets:
 
 - **Description:** A list of common errors and their meaning
 - **Examples:** Sample data with errors
@@ -105,7 +105,7 @@ To resolve the errors, the following actions were taken:
 | G8 | NUM | Cannot calculate square root on negative values |
 | G9 | REF | Reference cell was deleted - updated to B2+B3 |
 
-The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1A4jvEj3bjJ7ZNeAGBFudgVY0t5xQrOszf0E1QyN17RE/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-spreadsheet-errors-activity.xlsx).
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1A4jvEj3bjJ7ZNeAGBFudgVY0t5xQrOszf0E1QyN17RE/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c02m03-resolve-errors/c02m03-spreadsheet-errors-activity.xlsx).
 
 ---
 
