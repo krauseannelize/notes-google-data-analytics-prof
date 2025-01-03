@@ -38,7 +38,7 @@ This section gives a broad introduction of spreadsheets from entering data, addi
 
 This activity guides me through the steps to use a spreadsheet to make a simple chart to illustrate how a simple graphical representation of information can be used to support data-driven business decisions. To highlight my analytical skills and visual communication abilities, I added aesthetic elements to the graph, making the exercise more visually appealing and insightful.
 
-My analysis of the activity **"Generate a chart from a spreadsheet"** can be viewed [here](/activities/spreadsheets/c01m03-generate-chart/c01m03-monthly-sales-analysis.md).
+My analysis of the activity **Generate a chart from a spreadsheet** can be viewed [here](/activities/spreadsheets/c01m03-generate-chart/c01m03-monthly-sales-analysis.md).
 
 ---
 

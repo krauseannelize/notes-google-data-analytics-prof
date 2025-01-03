@@ -130,9 +130,9 @@ The completed activity can be viewed in [Google Sheets](https://docs.google.com/
 
 ## Activity: Custom data table
 
-In this activity, we are guided through the steps to use a spreadsheet to build a custom data table and analyze the job application data of a recruitment agency with functions to optimize the online application process. To highlight my analytical skills and visual communication abilities, I added aesthetic elements to the custom table, making the exercise more visually appealing and insightful.
+In this activity, I am guided through the steps to use a spreadsheet to build a custom data table and analyze the job application data of a recruitment agency with functions to optimize the online application process. To highlight my analytical skills and visual communication abilities, I added aesthetic elements to the custom table, making the exercise more visually appealing and insightful.
 
-My analysis of the activity **"Create a custom data table"** can be viewed [here](/activities/spreadsheets/c02m03-recruitment-agency-analysis.md).
+My analysis of the activity **Create a custom data table** can be viewed [here](/activities/spreadsheets/c02m03-custom-table/c02m03-recruitment-agency-analysis.md).
 
 ---
 
