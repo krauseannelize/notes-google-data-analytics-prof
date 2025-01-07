@@ -40,7 +40,7 @@ In this activity, we are create a custom BigQuery dataset and use SQL queries to
 
 ## Activity: Use the SORT function in spreadsheets
 
-In this activity, we learn how to use the SORT function to arrange data into a meaningful order to make it easier to understand, analyze, and visualize. We were supplied with a spreadsheet containing a party plan that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1OyvzEv5nEdaBivJOonGSH-v7mpNhJz5LR3X0H4t09XA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m01-sort-function-data.xlsx).
+In this activity, I learnt how to use the SORT function to arrange data into a meaningful order to make it easier to understand, analyze, and visualize. I was supplied with a spreadsheet containing a party plan that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1OyvzEv5nEdaBivJOonGSH-v7mpNhJz5LR3X0H4t09XA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m01-sort-function/c05m01-sort-function-data.xlsx).
 
 In Google Sheets, I enter the formula `=SORT(A2:D6, 2, TRUE)` in cell G1, which can be broken down as follows:
 
@@ -48,7 +48,7 @@ In Google Sheets, I enter the formula `=SORT(A2:D6, 2, TRUE)` in cell G1, which 
 - column by which the data will be sorted: 2 (Table Number)
 - sort ascending: TRUE (FALSE would sort descending)
 
-The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1cDrBynS2p9GU2EdAuQ9KghY_WqHrfzfRvKRDR_hje9M/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m01-sort-function-activity.xlsx).
+The completed activity can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1cDrBynS2p9GU2EdAuQ9KghY_WqHrfzfRvKRDR_hje9M/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m01-sort-function/c05m01-sort-function-activity.xlsx).
 
 ---
 

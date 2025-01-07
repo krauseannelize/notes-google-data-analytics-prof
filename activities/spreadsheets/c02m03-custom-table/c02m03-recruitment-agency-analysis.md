@@ -1,4 +1,4 @@
-# Analysis to optimize job application process
+# Create a custom data table
 
 ## Scenario
 
@@ -33,7 +33,7 @@ After some basic cleaning and organizing, the raw data now looked like shown bel
 
 To answer the questions posed by the recruitment agency, I first created a custom table in Google Sheets following these steps:
 
-- added a new sheet named "summary" to contain the custom data table
+- added a new sheet named **summary** to contain the custom data table
 - added a heading **2023 Job Applications** in range B2:D2 using merge cells
 - add sub-headings **Month** in cell B3, **Applications** in cell C3 and **Visualization** in cell D3
 - enter "January" in cell B4 and use autofill to enter the remaining 11 months

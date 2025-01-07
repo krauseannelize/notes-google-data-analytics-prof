@@ -111,14 +111,14 @@
 
 ## Activity: Cleaning data with spreadsheets
 
-In this activity, we are guided through some steps to do data cleaning with spreadsheets, whereafter the data is transposed. We were supplied with a spreadsheet containing dirty data that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1lMYD9PHV-06u6ylP-dlX5UrBt4vofaBUg6RURx6TTvU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-data.xlsx). Below is a preview of the raw data before cleaning:
+In this activity, I am guided through some steps to do data cleaning with spreadsheets, whereafter the data is transposed. I received a spreadsheet containing dirty data that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1lMYD9PHV-06u6ylP-dlX5UrBt4vofaBUg6RURx6TTvU/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets/c04m02-cleaning-with-spreadsheets-data.xlsx). Below is a preview of the raw data before cleaning:
 
-![Dirty Data Preview](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-data.png 'Dirty Data Preview')
+![Dirty Data Preview](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets/c04m02-cleaning-with-spreadsheets-data.png 'Dirty Data Preview')
 
 In Google Sheets, I took a slightly different approach to the one suggested and followed these steps to clean the data:
 
 - Selected the entire sheet and cleared all formatting
-- Select the range A1:H51 and used the "Convert to table" feature to apply automatic formatting
+- Select the range A1:H51 and used the *Convert to table* feature to apply automatic formatting
 - Identify rows with blank values: 2, 8, 10, 16, 19 and 23
 - Delete rows 2, 8 and 23
 - Unit Cost in G10 is blank, but this can be calculated by dividing the Total by Units or `=H10/F10`. Insert the value 4.99 in G10
@@ -131,15 +131,15 @@ In Google Sheets, I took a slightly different approach to the one suggested and 
 - Insert a new column H and used the function `=PROPER(E2)` to change all values in column E to Proper Case
 - Copy columns F, G and H, and use paste special to paste values only remove the functions to convert to Proper Case
 - Delete columns C, D and E
-- Give column C (previously F) the heading "Region"
-- Give column D (previously G) the heading "Name"
-- Give column E (previously H) the heading "Item"
-- Rename the sheet and table to "Long"
-- Copy the table and use paste special to transpose the data to wide format in a new sheet and table named "Wide"
+- Give column C (previously F) the heading **Region**
+- Give column D (previously G) the heading **Name**
+- Give column E (previously H) the heading **Item**
+- Rename the sheet and table to **Long**
+- Copy the table and use paste special to transpose the data to wide format in a new sheet and table named **Wide**
 
-The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BYT0t9ptZtgtZ9AAoVsSAKBLZRr3vuBvQPuzx2gKUEA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.xlsx). Below is a preview of the clean data:
+The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BYT0t9ptZtgtZ9AAoVsSAKBLZRr3vuBvQPuzx2gKUEA/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets/c04m02-cleaning-with-spreadsheets-activity.xlsx). Below is a preview of the clean data:
 
-![Clean Data Preview](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets-activity.png 'Clean Data Preview')
+![Clean Data Preview](/activities/spreadsheets/c04m02-cleaning-with-spreadsheets/c04m02-cleaning-with-spreadsheets-activity.png 'Clean Data Preview')
 
 ---
 
@@ -175,9 +175,9 @@ While automation is incredibly valuable, tasks requiring human judgment, such as
 
 ## Activity: Clean data with spreadsheet functions
 
-As a data analyst working for a marketing agency based in San Francisco, I am asked to review external data related to ratings and locations of boba tea shops in San Francisco. Before this can be done, however, I need to identify the dirty elements in the dataset and clean them up. We were supplied with a .csv file containing dirty data that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BoSS0KCRhBdlBn5WBWYXKCpuLJfjj-FsKZIlseZY2wA/edit?usp=sharing) or the [.csv File](/activities/spreadsheets/c04m02-boba-teashop-data.csv). Below is a preview of the raw data before cleaning:
+As a data analyst working for a marketing agency based in San Francisco, I am asked to review external data related to ratings and locations of boba tea shops in San Francisco. Before this can be done, however, I need to identify the dirty elements in the dataset and clean them up. I am supplied with a .csv file containing dirty data that can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1BoSS0KCRhBdlBn5WBWYXKCpuLJfjj-FsKZIlseZY2wA/edit?usp=sharing) or the [.csv File](/activities/spreadsheets/c04m02-clean-data-functions/c04m02-boba-teashop-data.csv). Below is a preview of the raw data before cleaning:
 
-![Dirty Data Preview](/activities/spreadsheets/c04m02-boba-teashop-data.png 'Dirty Data Preview')
+![Dirty Data Preview](/activities/spreadsheets/c04m02-clean-data-functions/c04m02-boba-teashop-data.png 'Dirty Data Preview')
 
 In Google Sheets, I take the following steps to clean the data:
 
@@ -191,7 +191,7 @@ In Google Sheets, I take the following steps to clean the data:
 - Delete rows 21 and 26
 - As ratings should fall between 0 and 5, I filter column C to show all values outside this range
 - Proceed to delete rows now numbered 25, 67, 90, 135, 162, 220, 245, and 273
-- Add new column G "lat" and new column H "long"
+- Add new column G **lat** and new column H **long**
 - Enter the `=SPLIT(F2,"-")` function in column G to split column F into columns G and H
 - Copy columns G and H and paste special, paste values only to paste the data without the function
 - Delete column F
@@ -199,9 +199,9 @@ In Google Sheets, I take the following steps to clean the data:
 - Copy the now negative values in column G and use paste special, paste values only to paste the data without the formula in column G with the longitude values
 - Delete column H
 
-The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1R4dFXvuqbeo2qiGtaBnPo_XkYu3RGnFXHXaWCcW4XDI/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-boba-teashop-activity.xlsx). Below is a preview of the clean data:
+The cleaned data can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1R4dFXvuqbeo2qiGtaBnPo_XkYu3RGnFXHXaWCcW4XDI/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c04m02-clean-data-functions/c04m02-boba-teashop-activity.xlsx). Below is a preview of the clean data:
 
-![Clean Data Preview](/activities/spreadsheets/c04m02-boba-teashop-activity.png 'Clean Data Preview')
+![Clean Data Preview](/activities/spreadsheets/c04m02-clean-data-functions/c04m02-boba-teashop-activity.png 'Clean Data Preview')
 
 It should be noted that other than the steps above:
 
