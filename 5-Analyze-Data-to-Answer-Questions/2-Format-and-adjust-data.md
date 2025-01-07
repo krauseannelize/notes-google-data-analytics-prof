@@ -13,7 +13,10 @@
 7. [Activity: Merge text strings to gain insights](#activity-merge-text-strings-to-gain-insights)
 8. [Activity: Combine multiple pieces of data](#activity-combine-multiple-pieces-of-data)
 9. [Activity: Strings in spreadsheets](#activity-strings-in-spreadsheets)
-10. [Module 2 Glossary](#module-2-glossary)
+10. [Concatenate strings with SQL](#concatenate-strings-with-sql)
+11. [SQL query recap](#sql-query-recap)
+12. [When you get stuck](#when-you-get-stuck)
+13. [Module 2 Glossary](#module-2-glossary)
 
 ---
 
@@ -77,6 +80,11 @@ SELECT CAST (MyDate AS DATETIME) FROM MyTable
 ```
 
 To avoid errors in the event of a failed query, use the SAFE_CAST function in BigQuery which will return a value of Null instead of an error when a query fails. The syntax for SAFE_CAST is the same as for CAST. Other SQL distributions often have their own functions or variations for safe casting, such as TRY_CAST in SQL Server and Azure SQL Database.
+
+Other SQL conversion functions are:
+
+- COERCION to work with big number
+- UNIX_DATE returns the number of days that have passed since 1 January 1970 and is used to compare and work with dates across multiple timezones
 
 ---
 
@@ -188,6 +196,44 @@ The purpose of this activity is to demonstrates the LEN, LEFT, RIGHT, and FIND f
 The completed activity can be be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1wksATfSOHKscPceqgt3M8TfpgJERrUtNl6IIenenouE/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c05m02-citi-bike-trip-activity.xlsx). I have highlighted the cells that have been identified with inconsistent formatting and include a preview below:
 
 ![Bike Trip activity](/activities/spreadsheets/c05m02-citi-bike-trip-activity.png 'Bike Trip activity')
+
+---
+
+## Concatenate strings with SQL
+
+ It is useful to join strings together to create new text strings This allows the creation of new variables or features for data analysis, as well as more readable and informative output.
+
+| Function / Operator | Use | Example | Result |
+| --- | --- | --- | --- |
+| **CONCAT** | Concatenate strings to create new text strings | `CONCAT('Google', '.com')` | `Google.com` |
+| **CONCAT_WS** | Concatenate two or more strings together with a separator between each string | `CONCAT_WS(' . ', 'www', 'google', 'com')` | `www.google.com` |
+| **\|\|** | Concatenate two or more strings together with the \|\| operator | `'Google' \|\| '.com'` | `Google.com` |
+
+---
+
+## SQL query recap
+
+| Term | Definition |
+| --- | --- |
+| **ROUND** | Limit records to a certain number of decimal places |
+| **CONVERT** | Change the unit of measurement of a value in data |
+| **JOIN** | Combine rows from two or more tables based on a related column |
+| **LIMIT** | Return a certain number of records |
+| **CONCAT** | Add strings together to create new text strings that can be used as unique keys |
+| **LEN**| Return the length of a string of text by counting the number of characters it contains |
+| **LEFT**| Return a set number of characters from the left side of a text string |
+| **FIND**| Locate specific characters in a string |
+| **RIGHT**| Return a set number of characters from the right side of a text string |
+
+---
+
+## When you get stuck
+
+- Reach out to your peers and mentors for help, as they can offer different perspectives and solutions. They may even have encountered and solved a similar problem before.
+- Online resources are incredibly valuable and a simple search can lead you to forums such as [Stack Overflow](https://stackoverflow.com/) and tutorials with solutions to common problems. There's a combination of best practices that you can use to guide your search for answers online:
+  - Practice thinking and problem-solving skills
+  - Use the right data analytics terms and analysis tools
+  - Use your basic knowledge of analysis tools
 
 ---
 
