@@ -145,7 +145,7 @@ Here is an example of stock prices in wide format:
 
 ![Wide Data](/images/data-wide.png 'Wide Data')
 
-An example dataset with data in wide format can be examined in [Google Sheets](https://docs.google.com/spreadsheets/d/1Ur1TiJn3KWtNgcnckxYXGt2ZPeOvduqCbP15eQrvhgQ/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m01-population-lac-data-wide.xlsx).
+An example dataset with data in wide format can be examined in [Google Sheets](https://docs.google.com/spreadsheets/d/1Ur1TiJn3KWtNgcnckxYXGt2ZPeOvduqCbP15eQrvhgQ/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m01-wide-long-data/c03m01-population-lac-data-wide.xlsx).
 
 :arrow_forward: ***Long data*** is preferred when:
 
@@ -156,7 +156,7 @@ Here is an example of stock prices in long format:
 
 ![Long Data](/images/data-long.png 'Long Data')
 
-The same dataset used above, can be examined in long format in [Google Sheets](https://docs.google.com/spreadsheets/d/1Q7KbJrY7VQhOC4eiOOXcljPEpl7HVXaQu5sSOEiPv_4/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m01-population-lac-data-long.xlsx).
+The same dataset used above, can be examined in long format in [Google Sheets](https://docs.google.com/spreadsheets/d/1Q7KbJrY7VQhOC4eiOOXcljPEpl7HVXaQu5sSOEiPv_4/edit?usp=sharing) or the [Excel File](/activities/spreadsheets/c03m01-wide-long-data/c03m01-population-lac-data-long.xlsx).
 
 ---
 
