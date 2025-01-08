@@ -5,7 +5,8 @@
 1. [What is data aggregation?](#what-is-data-aggregation)
 2. [Data preparation with VLOOKUP](#data-preparation-with-vlookup)
 3. [Activity: Use VLOOKUP to perform a task](#activity-use-vlookup-to-perform-a-task)
-4. [Module 3 Glossary](#module-3-glossary)
+4. [Activity: Explore how JOINs work](#activity-explore-how-joins-work)
+5. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -36,6 +37,12 @@ In order for VLOOKUP work correctly, your data needs to be formatted correctly a
 ## Activity: Use VLOOKUP to perform a task
 
 The purpose of this activity is to practice cleaning data and using VLOOKUP to consolidate information between two spreadsheet tabs. The analysis is completed by creating a pivot table. My analysis of the activity **Calculate weekly pay for employees** can be viewed [here](/activities/spreadsheets/c05m03-vlookup-practice/c05m03-weekly-pay-analysis.md).
+
+---
+
+## Activity: Explore how JOINs work
+
+In this activity, I am exploring the four main types of SQL joins and how they combine data from multiple tables based on a primary key from one table and a foreign key from another table. My analysis of the activity **Explore how JOINs work** can be viewed [here](/activities/sql/c05m03-explore-joins/c05m03-joins-analysis.ipynb).
 
 ---
 
