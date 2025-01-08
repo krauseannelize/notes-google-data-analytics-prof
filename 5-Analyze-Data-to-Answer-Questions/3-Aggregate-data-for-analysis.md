@@ -8,7 +8,8 @@
 4. [Activity: Explore how JOINs work](#activity-explore-how-joins-work)
 5. [Aliasing in SQL](#aliasing-in-sql)
 6. [SQL JOINs](#sql-joins)
-7. [Module 3 Glossary](#module-3-glossary)
+7. [Activity: Queries for JOINs](#activity-queries-for-joins)
+8. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -94,6 +95,12 @@ The four main types of SQL joins are and work function as follows:
 | **LEFT** | Returns all records from the left/first table and only records from the right/second table that match |
 | **RIGHT** | Returns all records from the right/second table and only records from the left/first table that match |
 | **OUTER** | Returns all records from the left/first table and all records from the right/second table |
+
+---
+
+## Activity: Queries for JOINs
+
+The purpose of this activity if to practice writing queries that join multiple tables and using aliasing to make queries more readable. My analysis of the activity **Queries for JOINs** can be viewed [here]().
 
 ---
 
