@@ -6,7 +6,9 @@
 2. [Data preparation with VLOOKUP](#data-preparation-with-vlookup)
 3. [Activity: Use VLOOKUP to perform a task](#activity-use-vlookup-to-perform-a-task)
 4. [Activity: Explore how JOINs work](#activity-explore-how-joins-work)
-5. [Module 3 Glossary](#module-3-glossary)
+5. [Aliasing in SQL](#aliasing-in-sql)
+6. [SQL JOINs](#sql-joins)
+7. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -43,6 +45,55 @@ The purpose of this activity is to practice cleaning data and using VLOOKUP to c
 ## Activity: Explore how JOINs work
 
 In this activity, I am exploring the four main types of SQL joins and how they combine data from multiple tables based on a primary key from one table and a foreign key from another table. My analysis of the activity **Explore how JOINs work** can be viewed [here](/activities/sql/c05m03-explore-joins/c05m03-joins-analysis.ipynb).
+
+---
+
+## Aliasing in SQL
+
+***Aliasing*** in SQL allows you to give tables or columns a temporary, more readable name within a query. Aliases are implemented by making use of the AS command and the basic syntax is:
+
+```sql
+SELECT column_name AS column_alias
+FROM table_name AS table_alias;
+```
+
+Some SQL databases do not support the AS command and in these cases you can leave it using this alternate syntax:
+
+```sql
+SELECT column_name column_alias
+FROM table_name table_alias;
+```
+
+Queries will run with or without using the AS command for aliasing, but using AS makes your queries more readable.
+
+---
+
+## SQL JOINs
+
+A ***JOIN*** combines tables by using a primary or foreign key to identify relationships and aligning corresponding values across tables. **Primary keys** reference columns in which each value is unique to that table, and **foreign keys** are values in a table that match primary key values in another table thus creating a link between the two tables. The general JOIN syntax is:
+
+```sql
+SELECT
+    table_one.column_name
+    table_two.column_name
+FROM
+    table_one
+JOIN
+    table_two
+ON table_one.column_name = table_two.column_name
+-- primary_key = foreign_key
+```
+
+The four main types of SQL joins are and work function as follows:
+
+![SQL JOINs](/images/sql-joins.png 'SQL JOINs')
+
+| JOIN | Definition |
+| --- | --- |
+| **INNER** | Returns records from the left/first table that match with values in the right/second table |
+| **LEFT** | Returns all records from the left/first table and only records from the right/second table that match |
+| **RIGHT** | Returns all records from the right/second table and only records from the left/first table that match |
+| **OUTER** | Returns all records from the left/first table and all records from the right/second table |
 
 ---
 
