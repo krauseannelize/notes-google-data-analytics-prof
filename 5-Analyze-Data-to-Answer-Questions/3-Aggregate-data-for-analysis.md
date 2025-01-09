@@ -9,7 +9,8 @@
 5. [Aliasing in SQL](#aliasing-in-sql)
 6. [SQL JOINs](#sql-joins)
 7. [Activity: Queries for JOINs](#activity-queries-for-joins)
-8. [Module 3 Glossary](#module-3-glossary)
+8. [Activity: COUNT and COUNT DISTINCT](#activity-count-and-count-distinct)
+9. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -101,6 +102,12 @@ The four main types of SQL joins are and work function as follows:
 ## Activity: Queries for JOINs
 
 The purpose of this activity if to practice writing queries that join multiple tables and using aliasing to make queries more readable. My analysis of the activity **Queries for JOINs** can be viewed [here](/activities/sql/c05m03-queries-for-joins/c05m03-queries-for-joins-activity.ipynb).
+
+---
+
+## Activity: COUNT and COUNT DISTINCT
+
+In this activity I explore COUNT and COUNT DISTINCT to understand the difference between these functions and how to use them to determine the amount of things. My analysis of the activity **COUNT and COUNT DISTINCT** can be viewed [here](/activities/sql/c05m03-count-distinct/c05m03-count-distinct-activity.ipynb).
 
 ---
 
