@@ -100,7 +100,7 @@ The four main types of SQL joins are and work function as follows:
 
 ## Activity: Queries for JOINs
 
-The purpose of this activity if to practice writing queries that join multiple tables and using aliasing to make queries more readable. My analysis of the activity **Queries for JOINs** can be viewed [here]().
+The purpose of this activity if to practice writing queries that join multiple tables and using aliasing to make queries more readable. My analysis of the activity **Queries for JOINs** can be viewed [here](/activities/sql/c05m03-queries-for-joins/c05m03-queries-for-joins-activity.ipynb).
 
 ---
 
