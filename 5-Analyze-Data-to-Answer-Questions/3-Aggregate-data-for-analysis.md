@@ -11,7 +11,8 @@
 7. [Activity: Queries for JOINs](#activity-queries-for-joins)
 8. [Activity: COUNT and COUNT DISTINCT](#activity-count-and-count-distinct)
 9. [Activity: Queries within queries](#activity-queries-within-queries)
-10. [Module 3 Glossary](#module-3-glossary)
+10. [Activity: Use subqueries to refine data](#activity-use-subqueries-to-refine-data)
+11. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -108,13 +109,19 @@ The purpose of this activity is to practice writing queries that join multiple t
 
 ## Activity: COUNT and COUNT DISTINCT
 
-In this activity I explore COUNT and COUNT DISTINCT to understand the difference between these functions and how to use them to determine the amount of things. My analysis of the activity **COUNT and COUNT DISTINCT** can be viewed [here](/activities/sql/c05m03-count-distinct/c05m03-count-distinct-activity.ipynb).
+In this activity, I explore COUNT and COUNT DISTINCT to understand the difference between these functions and how to use them to determine the amount of things. My analysis of the activity **COUNT and COUNT DISTINCT** can be viewed [here](/activities/sql/c05m03-count-distinct/c05m03-count-distinct-activity.ipynb).
 
 ---
 
 ## Activity: Queries within queries
 
 The purpose of this activity is to introduce another SQL query: subqueries. A ***subquery*** is a SQL query that is nested inside of a larger query. They let you combine logic from different queries, making your code more efficient and readable.My analysis of the activity **Queries within queries** can be viewed [here](/activities/sql/c05m03-queries-within-queries/c05m03-queries-within-queries-activity.ipynb).
+
+---
+
+## Activity: Use subqueries to refine data
+
+In this activity, I will practice using SELECT statements with FROM, WHERE, and GROUP BY clauses to build subqueries and analyzing the query’s results. My analysis of the activity **Use subqueries to refine data** can be viewed [here](/activities/sql/c05m03-subqueries-to-refine/c05m03-subqueries-to-refine-activity.ipynb).
 
 ---
 
