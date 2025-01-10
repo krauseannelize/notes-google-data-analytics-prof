@@ -99,6 +99,7 @@
         "tripduration",
         "nbformat",
         "timesheet",
-        "payrate"
+        "payrate",
+        "citi"
     ]
 }
