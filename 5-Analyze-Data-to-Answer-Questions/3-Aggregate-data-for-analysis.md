@@ -13,7 +13,9 @@
 9. [Activity: Queries within queries](#activity-queries-within-queries)
 10. [Activity: Use subqueries to refine data](#activity-use-subqueries-to-refine-data)
 11. [Activity: Use subqueries to aggregate data](#activity-use-subqueries-to-aggregate-data)
-12. [Module 3 Glossary](#module-3-glossary)
+12. [Review subqueries](#review-subqueries)
+13. [Activity: Use subqueries](#activity-use-subqueries)
+14. [Module 3 Glossary](#module-3-glossary)
 
 ---
 
@@ -129,6 +131,28 @@ In this activity, I will practice using SELECT statements with FROM, WHERE, and 
 ## Activity: Use subqueries to aggregate data
 
 The objective of this query is practice data aggregation with SQL joins combined with subqueries and using a CASE statement to add a classification column. My analysis of the activity **Use subqueries to aggregate data** can be viewed [here](/activities/sql/c05m03-subqueries-to-aggregate/c05m03-subqueries-to-aggregate-activity.ipynb).
+
+---
+
+## Review subqueries
+
+- Subqueries are usually nested in the SELECT, FROM, WHERE and/or HAVING clauses.
+- Subqueries can also be nested inside INSERT, UPDATE or DELETE statements.
+- The statement containing a subquery is an outer query or outer select. Subqueries are nested within these statements, called inner queries or inner select.
+- The innermost query executes first. Its parent query executes last so it can use the results returned by inner queries.
+- Parentheses are used to mark the beginning and end of a subquery.
+- Comparison operators such as >, <, or = help you compare data in subqueries and a subquery must be placed on the right side of the comparison operator.
+- Subqueries that return more than one row can be handled using:
+  - Multiple value operators: such as IN, ANY, or ALL
+  - JOIN clauses: to combine data from the subquery with the main query.
+- Subqueries can’t be nested in SET queries because it is used with UPDATE to adjust specific columns and values in a table.
+- When used directly within the SELECT clause of the containing query, a subquery must typically return a single column. If a subquery needs to return multiple columns, it often needs to be nested within another subquery that isolates a single column for the outer SELECT clause.
+
+--
+
+## Activity: Use subqueries
+
+Sometimes it is really useful to analyze a small subset of data that is contained within a much larger dataset. In this activity, I utilized subqueries to effectively isolate and analyze a smaller subset. My analysis of the activity can be viewed [here](/activities/sql/c05m03-use-subqueries/c05m03-use-subqueries-activity.ipynb).
 
 ---
 
