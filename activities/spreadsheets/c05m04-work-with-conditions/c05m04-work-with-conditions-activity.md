@@ -52,10 +52,10 @@ I believe the stakeholders would in future want to ask the same questions about 
 
 I now have a summary table that answers all the stakeholders questions regarding the state of NY as shown below:
 
-![Summary table NY](c05m04-summary-ny.png 'Summary table NY')
+![Summary table NY](/activities/spreadsheets/c05m04-work-with-conditions/c05m04-summary-ny.png 'Summary table NY')
 
 To illustrate the dynamic nature of the summary table, I also include the information for the state of CA below:
 
-![Summary table CA](c05m04-summary-ca.png 'Summary table CA')
+![Summary table CA](/activities/spreadsheets/c05m04-work-with-conditions/c05m04-summary-ca.png 'Summary table CA')
 
 The spreadsheet with the summary table can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1mwT5HkZdKp1kLfVBjjxxdnVa9czs7HZ6Wk3S9l26_uU/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c05m04-work-with-conditions/c05m04-work-with-conditions-activity.xlsx).
