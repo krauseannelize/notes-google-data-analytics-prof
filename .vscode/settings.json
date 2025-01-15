@@ -102,6 +102,13 @@
         "payrate",
         "citi",
         "unconv",
-        "SUMPRODUCT"
+        "SUMPRODUCT",
+        "SUMIFS",
+        "COUNTIFS",
+        "AVERAGEIF",
+        "AVERAGEIFS",
+        "MAXIFS",
+        "MINIFS",
+        "ISNA"
     ]
 }

@@ -2,7 +2,29 @@
 
 ## Table of contents
 
-1. [Module 4 Glossary](#module-4-glossary)
+1. [Conditional spreadsheet functions](#conditional-spreadsheet-functions)
+2. [Activity: Work with conditions](#activity-work-with-conditions)
+3. [Module 4 Glossary](#module-4-glossary)
+
+---
+
+## Conditional spreadsheet functions
+
+Conditional functions are functions that perform a specific task, but only on cells that satisfy some defined criteria. They are usually identified with an IF suffix to search for a single condition or an IFS suffix to search for multiple conditions. They are frequently used when constructing more complex queries that cannot be accomplished using more basic functions.
+
+| Basic function | Conditional version |
+| --- | --- |
+| COUNT | COUNTIF/COUNTIFS |
+| SUM | SUMIF/SUMIFS |
+| AVERAGE | AVERAGEIF/AVERAGEIFS |
+| MAX | MAXIFS |
+| MIN | MINIFS |
+
+---
+
+## Activity: Work with conditions
+
+In this activity, I practice using conditional spreadsheet functions to understand when and why they are appropriate. This enables me to do more complex analysis with spreadsheets, especially if used in conjunction with data validation to create a dynamic summary table.  My analysis of the activity can be viewed [here](/activities/spreadsheets/c05m04-work-with-conditions/c05m04-work-with-conditions-activity.md).
 
 ---
 
