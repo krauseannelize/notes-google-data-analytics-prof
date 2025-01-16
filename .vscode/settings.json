@@ -101,6 +101,14 @@
         "timesheet",
         "payrate",
         "citi",
-        "unconv"
+        "unconv",
+        "SUMPRODUCT",
+        "SUMIFS",
+        "COUNTIFS",
+        "AVERAGEIF",
+        "AVERAGEIFS",
+        "MAXIFS",
+        "MINIFS",
+        "ISNA"
     ]
 }
