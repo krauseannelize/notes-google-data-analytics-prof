@@ -9,7 +9,8 @@
 5. [Activity: Embed simple calculations with SQL](#activity-embed-simple-calculations-with-sql)
 6. [Activity: Calculations with SQL](#activity-calculations-with-sql)
 7. [Data validation](#data-validation)
-8. [Module 4 Glossary](#module-4-glossary)
+8. [Activity: From spreadsheets to BigQuery](#activity-from-spreadsheets-to-bigquery)
+9. [Module 4 Glossary](#module-4-glossary)
 
 ---
 
@@ -89,6 +90,12 @@ In this activity, I practice using the four basic arithmetic operations to perfo
 | **Data consistency** | Check that the data makes sense in the context of other related data | Data values for product shipping dates can’t be earlier than product production dates | Data might be consistent but still incorrect or inaccurate. A shipping date could be later than a production date and still be wrong |
 | **Data structure** | Check that the data follows or conforms to a set structure | Web pages must follow a prescribed structure to be displayed properly | A data structure might be correct with the data still incorrect or inaccurate. Content on a web page could be displayed properly and still contain the wrong information |
 | **Code validation** | Check that the application code systematically performs any of the previously mentioned validations during user data input | Common problems discovered during code validation include: more than one data type allowed, data range checking not done, or ending of text strings not well defined | Code validation might not validate all possible variations with data input |
+
+---
+
+## Activity: From spreadsheets to BigQuery
+
+In this activity, I will practice combining tools to successfully analyze data. I will use spreadsheets to clean my data before importing it into SQL for analysis. My analysis of the activity can be viewed [here](/activities/combined/c05m04-spreadsheets-to-bigquery/c05m04-sheets-bigquery-activity.ipynb).
 
 ---
 
