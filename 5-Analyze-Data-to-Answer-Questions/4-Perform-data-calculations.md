@@ -7,7 +7,8 @@
 3. [Composite functions](#composite-functions)
 4. [Activity: Explore movie data with pivot tables](#activity-explore-movie-data-with-pivot-tables)
 5. [Activity: Embed simple calculations with SQL](#activity-embed-simple-calculations-with-sql)
-6. [Module 4 Glossary](#module-4-glossary)
+6. [Activity: Calculations with SQL](#activity-calculations-with-sql)
+7. [Module 4 Glossary](#module-4-glossary)
 
 ---
 
@@ -66,6 +67,12 @@ In this activity, I navigate an example workplace scenario and will create a piv
 ## Activity: Embed simple calculations with SQL
 
 The goal of this activity is to find the total number of bags of avocados sold on every day at each location using simple calculations with SQL. My analysis of the activity **Embed simple calculations with SQL** can be viewed [here](/activities/sql/c05m04-simple-calculations/c05m04-simple-calculations-activity.ipynb).
+
+---
+
+## Activity: Calculations with SQL
+
+In this activity, I practice using the four basic arithmetic operations to perform addition, subtraction, multiplication, and division in BigQuery. Combining multiple arithmetic operations in a single query, will enable me to quickly and efficiently discover significant patterns in datasets. My analysis of the activity **Calculations with SQL** can be viewed [here](/activities/sql/c05m04-calculations-with-sql/c05m04-calculations-with-sql-activity.ipynb).
 
 ---
 
