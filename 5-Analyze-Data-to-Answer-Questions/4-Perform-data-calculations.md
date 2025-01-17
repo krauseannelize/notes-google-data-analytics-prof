@@ -5,7 +5,9 @@
 1. [Conditional spreadsheet functions](#conditional-spreadsheet-functions)
 2. [Activity: Work with conditions](#activity-work-with-conditions)
 3. [Composite functions](#composite-functions)
-4. [Module 4 Glossary](#module-4-glossary)
+4. [Activity: Explore movie data with pivot tables](#activity-explore-movie-data-with-pivot-tables)
+5. [Activity: Embed simple calculations with SQL](#activity-embed-simple-calculations-with-sql)
+6. [Module 4 Glossary](#module-4-glossary)
 
 ---
 
@@ -50,6 +52,20 @@ This illustrates how you can use a composite function to perform complex calcula
 ![Total revenue and profit](/activities/spreadsheets/c05m04-sumproduct/c05m04-revenue-profit.png 'Total revenue and profit')
 
 The functions themselves can be viewed in [Google Sheets](https://docs.google.com/spreadsheets/d/1gzoF22fyVF660-UmWb3PfzXt1BlhIp6cBhpQn3CNVik/edit?usp=sharing) or the [Excel file](/activities/spreadsheets/c05m04-sumproduct/c05m04-sumproduct-activity.xlsx).
+
+---
+
+## Activity: Explore movie data with pivot tables
+
+A **pivot table** is a tool used to sort, reorganize, group, count, total, or average data in spreadsheets. Pivot tables allow you to compare metrics, perform calculations, and generate reports for large datasets without altering the original dataset. It has 4 basic parts: Rows, Columns, Values, and Filters.
+
+In this activity, I navigate an example workplace scenario and will create a pivot table to answer stakeholder questions and visualize data. My analysis of the activity **Explore movie data with pivot tables** can be viewed [here](/activities/spreadsheets/c05m04-pivot-tables/c05m04-pivot-tables-activity.md).
+
+---
+
+## Activity: Embed simple calculations with SQL
+
+The goal of this activity is to find the total number of bags of avocados sold on every day at each location using simple calculations with SQL. My analysis of the activity **Embed simple calculations with SQL** can be viewed [here](/activities/sql/c05m04-simple-calculations/c05m04-simple-calculations-activity.ipynb).
 
 ---
 
