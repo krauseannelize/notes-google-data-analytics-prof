@@ -109,6 +109,7 @@
         "AVERAGEIFS",
         "MAXIFS",
         "MINIFS",
-        "ISNA"
+        "ISNA",
+        "Wyckoff"
     ]
 }
