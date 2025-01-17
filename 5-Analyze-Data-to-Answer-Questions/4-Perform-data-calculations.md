@@ -8,7 +8,8 @@
 4. [Activity: Explore movie data with pivot tables](#activity-explore-movie-data-with-pivot-tables)
 5. [Activity: Embed simple calculations with SQL](#activity-embed-simple-calculations-with-sql)
 6. [Activity: Calculations with SQL](#activity-calculations-with-sql)
-7. [Module 4 Glossary](#module-4-glossary)
+7. [Data validation](#data-validation)
+8. [Module 4 Glossary](#module-4-glossary)
 
 ---
 
@@ -73,6 +74,21 @@ The goal of this activity is to find the total number of bags of avocados sold o
 ## Activity: Calculations with SQL
 
 In this activity, I practice using the four basic arithmetic operations to perform addition, subtraction, multiplication, and division in BigQuery. Combining multiple arithmetic operations in a single query, will enable me to quickly and efficiently discover significant patterns in datasets. My analysis of the activity **Calculations with SQL** can be viewed [here](/activities/sql/c05m04-calculations-with-sql/c05m04-calculations-with-sql-activity.ipynb).
+
+---
+
+## Data validation
+
+**Data validation** is the process of checking and rechecking your data to make sure it is complete, accurate, secure, and consistent. It helps to ensure the integrity of data and assures you that the data you are using is clean. The following list outlines six types of data validation:
+
+| Type | Purpose | Example | Limitations |
+| --- | --- | --- | --- |
+| **Data type** | Check that the data matches the data type defined for a field | Data values for school grades 1-12 must be a numeric data type | The data value 13 would pass the data type validation but would be an unacceptable value. For this case, data range validation is also needed |
+| **Data range** | Check that the data falls within an acceptable range of values defined for the field | Data values for school grades should be values between 1 and 12 | The data value 11.5 would be in the data range and would also pass as a numeric data type. But, it would be unacceptable because there aren't half grades. For this case, data constraint validation is also needed |
+| **Data constraints** | Check that the data meets certain conditions or criteria for a field. This includes the type of data entered as well as other attributes of the field, such as number of characters | Content constraint: Data values for school grades 1-12 must be whole numbers | The data value 13 is a whole number and would pass the content constraint validation. But, it would be unacceptable since 13 isn’t a recognized school grade. For this case, data range validation is also needed |
+| **Data consistency** | Check that the data makes sense in the context of other related data | Data values for product shipping dates can’t be earlier than product production dates | Data might be consistent but still incorrect or inaccurate. A shipping date could be later than a production date and still be wrong |
+| **Data structure** | Check that the data follows or conforms to a set structure | Web pages must follow a prescribed structure to be displayed properly | A data structure might be correct with the data still incorrect or inaccurate. Content on a web page could be displayed properly and still contain the wrong information |
+| **Code validation** | Check that the application code systematically performs any of the previously mentioned validations during user data input | Common problems discovered during code validation include: more than one data type allowed, data range checking not done, or ending of text strings not well defined | Code validation might not validate all possible variations with data input |
 
 ---
 
