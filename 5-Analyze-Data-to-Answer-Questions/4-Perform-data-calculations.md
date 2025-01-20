@@ -10,7 +10,9 @@
 6. [Activity: Calculations with SQL](#activity-calculations-with-sql)
 7. [Data validation](#data-validation)
 8. [Activity: From spreadsheets to BigQuery](#activity-from-spreadsheets-to-bigquery)
-9. [Module 4 Glossary](#module-4-glossary)
+9. [SQL temporary tables](#sql-temporary-tables)
+10. [Intermediate guide to SQL](#intermediate-guide-to-sql)
+11. [Module 4 Glossary](#module-4-glossary)
 
 ---
 
@@ -80,7 +82,7 @@ In this activity, I practice using the four basic arithmetic operations to perfo
 
 ## Data validation
 
-**Data validation** is the process of checking and rechecking your data to make sure it is complete, accurate, secure, and consistent. It helps to ensure the integrity of data and assures you that the data you are using is clean. The following list outlines six types of data validation:
+***Data validation*** is the process of checking and rechecking your data to make sure it is complete, accurate, secure, and consistent. It helps to ensure the integrity of data and assures you that the data you are using is clean. The following list outlines six types of data validation:
 
 | Type | Purpose | Example | Limitations |
 | --- | --- | --- | --- |
@@ -96,6 +98,71 @@ In this activity, I practice using the four basic arithmetic operations to perfo
 ## Activity: From spreadsheets to BigQuery
 
 In this activity, I will practice combining tools to successfully analyze data. I will use spreadsheets to clean my data before importing it into SQL for analysis. My analysis of the activity can be viewed [here](/activities/combined/c05m04-spreadsheets-to-bigquery/c05m04-sheets-bigquery-activity.ipynb).
+
+---
+
+## SQL temporary tables
+
+A ***temporary table*** is a database table that is created and exists temporarily on a database server:
+
+- They are automatically deleted from the database when you end your SQL session.
+- They can be used as a holding area for storing values if you are making a series of calculations. This is sometimes referred to as pre-processing of the data.
+- They can collect the results of multiple, separate queries. This is sometimes referred to as data staging. Staging is useful if you need to perform a query on the collected data or merge the collected data.
+- They can store a filtered subset of the database. You don’t need to select and filter the data each time you work with it. In addition, using fewer SQL commands helps to keep your data clean.
+
+There are different methods to create temporary tables using SQL commands:
+
+### WITH statement
+
+Temporary table that the database is responsible for managing.
+
+```sql
+WITH temp_table_name AS (
+  SELECT *
+  FROM table_being_queried
+  WHERE condition
+)
+```
+
+### SELECT INTO statement
+
+Temporary table that the database is responsible for managing. This method is not supported in BigQuery, but most other versions do.
+
+```sql
+SELECT *
+INTO temp_table_name
+FROM table_being_queries
+WHERE condition
+```
+
+### CREATE TABLE statement
+
+Actual temporary table created that must be managed by user.
+
+```sql
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+)
+```
+
+When you are done, you have to remove the table again:
+
+```sql
+DROP TABLE table_name
+```
+
+Dropping a temporary table is different from deleting a temporary table as dropping not only removes the information contained in the rows, but also the table variables (columns). Deleting a temporary table removes the rows, but not the columns.
+
+:warning: BigQuery uses CREATE TEMP TABLE instead of CREATE TABLE, but the general syntax is the same.
+
+---
+
+## Intermediate guide to SQL
+
+This in-depth guide will give you a more detailed introduction to some of the SQL functions you have already learned, and give you some new tools to work with: [Your Intermediate Guide to SQL](/documents/sql-intermediate-guide.pdf).
 
 ---
 
