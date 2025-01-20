@@ -11,8 +11,9 @@
 7. [Data validation](#data-validation)
 8. [Activity: From spreadsheets to BigQuery](#activity-from-spreadsheets-to-bigquery)
 9. [SQL temporary tables](#sql-temporary-tables)
-10. [Intermediate guide to SQL](#intermediate-guide-to-sql)
-11. [Module 4 Glossary](#module-4-glossary)
+10. [Activity: Create temporary tables](#activity-create-temporary-tables)
+11. [Intermediate guide to SQL](#intermediate-guide-to-sql)
+12. [Module 4 Glossary](#module-4-glossary)
 
 ---
 
@@ -157,6 +158,12 @@ DROP TABLE table_name
 Dropping a temporary table is different from deleting a temporary table as dropping not only removes the information contained in the rows, but also the table variables (columns). Deleting a temporary table removes the rows, but not the columns.
 
 :warning: BigQuery uses CREATE TEMP TABLE instead of CREATE TABLE, but the general syntax is the same.
+
+---
+
+## Activity: Create temporary tables
+
+The purpose of this activity is to use temporary tables to store subsets of data for a certain period of time to enable me to run calculations in temporary tables without making modifications to the primary tables in the database. My analysis of the activity can be viewed [here](/activities/sql/c05m04-temporary-table/c05m04-temporary-table-activity.ipynb).
 
 ---
 
