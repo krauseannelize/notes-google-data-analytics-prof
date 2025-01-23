@@ -110,6 +110,7 @@
         "MAXIFS",
         "MINIFS",
         "ISNA",
-        "Wyckoff"
+        "Wyckoff",
+        "bikeshare"
     ]
 }
