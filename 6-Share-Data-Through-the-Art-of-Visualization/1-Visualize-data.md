@@ -2,9 +2,62 @@
 
 ## Table of contents
 
-1. [Module 1 Glossary](#module-1-glossary)
+1. [Why data visualization matters](#why-data-visualization-matters)
+2. [Effective data visualiations](#effective-data-visualizations)
+   - [Frameworks](#frameworks)
+   - [Pre-attentive attributes](#pre-attentive-attributes)
+3. [Module 1 Glossary](#module-1-glossary)
 
 ---
+
+## Why data visualization matters
+
+***Data visualization*** is the graphic representation and presentation of data. It is crucial for presenting data insights in an understandable and compelling way. A good data visualization should be understandable within *five seconds*, allowing the audience to quickly grasp the message.
+
+---
+
+## Effective data visualizations
+
+### Frameworks
+
+Frameworks help organize your thoughts about data visualization, give you a useful checklist to reference as you plan and evaluate your data visualization, and are intended to improve the quality of your visuals.
+
+#### The McCandless methods
+
+[The McCandless method](https://www.informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/) lists four elements of good data visualization:
+
+- **Information:** the data with which you’re working
+- **Story:** a clear and compelling narrative or concept
+- **Goal:** a specific objective or function for the visual
+- **Visual form:** an effective use of metaphor or visual expression
+
+An effective data visualizations combine all these elements to tell a story, leading viewers to the same conclusions drawn from the data analysis.
+
+![McCandless method](/images/viz-framework-mccandless.png 'McCandless method')
+
+#### Kaiser Fung's Junk Charts trifecta checkup
+
+[Kaiser Fung's Junk Charts Trifecta checkup](https://junkcharts.typepad.com/junk_charts/junk-charts-trifecta-checkup-the-definitive-guide.html) encourages critical evaluation of visualizations by asking three questions:
+
+- What is the practical question?
+- What does the data say?
+- What does the visual say?
+
+![Junk Charts Trifecta checkup](/images/viz-framework-junk-chart.png 'Junk Charts Trifecta checkup')
+
+### Pre-attentive attributes
+
+Pre-attentive attributes are the elements of a data visualization that people recognize automatically and without conscious effort. The basic building blocks that make visuals immediately understandable are:
+
+- **Marks:** Basic visual objects such as points, lines, and shapes. Marks can be broken down into 4 qualities:
+  - *Position* | Where is a specific mark in space relative to a scale or to other marks?
+  - *Size* | How big, small, long, or tall is a mark?
+  - *Shape* | Does the shape of a specific object communicate something about it?
+  - *Color* | What color is a mark?
+- **Channels:** Visual aspects or variables that represent characteristics of the data in a visualization. It’s important to understand that channels vary in terms of how effective they are at communicating data based on 3 elements:
+  - *Accuracy* | Are the channels helpful in accurately estimating the values being represented?
+  - *Popout* | How easy is it to distinguish certain values from others?
+  - *Grouping* | How effective is a channel at communicating groups that exist in the data?
 
 ---
 
