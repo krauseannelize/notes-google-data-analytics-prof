@@ -3,7 +3,7 @@
 ## Table of contents
 
 1. [Why data visualization matters](#why-data-visualization-matters)
-2. [Effective data visualiations](#effective-data-visualizations)
+2. [Effective data visualizations](#effective-data-visualizations)
    - [Frameworks](#frameworks)
    - [Pre-attentive attributes](#pre-attentive-attributes)
 3. [Module 1 Glossary](#module-1-glossary)

@@ -112,6 +112,9 @@
         "ISNA",
         "Wyckoff",
         "bikeshare",
-        "Scatterplot"
+        "Scatterplot",
+        "Candless",
+        "Fung",
+        "Popout"
     ]
 }
