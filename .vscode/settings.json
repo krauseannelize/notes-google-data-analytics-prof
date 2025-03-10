@@ -111,6 +111,7 @@
         "MINIFS",
         "ISNA",
         "Wyckoff",
-        "bikeshare"
+        "bikeshare",
+        "Scatterplot"
     ]
 }
