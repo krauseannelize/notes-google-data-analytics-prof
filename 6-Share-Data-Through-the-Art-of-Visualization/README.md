@@ -1,4 +1,4 @@
-# AShare Data Through the Art of Visualization
+# Share Data Through the Art of Visualization
 
 | Learn about design thinking, created visualizations and dashboards in Tableau, and worked on your communication skills to present engaging data-driven stories |
 | --- |
