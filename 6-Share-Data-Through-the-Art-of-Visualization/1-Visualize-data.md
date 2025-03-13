@@ -6,7 +6,9 @@
 2. [Effective data visualizations](#effective-data-visualizations)
    - [Frameworks](#frameworks)
    - [Pre-attentive attributes](#pre-attentive-attributes)
-3. [Module 1 Glossary](#module-1-glossary)
+3. [Connect images with data](#connect-images-with-data)
+4. [Differentiate between correlation and causation](#correlation-and-causation)
+5. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -49,15 +51,50 @@ An effective data visualizations combine all these elements to tell a story, lea
 
 Pre-attentive attributes are the elements of a data visualization that people recognize automatically and without conscious effort. The basic building blocks that make visuals immediately understandable are:
 
-- **Marks:** Basic visual objects such as points, lines, and shapes. Marks can be broken down into 4 qualities:
-  - *Position* | Where is a specific mark in space relative to a scale or to other marks?
-  - *Size* | How big, small, long, or tall is a mark?
-  - *Shape* | Does the shape of a specific object communicate something about it?
-  - *Color* | What color is a mark?
-- **Channels:** Visual aspects or variables that represent characteristics of the data in a visualization. It’s important to understand that channels vary in terms of how effective they are at communicating data based on 3 elements:
-  - *Accuracy* | Are the channels helpful in accurately estimating the values being represented?
-  - *Popout* | How easy is it to distinguish certain values from others?
-  - *Grouping* | How effective is a channel at communicating groups that exist in the data?
+| MARKS: Basic visual objects such as points, lines, and shapes. Marks can be broken down into 4 qualities: |
+| --- |
+- *Position* | Where is a specific mark in space relative to a scale or to other marks?
+- *Size* | How big, small, long, or tall is a mark?
+- *Shape* | Does the shape of a specific object communicate something about it?
+- *Color* | What color is a mark?
+
+| CHANNELS: Visual aspects or variables that represent characteristics of the data in a visualization. It’s important to understand that channels vary in terms of how effective they are at communicating data based on 3 elements: |
+| ---|
+- *Accuracy* | Are the channels helpful in accurately estimating the values being represented?
+- *Popout* | How easy is it to distinguish certain values from others?
+- *Grouping* | How effective is a channel at communicating groups that exist in the data?
+
+---
+
+## Connect images with data
+
+Choosing the right visualization is crucial for effectively communicating your analysis. Different visualizations are better suited for specific types of data and messages, such as:
+
+| Visualization | Function |
+| --- | --- |
+| **Bar graphs** | Uses size contrast to compare two or more values |
+| **Line graphs** | Helps understand shifts or changes in data over time |
+| **Pie charts** | Shows how much each part of something makes up the whole |
+| **Maps** | Organizes data geographically |
+| **Time series charts** | Track change over time, e.g. daily, weekly, or monthly |
+| **Histograms** | Data distribution over a set range |
+| **Correlation charts** | Examine relationships between data points |
+
+The [data visualization catalogue](https://datavizcatalogue.com/#google_vignette) features a range of different diagrams, charts, and graphs to help you find the best fit for your project. 
+
+---
+
+## Differentiate between correlation and causation
+
+***Correlation*** is the measure of the degree to which two variables move in relationship to each other. Change in one variable tends to change in the other.
+
+***Causation*** refers to the idea that an event leads to a specific outcome. Change in on variable directly cause change in the other.
+
+For example, early mornings may cause people to drink more coffee and be in more car accidents. However, even though coffee drinking and car accidents might be correlated (meaning they tend to happen together), drinking coffee doesn't cause car accidents.
+
+![Correlation vs Causation](/images/correlation-vs-causation.png 'Correlation vs Causation')
+
+:warning: **Correlation doesn’t always imply causation, but causation always implies correlation.**
 
 ---
 
