@@ -8,7 +8,9 @@
    - [Pre-attentive attributes](#pre-attentive-attributes)
 3. [Connect images with data](#connect-images-with-data)
 4. [Differentiate between correlation and causation](#correlation-and-causation)
-5. [Module 1 Glossary](#module-1-glossary)
+5. [Evaluate patterns in data](#evaluate-patterns-in-data)
+6. [Visualization decision tree](#visualization-decision-tree)
+7. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -72,13 +74,15 @@ Choosing the right visualization is crucial for effectively communicating your a
 
 | Visualization | Function |
 | --- | --- |
-| **Bar graphs** | Uses size contrast to compare two or more values |
-| **Line graphs** | Helps understand shifts or changes in data over time |
-| **Pie charts** | Shows how much each part of something makes up the whole |
-| **Maps** | Organizes data geographically |
-| **Time series charts** | Track change over time, e.g. daily, weekly, or monthly |
-| **Histograms** | Data distribution over a set range |
-| **Correlation charts** | Examine relationships between data points |
+| **Bar/Column graphs** | Uses rectangular bars (horizontal or vertical) to compare values across different categories |
+| **Pie charts** | A circular graph showing proportions of a whole, where each slice represents a category |
+| **Maps** | Presents data geographically, using colors, shading, or symbols to represent values in different locations |
+| **Time series charts** | Tracks changes in data over time, with line graphs being a common type |
+| **Distribution Graph** | A general term for visualizations that show the spread, frequency, or pattern of data, including histograms and density plots |
+| **Histograms** | A type of distribution graph that displays the distribution of numerical data over a set range, using bars to represent frequency |
+| **Correlation Chart** | A broad category of visualizations used to examine the relationship between two or more variables, with scatterplots being a common example |
+| **Scatterplot** | Visualizes the relationship between two numerical variables by plotting individual data points on a grid |
+| **Heatmap** | Uses color variations within a grid to represent data values, often showing the relationship between two variables or the distribution of a variable across multiple categories |
 
 The [data visualization catalogue](https://datavizcatalogue.com/#google_vignette) features a range of different diagrams, charts, and graphs to help you find the best fit for your project. 
 
@@ -95,6 +99,33 @@ For example, early mornings may cause people to drink more coffee and be in more
 ![Correlation vs Causation](/images/correlation-vs-causation.png 'Correlation vs Causation')
 
 :warning: **Correlation doesn’t always imply causation, but causation always implies correlation.**
+
+---
+
+## Evaluate patterns in data
+
+Meaningful patterns can take many forms, such as:
+
+| Form | Pattern |
+| --- | --- |
+| **Change** | This is a trend or instance of observations that become different over time. A great way to measure change in data is through a line or column chart |
+| **Clustering** | A collection of data points with similar or different values. This is best represented through a distribution graph |
+| **Relativity** | These are observations considered in relation or in proportion to something else. You have probably seen examples of relativity data in a pie chart |
+| **Ranking** | This is a position in a scale of achievement or status. Data that requires ranking is best represented by a column chart |
+| **Correlation** | This shows a mutual relationship or connection between two or more things. A scatterplot is an excellent way to represent this type of data pattern |
+
+---
+
+## Visualization decision tree
+
+![Visualization decision tree](/images/viz-decision-tree.png 'Visualization decision tree')
+
+Key questions to determine the best visual source:
+
+1. Does your data have only one numeric variable?
+2. Are there multiple datasets?
+3. Are you measuring changes over time?
+4. Do relationships between the data need to be shown?
 
 ---
 
