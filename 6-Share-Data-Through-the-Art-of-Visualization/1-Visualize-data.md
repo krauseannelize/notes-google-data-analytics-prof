@@ -10,7 +10,16 @@
 4. [Differentiate between correlation and causation](#correlation-and-causation)
 5. [Evaluate patterns in data](#evaluate-patterns-in-data)
 6. [Visualization decision tree](#visualization-decision-tree)
-7. [Module 1 Glossary](#module-1-glossary)
+7. [Elements of Art](#elements-of-art)
+8. [Principles of design](#principles-of-design)
+9. [Design thinking and visualizations](#design-thinking-and-visualizations)
+10. [Highlighting key information](#highlighting-key-information)
+    - [Headlines](#headlines)
+    - [Subtitles](#subtitles)
+    - [Labels](#labels)
+    - [Annotations](#annotations)
+11. [Accessible visualizations](#accessible-visualizations)
+12. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -118,14 +127,126 @@ Meaningful patterns can take many forms, such as:
 
 ## Visualization decision tree
 
-![Visualization decision tree](/images/viz-decision-tree.png 'Visualization decision tree')
-
 Key questions to determine the best visual source:
 
 1. Does your data have only one numeric variable?
 2. Are there multiple datasets?
 3. Are you measuring changes over time?
 4. Do relationships between the data need to be shown?
+
+![Visualization decision tree](/images/viz-decision-tree.png 'Visualization decision tree')
+
+---
+
+## Elements of Art
+
+- ***Lines*** can be used to create visual form and structure.
+- ***Shapes*** can add contrast and make data easier to understand, but should be 2D to avoid confusion.
+- ***Colors*** can be manipulated using hue, intensity, and value to draw attention to specific areas.
+- ***Space*** is important for readability and emphasis, and the area between, around, and within objects should be balanced.
+- ***Movement*** can be used to show change over time, but should be used sparingly to avoid distraction.
+
+---
+
+## Principles of design
+
+- ***Balance:*** Distribute visual elements evenly to avoid distraction.
+- ***Emphasis:*** Highlight the most important data using contrasting colors.
+- ***Movement:*** Guide the viewer’s eye using lines and colors.
+- ***Pattern:*** Use similar shapes and colors to highlight similarities.
+- ***Repetition:*** Repeat chart types, shapes, or colors for clarity.
+- ***Proportion:*** Use various colors and sizes to show data importance.
+- ***Rhythm:*** Create a sense of flow in your visualization.
+- ***Variety:*** Include different chart types and colors to keep the audience engaged.
+- ***Unity:*** Ensure the visualization is cohesive and well-organized.
+
+![Principles of design](/images/viz-principles-design.png 'Principles of design')
+
+---
+
+## Design thinking and visualizations
+
+Design thinking is a process used to solve complex problems in a user-centric way. Design thinking for data visualization involves five phases: 
+
+- ***Empathize:*** Thinking about the emotions and needs of the target audience for the data visualization 
+- ***Define:*** Figuring out exactly what your audience needs from the data
+- ***Ideate:*** Generating ideas for data visualization
+- ***Prototype:*** Putting visualizations together for testing and feedback
+- ***Test:*** Showing prototype visualizations to people before stakeholders see them
+
+It is important to:
+
+- understand the needs of users,
+- generate new ideas for data visualizations, and
+- make incremental improvements to data visualizations over time.
+
+---
+
+## Highlighting key information
+
+The following are recommended guidelines and style checks when using headlines, subtitles, labels, and annotations to highlight key information:
+
+### Headlines
+
+- ***Guidelines***
+  - *Content:* Briefly describe the data
+  - *Length:* Usually the width of the data frame
+  - *Position:* Above the data
+- ***Style checks***
+  - Use brief language 
+  - Don’t use all caps
+  - Don’t use italic
+  - Don’t use acronyms
+  - Don't use abbreviations
+  - Don’t use humor or sarcasm
+
+### Subtitles
+
+- ***Guidelines***
+  - *Content:* Clarify context for the data
+  - *Length:* Same as or shorter than headline 
+  - *Position:* Directly below the headline
+- ***Style checks***
+  - Use smaller font size than headline
+  - Don’t use undefined words 
+  - Don’t use all caps, bold, or italic
+  - Don’t use acronyms 
+  - Don't use abbreviations
+
+### Labels
+
+- ***Guidelines***
+  - *Content:* Replace the need for legends
+  - *Length:* Usually fewer than 30 characters
+  - *Position:* Next to data or below or beside axes
+- ***Style checks***
+  - Use a few words only
+  - Use thoughtful color-coding
+  - Use callouts to point to the data
+  - Don’t use all caps, bold, or italic
+
+### Annotations
+
+- ***Guidelines***
+  - *Content:* Draw attention to certain data 
+  - *Length:* Varies, limited by open space
+  - *Position:* Immediately next to data annotated
+- ***Style checks***
+  - Don’t use all caps, bold, or italic
+  - Don't use rotated text
+  - Don’t distract viewers from the data 
+
+---
+
+## Accessible visualizations
+
+Accessible visualizations are crucial because they ensure that everyone can understand the data, regardless of any impairments they may have. It also benefits everyone by making data vizualisations clearer and easier to understand. Ways to make data visualizations accessible:
+
+- ***Labeling:*** Label data directly instead of relying solely on legends.
+- ***Text Alternatives:*** Provide text alternatives to non-text content such as images and charts.
+- ***Text-based format:*** Make data available in formats like text or spreadsheets.
+- ***Distinguishing:*** Use contrasting colors and avoid relying solely on color to convey information. Another option is to avoid relying solely on color to convey information, and instead distinguished with different textures and shapes
+- ***Simplify:*** Avoid over-complicated visualizations.
 
 ---
 
