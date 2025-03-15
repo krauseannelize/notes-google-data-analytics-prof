@@ -6,7 +6,11 @@
 2. [Effective data visualizations](#effective-data-visualizations)
    - [Frameworks](#frameworks)
    - [Pre-attentive attributes](#pre-attentive-attributes)
-3. [Module 1 Glossary](#module-1-glossary)
+3. [Connect images with data](#connect-images-with-data)
+4. [Differentiate between correlation and causation](#correlation-and-causation)
+5. [Evaluate patterns in data](#evaluate-patterns-in-data)
+6. [Visualization decision tree](#visualization-decision-tree)
+7. [Module 1 Glossary](#module-1-glossary)
 
 ---
 
@@ -49,15 +53,79 @@ An effective data visualizations combine all these elements to tell a story, lea
 
 Pre-attentive attributes are the elements of a data visualization that people recognize automatically and without conscious effort. The basic building blocks that make visuals immediately understandable are:
 
-- **Marks:** Basic visual objects such as points, lines, and shapes. Marks can be broken down into 4 qualities:
-  - *Position* | Where is a specific mark in space relative to a scale or to other marks?
-  - *Size* | How big, small, long, or tall is a mark?
-  - *Shape* | Does the shape of a specific object communicate something about it?
-  - *Color* | What color is a mark?
-- **Channels:** Visual aspects or variables that represent characteristics of the data in a visualization. It’s important to understand that channels vary in terms of how effective they are at communicating data based on 3 elements:
-  - *Accuracy* | Are the channels helpful in accurately estimating the values being represented?
-  - *Popout* | How easy is it to distinguish certain values from others?
-  - *Grouping* | How effective is a channel at communicating groups that exist in the data?
+| MARKS: Basic visual objects such as points, lines, and shapes. Marks can be broken down into 4 qualities: |
+| --- |
+- *Position* | Where is a specific mark in space relative to a scale or to other marks?
+- *Size* | How big, small, long, or tall is a mark?
+- *Shape* | Does the shape of a specific object communicate something about it?
+- *Color* | What color is a mark?
+
+| CHANNELS: Visual aspects or variables that represent characteristics of the data in a visualization. It’s important to understand that channels vary in terms of how effective they are at communicating data based on 3 elements: |
+| ---|
+- *Accuracy* | Are the channels helpful in accurately estimating the values being represented?
+- *Popout* | How easy is it to distinguish certain values from others?
+- *Grouping* | How effective is a channel at communicating groups that exist in the data?
+
+---
+
+## Connect images with data
+
+Choosing the right visualization is crucial for effectively communicating your analysis. Different visualizations are better suited for specific types of data and messages, such as:
+
+| Visualization | Function |
+| --- | --- |
+| **Bar/Column graphs** | Uses rectangular bars (horizontal or vertical) to compare values across different categories |
+| **Pie charts** | A circular graph showing proportions of a whole, where each slice represents a category |
+| **Maps** | Presents data geographically, using colors, shading, or symbols to represent values in different locations |
+| **Time series charts** | Tracks changes in data over time, with line graphs being a common type |
+| **Distribution Graph** | A general term for visualizations that show the spread, frequency, or pattern of data, including histograms and density plots |
+| **Histograms** | A type of distribution graph that displays the distribution of numerical data over a set range, using bars to represent frequency |
+| **Correlation Chart** | A broad category of visualizations used to examine the relationship between two or more variables, with scatterplots being a common example |
+| **Scatterplot** | Visualizes the relationship between two numerical variables by plotting individual data points on a grid |
+| **Heatmap** | Uses color variations within a grid to represent data values, often showing the relationship between two variables or the distribution of a variable across multiple categories |
+
+The [data visualization catalogue](https://datavizcatalogue.com/#google_vignette) features a range of different diagrams, charts, and graphs to help you find the best fit for your project. 
+
+---
+
+## Differentiate between correlation and causation
+
+***Correlation*** is the measure of the degree to which two variables move in relationship to each other. Change in one variable tends to change in the other.
+
+***Causation*** refers to the idea that an event leads to a specific outcome. Change in on variable directly cause change in the other.
+
+For example, early mornings may cause people to drink more coffee and be in more car accidents. However, even though coffee drinking and car accidents might be correlated (meaning they tend to happen together), drinking coffee doesn't cause car accidents.
+
+![Correlation vs Causation](/images/correlation-vs-causation.png 'Correlation vs Causation')
+
+:warning: **Correlation doesn’t always imply causation, but causation always implies correlation.**
+
+---
+
+## Evaluate patterns in data
+
+Meaningful patterns can take many forms, such as:
+
+| Form | Pattern |
+| --- | --- |
+| **Change** | This is a trend or instance of observations that become different over time. A great way to measure change in data is through a line or column chart |
+| **Clustering** | A collection of data points with similar or different values. This is best represented through a distribution graph |
+| **Relativity** | These are observations considered in relation or in proportion to something else. You have probably seen examples of relativity data in a pie chart |
+| **Ranking** | This is a position in a scale of achievement or status. Data that requires ranking is best represented by a column chart |
+| **Correlation** | This shows a mutual relationship or connection between two or more things. A scatterplot is an excellent way to represent this type of data pattern |
+
+---
+
+## Visualization decision tree
+
+![Visualization decision tree](/images/viz-decision-tree.png 'Visualization decision tree')
+
+Key questions to determine the best visual source:
+
+1. Does your data have only one numeric variable?
+2. Are there multiple datasets?
+3. Are you measuring changes over time?
+4. Do relationships between the data need to be shown?
 
 ---
 
