@@ -315,4 +315,4 @@ Accessible visualizations are crucial because they ensure that everyone can unde
 
 ---
 
-Continue to next module: [Create data visualization with Tableau](/6-Share-Data-Through-the-Art-of-Visualization/2-Create-data-visualizations-in-Tableau.md)
+Continue to next course: [Create data visualization with Tableau](/6-Share-Data-Through-the-Art-of-Visualization/2-Create-data-visualizations-in-Tableau.md)
