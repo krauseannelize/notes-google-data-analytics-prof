@@ -111,6 +111,10 @@
         "MINIFS",
         "ISNA",
         "Wyckoff",
-        "bikeshare"
+        "bikeshare",
+        "Scatterplot",
+        "Candless",
+        "Fung",
+        "Popout"
     ]
 }
